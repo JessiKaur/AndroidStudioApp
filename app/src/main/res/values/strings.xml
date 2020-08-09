@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">G1 Quiz App</string>
+    <string name="logo_name">Driving Quiz Learning</string>
+    <string name="slogan_name">The expert in anything was once a beginner and G1 is Beginning.</string>
+    <string name="powered_by">Powered By G1 Quiz Expert</string>
+    <string name="spashimage">SpashImage</string>
+    <string name="menu_header_image">Menu Header Image</string>
+    <string name="home_menu">Home</string>
+    <string name="all_scores">All Scores</string>
+    <string name="challenge_box">Challenge Box</string>
+    <string name="logout_menu">LOGOUT</string>
+    <string name="profile_menu">Profile</string>
+    <string name="icon">Icon</string>
+    <string name="submit_btn">Submit</string>
+
+    <!--Errors-->
+    <string name="firstNameError">Enter Text</string>
+    <string name="LastNameError">Enter Last Name</string>
+    <string name="EmailError">Valid EmailID</string>
+    <string name="DobError">Valid DoB</string>
+    <string name="PhoneNumberError">Enter Valid Phone Number</string>
+    <string name="PasswordError">The password should contain at least 8 characters, including at least one lower case letter, one upper case letter, one number and one punctuation mark</string>
+    <!--Errors-->
+
+    <!--- OTP Verification Page -->
+    <string name="enter_one_time_password_sent_on">Enter one time password sent on your Phone</string>
+    <string name="verification">Verification</string>
+    <string name="phone_otp">PHONE OTP</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="go_to_next"><![CDATA[>>]]></string>
+    <!--- OTP Verification Page -->
+
+    <!--Login and Sign Up -->
+    <string name="log_in">Log In</string>
+    <string name="register_in">Register</string>
+    <string name="enter_emailId">Enter EmailID</string>
+    <string name="enter_Password">Enter Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forgot Password</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="choose_gender">Choose Gender</string>
+    <string name="select_your_age">Select Your Age</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="next_btn">Next</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="other">Other</string>
+    <!--Login and Sign Up -->
+
+    <!-- Quiz -->
+    <string name="all_quiz">All Quizzes</string>
+    <string name="quiz_1">QuiZ 1</string>
+    <string name="quiz_2">QuiZ 2</string>
+    <string name="quiz_3">Quiz 3</string>
+    <string name="quiz_4">QuiZ 4</string>
+    <string name="quiz_5">QuiZ 5</string>
+    <string name="start_a_quiz"><![CDATA[Start a quiz >>]]></string>
+    <string name="_20_questions">20 Questions</string>
+    <string name="_40_questions">40 Questions</string>
+    <!-- Quiz -->
+
+    <!--Questions -->
+    <string name="option_4">Option 4</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_1">Option 1</string>
+    <string name="successfully_registered">SuccessFully\nRegistered</string>
+
+
+</resources>

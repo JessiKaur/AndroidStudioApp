@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.q1learningapp">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_g1expert"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_g1expert"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Users.ScoresActivity"></activity>
+        <activity android:name=".Users.QuizQuestions" />
+        <activity android:name=".Users.AllQuizActivity" />
+        <activity android:name=".Common.LoginSignup.VerifyOTP" />
+        <activity android:name=".Users.UserDashboard" />
+        <activity android:name=".Common.LoginSignup.SignUpActivity" />
+        <activity android:name=".Common.LoginSignup.LoginActivity" />
+        <activity android:name=".Common.FrontScreen" />
+        <activity android:name=".Common.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
