@@ -29,6 +29,7 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="5dp"
                 android:contentDescription="@string/app_name"
+                android:background="@color/white"
                 app:srcCompat="@android:drawable/btn_dialog"/>
 
         </RelativeLayout>
@@ -54,22 +55,61 @@
         <RelativeLayout
             android:id="@+id/text_details"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="15dp"
-            android:background="@color/lightGrey"
-            >
+            android:layout_height="wrap_content"            >
 
             <TextView
                 android:id="@+id/total_scores_text"
-                android:layout_width="wrap_content"
-                android:layout_height="80dp"
+                android:layout_width="290dp"
+                android:layout_height="280dp"
                 android:layout_centerInParent="true"
                 android:text="5/10"
+                android:background="@drawable/bg_scores_bg"
                 android:fontFamily="@font/aclonica"
                 android:gravity="center"
+                android:layout_centerVertical="true"
                 android:textAllCaps="true"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="25sp" />
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/black"
+                android:textSize="42sp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/text_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            >
+
+            <Button
+                android:id="@+id/goToAllQuiz"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:background="@color/black"
+                android:text="@string/show_all_quiz"
+                android:textColor="@color/white"
+                android:fontFamily="@font/aclonica"
+                android:textSize="20dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/goToAllScores"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@color/blueGreen"
+            android:text="@string/show_all_scores"
+            android:textColor="@color/white"
+            android:fontFamily="@font/aclonica"
+            android:textSize="20dp"
+            />
 
         </RelativeLayout>
 

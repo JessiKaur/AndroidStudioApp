@@ -5,20 +5,36 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.annotation.SuppressLint;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.q1learningapp.Common.FrontScreen;
+import com.android.q1learningapp.Common.SplashScreen;
 import com.android.q1learningapp.Databases.SessionManager;
+import com.android.q1learningapp.HelperClasses.LocaleHelper;
 import com.android.q1learningapp.R;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 import java.util.HashMap;
+import java.util.Locale;
 
 public class UserDashboard extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
@@ -26,9 +42,13 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     ImageView menuIcon;
-    String fullName, phoneNo, email, gender, dob,  password;
-    TextView UserDetailsText, UserNameInitials;
+    TextView UserDetailsText, UserNameInitials, changeLocale;
+    boolean lang_selected;
+    Context context;
+    RelativeLayout progressbar;
+    Resources resources;
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +61,9 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
         menuIcon = findViewById(R.id.menuIcon);
         UserDetailsText = findViewById(R.id.welcome_user);
         UserNameInitials = findViewById(R.id.userNameInitial);
+        changeLocale = findViewById(R.id.change_language);
+
+        progressbar = findViewById(R.id.dashboard_progress_bar);
 
         //Start Session
         SessionManager sessionManager = new SessionManager(this);
@@ -52,8 +75,8 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
 
         navigationDrawer();
 
-        //UserNameInitials.setText(fullName.charAt(0));
-        UserDetailsText.setText("Welcome\n\n" + fullName + "\n" + phoneNumber);
+        UserDetailsText.setText(getString(R.string.welcome_word).toUpperCase() + "\n\n" + fullName + "\n" + phoneNumber);
+
     }
 
     //Navigation Drawer Functions
@@ -88,6 +111,7 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
         else{
             super.onBackPressed();
         }
+
     }
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -100,7 +124,97 @@ public class UserDashboard extends AppCompatActivity implements NavigationView.O
             case R.id.nav_allQuiz:
                 startActivity(new Intent(getApplicationContext(), AllQuizActivity.class));
                 break;
+
+            case R.id.nav_all_scores:
+                startActivity(new Intent(getApplicationContext(), AllScores.class));
+                break;
+
+            case R.id.nav_add_challenge:
+                startActivity(new Intent(getApplicationContext(), ChallengeActivity.class));
+                break;
+
+            case R.id.nav_add_faq:
+                startActivity(new Intent(getApplicationContext(), FaqActivity.class));
+                break;
+
+            case R.id.nav_profile:
+                startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+                break;
+
+            case R.id.nav_logout:
+                //Start Session
+                SessionManager sessionManager = new SessionManager(UserDashboard.this);
+                sessionManager.logoutUserFromSession();
+                Intent intent = new Intent(UserDashboard.this, FrontScreen.class);
+                startActivity(intent);
+                finish();
+                break;
         }
         return true;
+    }
+
+
+    public void changeLanguage(String language) {
+        Locale locale = new Locale(language);
+        Locale.setDefault(locale);
+        Configuration config = new Configuration();
+        config.locale = locale;
+        getBaseContext().getResources().updateConfiguration(config,
+                getBaseContext().getResources().getDisplayMetrics());
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        String currentLocale = LocaleHelper.getLanguage(UserDashboard.this);
+        if(currentLocale.equals("pa")){
+            changeLocale.setText("ਪੰਜਾਬੀ"); }
+        else{
+            changeLocale.setText("English");
+        }
+
+        changeLocale.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final String[] Language = {"ENGLISH", "ਪੰਜਾਬੀ"};
+                final int checkedItem;
+                String currentLocale = LocaleHelper.getLanguage(UserDashboard.this);
+                if(currentLocale.equals("pa")){
+                    checkedItem = 1;}
+                else{
+                    checkedItem = 0;
+                }
+                final AlertDialog.Builder builder = new AlertDialog.Builder(UserDashboard.this);
+                builder.setTitle(getString(R.string.select_a_language))
+                        .setSingleChoiceItems(Language, checkedItem, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                //Toast.makeText(UserDashboard.this,""+which,Toast.LENGTH_SHORT).show();
+                                changeLocale.setText(Language[which]);
+                                lang_selected= Language[which].equals("ENGLISH");
+                                //if user select preferred language as English then
+                                if(Language[which].equals("ENGLISH"))
+                                {
+                                    context = LocaleHelper.setLocale(UserDashboard.this, "en");
+                                    changeLanguage("en");
+                                }
+                                //if user select preferred language as Punjabi then
+                                if(Language[which].equals("ਪੰਜਾਬੀ"))
+                                {
+                                    context = LocaleHelper.setLocale(UserDashboard.this, "pa");
+                                    changeLanguage("pa");
+                                }
+                            }
+                        })
+                        .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                                startActivity(new Intent(getApplicationContext(), UserDashboard.class));
+                            }
+                        });
+                builder.create().show();
+            }
+        });
     }
 }

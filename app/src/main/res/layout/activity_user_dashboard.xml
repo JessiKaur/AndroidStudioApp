@@ -40,6 +40,28 @@
                 android:contentDescription="@string/app_name"
                 android:src="@drawable/menu_icon" />
 
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="right">
+                <TextView
+                    android:id="@+id/change_language"
+                    android:layout_width="40dp"
+                    android:layout_height="33dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:padding="6dp"
+                    android:background="@drawable/language_white"
+                    android:popupBackground="@color/colorPrimary"
+                    android:textColor="#00FFFFFF"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+
+
         </RelativeLayout>
 
         <RelativeLayout
@@ -52,8 +74,8 @@
 
             <TextView
                 android:id="@+id/userNameInitial"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
                 android:layout_centerInParent="true"
                 android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
                 android:layout_marginLeft="@dimen/cardview_compat_inset_shadow"
@@ -71,22 +93,63 @@
 
         </RelativeLayout>
 
-        <TextView
-            android:id="@+id/welcome_user"
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/userNameInitial"
-            android:text="Welcome\n\nUserName\nPhoneNumber"
-            android:background="@color/lightGrey"
-            android:padding="30dp"
-            android:layout_margin="30dp"
-            android:elevation="@dimen/cardview_compat_inset_shadow"
-            android:gravity="center"
-            android:layout_centerHorizontal="true"
-            android:fontFamily="@font/aclonica"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:layout_gravity="bottom">
+            <TextView
+                android:id="@+id/welcome_user"
+                android:layout_width="390dp"
+                android:layout_height="340dp"
+                android:text="Welcome\n\nUserName\nPhoneNumber"
+                android:background="@drawable/flasg_screen_design"
+                android:elevation="@dimen/cardview_compat_inset_shadow"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/aclonica"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/powered_by"
+                android:fontFamily="@font/aclonica"
+                android:textColor="#A4AAA9"
+                android:layout_alignParentBottom="true"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_centerVertical="false"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dashboard_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/whitecircle"
+            android:visibility="invisible"
+            android:elevation="10dp">
+
+            <ProgressBar
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
 
     </LinearLayout>
 

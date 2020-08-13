@@ -8,14 +8,22 @@ public class QuestionsClass {
     String optionC;
     String optionD;
     String correctAnswer;
+    String imageUrl;
+    int orderNo;
 
-    public QuestionsClass(String question, String optionA, String optionB, String optionC, String optionD, String correctAnswer) {
+    public QuestionsClass() {
+        //For Firebase
+    }
+
+    public QuestionsClass(String question, String optionA, String optionB, String optionC, String optionD, String correctAnswer, String imageUrl, int orderNo) {
         this.question = question;
         this.optionA = optionA;
         this.optionB = optionB;
         this.optionC = optionC;
         this.optionD = optionD;
         this.correctAnswer = correctAnswer;
+        this.imageUrl = imageUrl;
+        this.orderNo = orderNo;
     }
 
     public String getQuestion() {
@@ -64,5 +72,21 @@ public class QuestionsClass {
 
     public void setCorrectAnswer(String correctAnswer) {
         this.correctAnswer = correctAnswer;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public int getOrderNo() {
+        return orderNo;
+    }
+
+    public void setOrderNo(int orderNo) {
+        this.orderNo = orderNo;
     }
 }

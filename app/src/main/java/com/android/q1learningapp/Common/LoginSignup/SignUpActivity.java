@@ -132,13 +132,13 @@ public class SignUpActivity extends AppCompatActivity {
                             /*Toast.makeText(SignUpActivity.this, "No Such User Found", Toast.LENGTH_SHORT).show();*/
                             phone_number.setError(null);
                             phone_number.setErrorEnabled(false);
-                            /*Toast.makeText(getApplicationContext(), "Full Name -  " + _fullName + " \n"
+                            Toast.makeText(getApplicationContext(), "Full Name -  " + _fullName + " \n"
                                             + "E-Mail -  " + _email + " \n"
                                             + "Password -  " + _password + " \n"
                                             + "Gender -  " + _gender + " \n"
                                             + "DOB -  " + _date + " \n"
                                             + "Phone No. -  " + _phoneNo
-                                    , Toast.LENGTH_SHORT).show();*/
+                                    , Toast.LENGTH_SHORT).show();
 
                             Intent intent = new Intent(getApplicationContext(), VerifyOTP.class);
                             //Pass all fields to the next activity

@@ -2,7 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.q1learningapp">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_g1expert"
@@ -10,7 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_g1expert"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Users.ScoresActivity"></activity>
+        <activity android:name=".Users.ProfileActivity"></activity>
+        <activity android:name=".Users.FaqActivity" />
+        <activity android:name=".Users.LearningActivity" />
+        <activity android:name=".Users.ChallengeActivity" />
+        <activity android:name=".Users.AllScores" />
+        <activity android:name=".Users.ScoresActivity" />
         <activity android:name=".Users.QuizQuestions" />
         <activity android:name=".Users.AllQuizActivity" />
         <activity android:name=".Common.LoginSignup.VerifyOTP" />
@@ -25,6 +32,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

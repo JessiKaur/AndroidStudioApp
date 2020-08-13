@@ -23,6 +23,7 @@ import com.android.q1learningapp.Databases.SessionManager;
 import com.android.q1learningapp.R;
 import com.android.q1learningapp.Users.UserDashboard;
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
@@ -39,6 +40,7 @@ public class LoginActivity extends AppCompatActivity {
     TextInputLayout loginPhoneNumber, loginPassword;
     Button loginBtnSubmit;
     RelativeLayout progressbar;
+    private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -130,7 +132,8 @@ public class LoginActivity extends AppCompatActivity {
                         SessionManager sessionManager = new SessionManager(LoginActivity.this);
                         sessionManager.createLoginSession(_fullName, _email, _CompletePhoneNo, _password, _dob, _gender);
 
-                        Toast.makeText(LoginActivity.this, _fullName + "\n" + _email, Toast.LENGTH_SHORT).show();
+
+                        //Toast.makeText(LoginActivity.this, _fullName + "\n" + _email, Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(getApplicationContext(), UserDashboard.class);
                         startActivity(intent);
 
@@ -160,11 +163,11 @@ public class LoginActivity extends AppCompatActivity {
         final String _password = loginPassword.getEditText().getText().toString().trim();
 
         if (_phoneNumber.isEmpty()) {
-            loginPhoneNumber.setError("Phone Number cannot be Empty");
+            loginPhoneNumber.setError(getString(R.string.phone_number_cannot_be_empty));
             loginPhoneNumber.requestFocus();
             return false;
         } else if (_password.isEmpty()) {
-            loginPassword.setError("Password cannot be Empty");
+            loginPassword.setError(getString(R.string.password_cannot_be_empty));
             loginPassword.requestFocus();
             return false;
         } else {
@@ -205,5 +208,19 @@ public class LoginActivity extends AppCompatActivity {
                 });
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        //Start Session
+        SessionManager sessionManager = new SessionManager(this);
+        Boolean sessioncheck =  sessionManager.checkLogin();
+        if (sessioncheck) {
+            //User Already Signed In
+            startActivity(new Intent(getApplicationContext(), UserDashboard.class));
+        } else {
+            //User Signed Out
+        }
     }
 }

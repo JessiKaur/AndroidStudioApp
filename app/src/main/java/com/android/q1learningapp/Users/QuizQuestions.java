@@ -1,113 +1,176 @@
 package com.android.q1learningapp.Users;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.animation.Animator;
 import android.annotation.SuppressLint;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.View;
+import android.view.WindowManager;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.q1learningapp.Common.LoginSignup.LoginActivity;
+import com.android.q1learningapp.Common.LoginSignup.SignUpActivity;
+import com.android.q1learningapp.HelperClasses.LocaleHelper;
 import com.android.q1learningapp.HelperClasses.QuestionsClass;
 import com.android.q1learningapp.R;
+import com.bumptech.glide.Glide;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
+import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 
 public class QuizQuestions extends AppCompatActivity {
 
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    DatabaseReference myRef = database.getReference();
+
     private TextView queCounter, quizQuestion;
+    private ImageView QuitQuiz, imageUrl;
     private RelativeLayout optionsSet;
     private Button nextBtn, optionOne, optionTwo, optionThree, optionFour;
     List<QuestionsClass> questionList;
     private int count = 0;
     private int position = 0;
     private int score = 0;
+    private String quizNumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_quiz_questions);
 
         queCounter = findViewById(R.id.q_question_Count);
         quizQuestion = findViewById(R.id.q_quiz_Questions);
+        imageUrl = findViewById(R.id.questionImage);
         optionsSet = findViewById(R.id.q_options_container);
         nextBtn = findViewById(R.id.q_next_question);
+        QuitQuiz = findViewById(R.id.QuitQuiz);
 
         optionOne = findViewById(R.id.q_option_1);
         optionTwo = findViewById(R.id.q_option_2);
         optionThree = findViewById(R.id.q_option_3);
         optionFour = findViewById(R.id.q_option_4);
 
+        quizNumber = getIntent().getStringExtra("quizType");
+
         //Get Questions List from Model
         getQuestionsList();
-        setQuestion();
 
-        //Option Click Functionality
-        for (int j = 0; j< 4 ; j++){
-            optionsSet.getChildAt(j).setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    checkAnswer((Button) view);
-                }
-            });
-        }
-
-        playAnim(quizQuestion, 0, questionList.get(position).getQuestion());
-        nextBtn.setOnClickListener(new View.OnClickListener() {
+        QuitQuiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                nextBtn.setEnabled(false);
-                nextBtn.setAlpha(0.7f);
-                enableOption(true);
-                position++;
-                /*Toast.makeText(QuizQuestions.this, position + "-" + questionList.size(), Toast.LENGTH_SHORT).show();*/
-                if(position == questionList.size()){
-                    // No More Questions Left - Go to Score Activity
-                    Intent intent = new Intent(QuizQuestions.this, ScoresActivity.class);
-                    String _totalQuestions = String.valueOf(questionList.size());
-                    String _totalScores = String.valueOf(score);
-                    //Pass all fields to the next activity
-                    intent.putExtra("totalScores", _totalScores);
-                    intent.putExtra("totalQues", _totalQuestions);
-                    startActivity(intent);
+                showAlertDialogBox();
+            }
+        });
+
+    }
+
+
+    private void getQuestionsList() {
+
+        questionList = new ArrayList<>();
+        String currentLocale = LocaleHelper.getLanguage(QuizQuestions.this);
+
+        myRef.child(quizNumber).child("questions").child(currentLocale).orderByChild("orderNo").addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot datasnapshot) {
+                if(datasnapshot.exists()){
+                    for (DataSnapshot snapshot: datasnapshot.getChildren() ){
+                        questionList.add(snapshot.getValue(QuestionsClass.class));
+                    }
+                    if(questionList.size() > 0){
+                        setQuestion(position);
+                        playAnim(quizQuestion, 0, questionList.get(position).getQuestion());
+                        Glide.with(imageUrl.getContext())
+                                .load(questionList.get(position).getImageUrl())
+                                .override(250,250)
+                                .into(imageUrl);
+                        //Option Click Functionality
+                        for (int j = 0; j< 4 ; j++){
+                            optionsSet.getChildAt(j).setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View view) {
+                                    checkAnswer((Button) view);
+                                }
+                            });
+                        }
+                        nextBtn.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                nextBtn.setEnabled(false);
+                                nextBtn.setAlpha(0.7f);
+                                enableOption(true);
+                                position++;
+                                /*Toast.makeText(QuizQuestions.this, position + "-" + questionList.size(), Toast.LENGTH_SHORT).show();*/
+                                if(position == questionList.size()){
+                                    // No More Questions Left - Go to Score Activity
+                                    Intent intent = new Intent(QuizQuestions.this, ScoresActivity.class);
+                                    String _totalQuestions = String.valueOf(questionList.size());
+                                    String _totalScores = String.valueOf(score);
+                                    //Pass all fields to the next activity
+                                    intent.putExtra("totalScores", _totalScores);
+                                    intent.putExtra("totalQues", _totalQuestions);
+                                    intent.putExtra("QuizNo", quizNumber);
+                                    startActivity(intent);
+                                }
+                                count = 0;
+                                if(position < questionList.size()){
+                                    playAnim(quizQuestion, 0, questionList.get(position).getQuestion());
+                                    Glide.with(imageUrl.getContext())
+                                            .load(questionList.get(position).getImageUrl())
+                                            .override(300,300)
+                                            .into(imageUrl);
+                                }
+                            }
+                        });
+                    }
+                    else{
+                        finish();
+                        // Data Does Not Exist
+                        Toast.makeText(QuizQuestions.this,"Data Does Not Exist", Toast.LENGTH_SHORT).show();
+                    }
                 }
-                count = 0;
-                if(position < questionList.size()){
-                    playAnim(quizQuestion, 0, questionList.get(position).getQuestion());
+                else{
+                    // Data Does Not Exist
+                    Toast.makeText(QuizQuestions.this,"Data Does Not Exist", Toast.LENGTH_SHORT).show();
                 }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                // Data Dose Not Exist
+                Toast.makeText(QuizQuestions.this, error.getMessage() ,Toast.LENGTH_SHORT).show();
             }
         });
 
 
     }
 
-
-    private void getQuestionsList() {
-        questionList = new ArrayList<>();
-
-        questionList.add(new QuestionsClass("If an accompanying driver is older than 22, their blood alcohol level must be less than", "0.07", "0.08", "0.00", "0.04", "0.04"));
-        questionList.add(new QuestionsClass("Question 2", "A", "B", "C", "D", "C"));
-        questionList.add(new QuestionsClass("Question 3", "A", "B", "C", "D", "D"));
-        questionList.add(new QuestionsClass("Question 4", "A", "B", "C", "D", "A"));
-        questionList.add(new QuestionsClass("Question 5", "A", "B", "C", "D", "D"));
-        questionList.add(new QuestionsClass("Question 6", "A", "B", "C", "D", "D"));
-
-    }
-
-    private void setQuestion() {
-        quizQuestion.setText(questionList.get(0).getQuestion());
-        optionOne.setText(questionList.get(0).getOptionA());
-        optionTwo.setText(questionList.get(0).getOptionB());
-        optionThree.setText(questionList.get(0).getOptionC());
-        optionFour.setText(questionList.get(0).getOptionD());
+    private void setQuestion(int pos) {
+        quizQuestion.setText(questionList.get(pos).getQuestion());
+        optionOne.setText(questionList.get(pos).getOptionA());
+        optionTwo.setText(questionList.get(pos).getOptionB());
+        optionThree.setText(questionList.get(pos).getOptionC());
+        optionFour.setText(questionList.get(pos).getOptionD());
 
     }
 
@@ -186,5 +249,31 @@ public class QuizQuestions extends AppCompatActivity {
                 optionsSet.getChildAt(i).setBackgroundTintList(ColorStateList.valueOf(Color.WHITE));
             }
         }
+    }
+
+    public void showAlertDialogBox(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(QuizQuestions.this);
+        builder.setMessage("You have to start over if you quit now, Continue?")
+                .setCancelable(false)
+                .setPositiveButton("Continue", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                    }
+                })
+                .setNegativeButton("Quit", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Intent intent = new Intent(QuizQuestions.this, AllQuizActivity.class);
+                        startActivity(intent);
+                    }
+                });
+        AlertDialog alertDialog = builder.create();
+        alertDialog.show();
+    }
+
+    @Override
+    public void onBackPressed() {
+        showAlertDialogBox();
     }
 }

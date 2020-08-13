@@ -51,8 +51,8 @@
 
             <RelativeLayout
                 android:id="@+id/quiz_First"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
@@ -73,28 +73,41 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/aclonica"
                     android:layout_alignParentTop="true"
-                    android:padding="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
                     android:layout_margin="12dp"
                     android:background="@drawable/whitecircle"
+                    android:fontFamily="@font/aclonica"
+                    android:padding="10dp"
                     android:text="@string/_20_questions"
                     android:textColor="#000"
-                    android:textSize="20sp"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentRight="true" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="@font/aclonica"
+                    android:padding="5dp"
+                    android:text="@string/road_signs_easy"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
                     android:fontFamily="@font/aclonica"
                     android:padding="10dp"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentRight="true"
                     android:text="@string/start_a_quiz"
                     android:textColor="#000"
-                    android:textSize="16sp"
-                    android:layout_alignParentEnd="true" />
+                    android:textSize="16sp" />
 
 
             </RelativeLayout>
@@ -107,7 +120,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="140dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
@@ -129,6 +142,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/aclonica"
+                    android:padding="5dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/road_rules_easy"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentTop="true"
                     android:padding="10dp"
@@ -162,7 +188,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="140dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
@@ -184,12 +210,25 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/aclonica"
+                    android:padding="5dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/road_signs_hard"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentTop="true"
                     android:padding="10dp"
                     android:layout_margin="12dp"
                     android:background="@drawable/whitecircle"
-                    android:text="@string/_40_questions"
+                    android:text="@string/_20_questions"
                     android:textColor="#000"
                     android:textSize="20sp"
                     android:layout_alignParentEnd="true" />
@@ -214,11 +253,12 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="140dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
@@ -254,57 +294,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/aclonica"
-                    android:padding="10dp"
+                    android:padding="5dp"
+                    android:background="@color/colorPrimaryDark"
                     android:layout_alignParentBottom="true"
-                    android:layout_alignParentRight="true"
-                    android:text="@string/start_a_quiz"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/road_rules_signs"
                     android:textColor="#fff"
                     android:textSize="16sp"
-                    android:layout_marginTop="5dp"
-                    android:layout_alignParentEnd="true" />
-
-
-            </RelativeLayout>
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="10dp"
-                android:background="@drawable/food_back">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/aclonica"
-                    android:padding="25dp"
-                    android:text="@string/quiz_5"
-                    android:textColor="#fff"
-                    android:textSize="20sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/aclonica"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentTop="true"
-                    android:padding="10dp"
-                    android:layout_margin="12dp"
-                    android:background="@drawable/whitecircle"
-                    android:text="@string/_40_questions"
-                    android:textColor="#000"
-                    android:textSize="20sp"
-                    android:layout_alignParentEnd="true" />
+                    android:layout_alignParentStart="true" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -323,7 +320,6 @@
             </RelativeLayout>
 
         </RelativeLayout>
-
 
     </LinearLayout>
 

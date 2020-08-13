@@ -4,55 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_grey"
-    android:padding="30dp"
-    tools:context=".Common.LoginSignup.SignUpActivity">
+    tools:context=".Users.ProfileActivity"
+    android:background="@drawable/light_green_bg">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:paddingBottom="20dp">
-
-
-        <ImageView
-            android:id="@+id/signup_back_button"
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:padding="5dp"
-            android:contentDescription="@string/icon"
-            android:src="@drawable/back_icon" />
+        android:orientation="vertical">
 
 
         <RelativeLayout
+            android:id="@+id/topSection"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="22dp">
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="3dp">
 
-
-            <TextView
-                android:id="@+id/signup_title_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:fontFamily="@font/aclonica"
-                android:text="@string/create_an_account"
-                android:textAllCaps="true"
-                android:textColor="@color/black"
-                android:textSize="20sp" />
+            <ImageView
+                android:id="@+id/backButtonPress"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                android:contentDescription="@string/icon"
+                android:src="@drawable/back_icon_white" />
 
         </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update_your_account"
+            android:textSize="20sp"
+            android:fontFamily="@font/aclonica"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:gravity="center_horizontal"
+            android:background="@color/blueGreen"/>
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:orientation="vertical">
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/signup_fullname"
+                android:id="@+id/profile_fullname"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -81,7 +85,7 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/signup_emailId"
+                android:id="@+id/profile_emailId"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -115,7 +119,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
 
 
             <TextView
@@ -128,7 +134,7 @@
 
 
             <RadioGroup
-                android:id="@+id/radio_group"
+                android:id="@+id/profile_radio_group"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
@@ -177,7 +183,7 @@
 
 
             <DatePicker
-                android:id="@+id/age_picker"
+                android:id="@+id/profile_age_picker"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:calendarViewShown="false"
@@ -195,12 +201,12 @@
                 app:ccp_clickable="false"/>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/signup_phone_number"
+                android:id="@+id/profile_phone_number"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="10dp"
                 android:hint="@string/enter_phone_number"
+                android:paddingBottom="10dp"
                 android:textColorHint="@color/black"
                 app:boxStrokeColor="@color/black"
                 app:boxStrokeWidthFocused="2dp"
@@ -217,13 +223,14 @@
                     android:fontFamily="@font/antic"
                     android:inputType="phone"
                     android:textColor="@color/black"
+                    android:enabled="false"
                     android:textCursorDrawable="@null" />
 
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/signup_password"
+                android:id="@+id/profile_password"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -255,17 +262,19 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/signup_register_button"
+            android:id="@+id/profile_update_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:layout_marginTop="10dp"
             android:background="@color/black"
             android:fontFamily="@font/aclonica"
-            android:text="@string/next_btn"
-            android:textColor="@color/white" />
+            android:text="@string/submit_btn"
+            android:textColor="@color/white"
+            android:layout_marginBottom="30dp"/>
 
 
     </LinearLayout>
-
 
 </ScrollView>

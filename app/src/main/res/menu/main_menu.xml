@@ -13,35 +13,35 @@
             android:icon="@drawable/allquiz"/>
 
         <item
-            android:id="@+id/all_scores"
+            android:id="@+id/nav_all_scores"
             android:title="@string/all_scores"
             android:icon="@drawable/scores"/>
 
         <item
-            android:id="@+id/nav_add_missing_place"
+            android:id="@+id/nav_add_challenge"
             android:title="@string/challenge_box"
             android:icon="@drawable/challenge"/>
+
+        <item
+            android:id="@+id/nav_add_faq"
+            android:title="@string/frequently_asked_questions"
+            android:icon="@drawable/faq_icon"/>
 
         <item
             android:id="@+id/nav_profile"
             android:title="@string/profile_menu"
             android:icon="@drawable/user"/>
 
-        <item
-            android:id="@+id/nav_logout"
-            android:title="@string/logout_menu"
-            android:icon="@drawable/logout"/>
     </group>
 
 
-    <item android:title="Settings">
+    <item android:title="Action">
         <menu>
-            <group android:checkableBehavior="none">
-                <item
-                    android:id="@+id/nav_jjj"
-                    android:title="Settings"
-                    android:icon="@drawable/gear"/>
-            </group>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:title="@string/logout_menu"
+                android:icon="@drawable/logout"/>
         </menu>
     </item>
 
