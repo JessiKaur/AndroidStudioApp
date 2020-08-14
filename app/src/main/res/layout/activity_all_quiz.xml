@@ -46,8 +46,43 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/challenge_box_set"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/round_bk_bg">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/aclonica"
+                    android:padding="10dp"
+                    android:background="#f70253"
+                    android:gravity="bottom"
+                    android:text="@string/random_4_questions"
+                    android:textColor="#fff"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:textSize="16sp" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp">
+>
 
             <RelativeLayout
                 android:id="@+id/quiz_First"
@@ -55,7 +90,7 @@
                 android:layout_height="140dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="10dp"
@@ -119,6 +154,7 @@
             android:layout_height="wrap_content">
 
             <RelativeLayout
+                android:id="@+id/quiz_Second"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:layout_marginStart="20dp"
@@ -182,11 +218,13 @@
 
         </RelativeLayout>
 
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <RelativeLayout
+                android:id="@+id/quiz_Third"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:layout_marginStart="20dp"
@@ -257,6 +295,7 @@
             android:layout_marginBottom="30dp">
 
             <RelativeLayout
+                android:id="@+id/quiz_Fourth"
                 android:layout_width="match_parent"
                 android:layout_height="140dp"
                 android:layout_marginStart="20dp"

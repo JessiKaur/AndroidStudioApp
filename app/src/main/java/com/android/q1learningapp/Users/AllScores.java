@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -45,6 +46,7 @@ public class AllScores extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_all_scores);
 
 /*        allScoresTotal = findViewById(R.id.allScores_output);
@@ -77,7 +79,7 @@ public class AllScores extends AppCompatActivity {
         String phoneNumber = userDetails.get(SessionManager.KEY_PHONE_NUMBER);
 
         assert phoneNumber != null;
-        reference.child("Scores").child(phoneNumber).orderByValue().limitToLast(3).addListenerForSingleValueEvent(new ValueEventListener() {
+        reference.child("Scores").child(phoneNumber).orderByValue().addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot datasnapshot) {
                 if(datasnapshot.exists()){

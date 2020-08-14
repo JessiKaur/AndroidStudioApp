@@ -42,7 +42,7 @@ public class QuizQuestions extends AppCompatActivity {
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference myRef = database.getReference();
 
-    private TextView queCounter, quizQuestion;
+    private TextView queCounter, quizQuestion, currentScore;
     private ImageView QuitQuiz, imageUrl;
     private RelativeLayout optionsSet;
     private Button nextBtn, optionOne, optionTwo, optionThree, optionFour;
@@ -60,6 +60,7 @@ public class QuizQuestions extends AppCompatActivity {
 
         queCounter = findViewById(R.id.q_question_Count);
         quizQuestion = findViewById(R.id.q_quiz_Questions);
+        currentScore = findViewById(R.id.current_score_part);
         imageUrl = findViewById(R.id.questionImage);
         optionsSet = findViewById(R.id.q_options_container);
         nextBtn = findViewById(R.id.q_next_question);
@@ -74,7 +75,6 @@ public class QuizQuestions extends AppCompatActivity {
 
         //Get Questions List from Model
         getQuestionsList();
-
         QuitQuiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -90,78 +90,160 @@ public class QuizQuestions extends AppCompatActivity {
         questionList = new ArrayList<>();
         String currentLocale = LocaleHelper.getLanguage(QuizQuestions.this);
 
-        myRef.child(quizNumber).child("questions").child(currentLocale).orderByChild("orderNo").addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot datasnapshot) {
-                if(datasnapshot.exists()){
-                    for (DataSnapshot snapshot: datasnapshot.getChildren() ){
-                        questionList.add(snapshot.getValue(QuestionsClass.class));
-                    }
-                    if(questionList.size() > 0){
-                        setQuestion(position);
-                        playAnim(quizQuestion, 0, questionList.get(position).getQuestion());
-                        Glide.with(imageUrl.getContext())
-                                .load(questionList.get(position).getImageUrl())
-                                .override(250,250)
-                                .into(imageUrl);
-                        //Option Click Functionality
-                        for (int j = 0; j< 4 ; j++){
-                            optionsSet.getChildAt(j).setOnClickListener(new View.OnClickListener() {
+        if(quizNumber.equals("Challenge")){
+            int MAX = 40;
+            int startIndex = (int)(Math.random() * MAX +1);
+            myRef.child("Quiz4").child("questions").child(currentLocale)
+                    .orderByChild("orderNo")
+                    .startAt(startIndex)
+                    .endAt(startIndex + 3).addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot datasnapshot) {
+                    if(datasnapshot.exists()){
+                        for (DataSnapshot snapshot: datasnapshot.getChildren() ){
+                            questionList.add(snapshot.getValue(QuestionsClass.class));
+                        }
+                        if(questionList.size() > 0){
+                            setQuestion(position);
+                            playAnim(quizQuestion, 0, questionList.get(position).getQuestion());
+                            Glide.with(imageUrl.getContext())
+                                    .load(questionList.get(position).getImageUrl())
+                                    .override(250,250)
+                                    .into(imageUrl);
+                            //Option Click Functionality
+                            for (int j = 0; j< 4 ; j++){
+                                optionsSet.getChildAt(j).setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View view) {
+                                        checkAnswer((Button) view);
+                                    }
+                                });
+                            }
+                            nextBtn.setOnClickListener(new View.OnClickListener() {
                                 @Override
                                 public void onClick(View view) {
-                                    checkAnswer((Button) view);
+                                    nextBtn.setEnabled(false);
+                                    nextBtn.setAlpha(0.7f);
+                                    enableOption(true);
+                                    position++;
+                                    /*Toast.makeText(QuizQuestions.this, position + "-" + questionList.size(), Toast.LENGTH_SHORT).show();*/
+                                    if(position == questionList.size()){
+                                        // No More Questions Left - Go to Score Activity
+                                        Intent intent = new Intent(QuizQuestions.this, ScoresActivity.class);
+                                        String _totalQuestions = String.valueOf(questionList.size());
+                                        String _totalScores = String.valueOf(score);
+                                        //Pass all fields to the next activity
+                                        intent.putExtra("totalScores", _totalScores);
+                                        intent.putExtra("totalQues", _totalQuestions);
+                                        intent.putExtra("QuizNo", quizNumber);
+                                        startActivity(intent);
+                                    }
+                                    count = 0;
+                                    if(position < questionList.size()){
+                                        playAnim(quizQuestion, 0, questionList.get(position).getQuestion());
+                                        Glide.with(imageUrl.getContext())
+                                                .load(questionList.get(position).getImageUrl())
+                                                .override(300,300)
+                                                .into(imageUrl);
+                                    }
                                 }
                             });
                         }
-                        nextBtn.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                nextBtn.setEnabled(false);
-                                nextBtn.setAlpha(0.7f);
-                                enableOption(true);
-                                position++;
-                                /*Toast.makeText(QuizQuestions.this, position + "-" + questionList.size(), Toast.LENGTH_SHORT).show();*/
-                                if(position == questionList.size()){
-                                    // No More Questions Left - Go to Score Activity
-                                    Intent intent = new Intent(QuizQuestions.this, ScoresActivity.class);
-                                    String _totalQuestions = String.valueOf(questionList.size());
-                                    String _totalScores = String.valueOf(score);
-                                    //Pass all fields to the next activity
-                                    intent.putExtra("totalScores", _totalScores);
-                                    intent.putExtra("totalQues", _totalQuestions);
-                                    intent.putExtra("QuizNo", quizNumber);
-                                    startActivity(intent);
-                                }
-                                count = 0;
-                                if(position < questionList.size()){
-                                    playAnim(quizQuestion, 0, questionList.get(position).getQuestion());
-                                    Glide.with(imageUrl.getContext())
-                                            .load(questionList.get(position).getImageUrl())
-                                            .override(300,300)
-                                            .into(imageUrl);
-                                }
-                            }
-                        });
+                        else{
+                            finish();
+                            // Data Does Not Exist
+                            Toast.makeText(QuizQuestions.this,"Data Does Not Exist", Toast.LENGTH_SHORT).show();
+                        }
                     }
                     else{
-                        finish();
                         // Data Does Not Exist
                         Toast.makeText(QuizQuestions.this,"Data Does Not Exist", Toast.LENGTH_SHORT).show();
                     }
                 }
-                else{
-                    // Data Does Not Exist
-                    Toast.makeText(QuizQuestions.this,"Data Does Not Exist", Toast.LENGTH_SHORT).show();
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+                    // Data Dose Not Exist
+                    Toast.makeText(QuizQuestions.this, error.getMessage() ,Toast.LENGTH_SHORT).show();
                 }
-            }
+            });
+        }
+        else {
+            myRef.child(quizNumber).child("questions").child(currentLocale).orderByChild("orderNo").addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot datasnapshot) {
+                    if (datasnapshot.exists()) {
+                        for (DataSnapshot snapshot : datasnapshot.getChildren()) {
+                            questionList.add(snapshot.getValue(QuestionsClass.class));
+                        }
+                        if (questionList.size() > 0) {
+                            setQuestion(position);
+                            playAnim(quizQuestion, 0, questionList.get(position).getQuestion());
+                            Glide.with(imageUrl.getContext())
+                                    .load(questionList.get(position).getImageUrl())
+                                    .override(250, 250)
+                                    .into(imageUrl);
+                            //Option Click Functionality
+                            for (int j = 0; j < 4; j++) {
+                                optionsSet.getChildAt(j).setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View view) {
+                                        checkAnswer((Button) view);
+                                    }
+                                });
+                            }
+                            nextBtn.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View view) {
+                                    nextBtn.setEnabled(false);
+                                    nextBtn.setAlpha(0.7f);
+                                    enableOption(true);
+                                    position++;
+                                    /*Toast.makeText(QuizQuestions.this, position + "-" + questionList.size(), Toast.LENGTH_SHORT).show();*/
+                                    if (position == questionList.size()) {
+                                        // No More Questions Left - Go to Score Activity
+                                        Intent intent = new Intent(QuizQuestions.this, ScoresActivity.class);
+                                        String _totalQuestions = String.valueOf(questionList.size());
+                                        String _totalScores = String.valueOf(score);
+                                        //Pass all fields to the next activity
+                                        intent.putExtra("totalScores", _totalScores);
+                                        intent.putExtra("totalQues", _totalQuestions);
+                                        intent.putExtra("QuizNo", quizNumber);
+                                        startActivity(intent);
+                                    }
+                                    count = 0;
+                                    if (position < questionList.size()) {
+                                        playAnim(quizQuestion, 0, questionList.get(position).getQuestion());
+                                        Glide.with(imageUrl.getContext())
+                                                .load(questionList.get(position).getImageUrl())
+                                                .override(300, 300)
+                                                .into(imageUrl);
+                                    }
+                                }
+                            });
+                        } else {
+                            // Data Does Not Exist
+                            quizQuestion.setText(getString(R.string.no_result_found));
+                            optionOne.setText(getString(R.string.no_result_found));
+                            optionTwo.setText(getString(R.string.no_result_found));
+                            optionThree.setText(getString(R.string.no_result_found));
+                            optionFour.setText(getString(R.string.no_result_found));
+                            finish();
+                            Toast.makeText(QuizQuestions.this, "Data Does Not Exist", Toast.LENGTH_SHORT).show();
+                        }
+                    } else {
+                        // Data Does Not Exist
+                        Toast.makeText(QuizQuestions.this, "Data Does Not Exist", Toast.LENGTH_SHORT).show();
+                    }
+                }
 
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-                // Data Dose Not Exist
-                Toast.makeText(QuizQuestions.this, error.getMessage() ,Toast.LENGTH_SHORT).show();
-            }
-        });
-
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+                    // Data Dose Not Exist
+                    Toast.makeText(QuizQuestions.this, error.getMessage(), Toast.LENGTH_SHORT).show();
+                }
+            });
+        }
 
     }
 
@@ -207,6 +289,7 @@ public class QuizQuestions extends AppCompatActivity {
                             try {
                                 ((TextView)view).setText(data);
                                 queCounter.setText(position+1+"/"+questionList.size());
+                                currentScore.setText(getString(R.string.current_score)+" "+score);
                             }catch (ClassCastException ex){
                                 ((Button)view).setText(data);
                             }

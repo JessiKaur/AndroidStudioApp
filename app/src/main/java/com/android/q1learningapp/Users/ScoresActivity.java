@@ -105,7 +105,11 @@ public class ScoresActivity extends AppCompatActivity{
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.exists()) {
-                    storeScoresData();
+                    if(quizNumber.equals("Challenge")){
+                        //Don't Store Values in Database
+                    }else{
+                        storeScoresData();
+                    }
                 } else {
 
                 }
@@ -130,7 +134,7 @@ public class ScoresActivity extends AppCompatActivity{
         DatabaseReference reference = rootNode.getReference("Scores").child(userId);
 
         Date date = new Date();
-        String strDateFormat = "dd/MM/YYYY";
+        String strDateFormat = "dd/MM/YYYY hh:mm:ss a";
         SimpleDateFormat sdf = new SimpleDateFormat(strDateFormat);
         getCurrentDate = sdf.format(date);
 

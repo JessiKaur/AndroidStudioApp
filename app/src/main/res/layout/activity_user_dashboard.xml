@@ -100,8 +100,8 @@
             android:layout_gravity="bottom">
             <TextView
                 android:id="@+id/welcome_user"
-                android:layout_width="390dp"
-                android:layout_height="340dp"
+                android:layout_width="380dp"
+                android:layout_height="330dp"
                 android:text="Welcome\n\nUserName\nPhoneNumber"
                 android:background="@drawable/flasg_screen_design"
                 android:elevation="@dimen/cardview_compat_inset_shadow"

@@ -12,9 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_g1expert"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Users.ProfileActivity"></activity>
+        <activity android:name=".Users.ProfileActivity" />
         <activity android:name=".Users.FaqActivity" />
-        <activity android:name=".Users.LearningActivity" />
         <activity android:name=".Users.ChallengeActivity" />
         <activity android:name=".Users.AllScores" />
         <activity android:name=".Users.ScoresActivity" />

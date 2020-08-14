@@ -107,6 +107,9 @@
     <string name="faq_8">8. I have failed the road test in Ontario, when can I retake it?</string>
     <string name="faq_ans_8">You may take your road test again whenever you like. You must wait at least 10 days to take it again. This is probably to give you much needed time to practice more.</string>
     <string name="update_your_account">Update Your Account</string>
+    <string name="current_score">Current Score:</string>
+    <string name="random_4_questions">Random 4 Questions</string>
+    <string name="about_us">About us</string>
 
 
 </resources>

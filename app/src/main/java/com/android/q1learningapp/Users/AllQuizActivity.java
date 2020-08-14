@@ -13,7 +13,7 @@ import com.android.q1learningapp.R;
 
 public class AllQuizActivity extends AppCompatActivity {
 
-    RelativeLayout firstQuizBox;
+    RelativeLayout firstQuizBox, secondQuizBox, thirdQuizBox, fourthQuizBox, challengeBox;
     ImageView backBtn;
 
     @Override
@@ -24,6 +24,10 @@ public class AllQuizActivity extends AppCompatActivity {
 
         //Hooks
         firstQuizBox = findViewById(R.id.quiz_First);
+        secondQuizBox = findViewById(R.id.quiz_Second);
+        thirdQuizBox = findViewById(R.id.quiz_Third);
+        fourthQuizBox = findViewById(R.id.quiz_Fourth);
+        challengeBox = findViewById(R.id.challenge_box_set);
         backBtn = findViewById(R.id.backButtonPress);
 
         backBtn.setOnClickListener(new View.OnClickListener() {
@@ -38,6 +42,30 @@ public class AllQuizActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 retrieveQuestionsForFirstQuiz("Quiz1");
+            }
+        });
+        secondQuizBox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                retrieveQuestionsForFirstQuiz("Quiz2");
+            }
+        });
+        thirdQuizBox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                retrieveQuestionsForFirstQuiz("Quiz3");
+            }
+        });
+        fourthQuizBox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                retrieveQuestionsForFirstQuiz("Quiz4");
+            }
+        });
+        challengeBox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                retrieveQuestionsForFirstQuiz("Challenge");
             }
         });
     }
