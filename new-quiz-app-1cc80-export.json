@@ -1,0 +1,2093 @@
+{
+  "Quiz1" : {
+    "questions" : {
+      "en" : {
+        "qe11" : {
+          "correctAnswer" : "No U-turns allowed",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F1.png?alt=media&token=b42bb463-9752-4059-8851-cb71b43c6388",
+          "optionA" : "No left turns allowed",
+          "optionB" : "You may go in the opposite direction.",
+          "optionC" : "No U-turns allowed",
+          "optionD" : "Do not turn left at the intersection.",
+          "orderNo" : 1,
+          "question" : "What does this road sign mean?"
+        },
+        "qe110" : {
+          "correctAnswer" : "Keep to the right lane except when passing on two-lane sections.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F10.png?alt=media&token=ea6b7ab0-c7da-4629-aad9-469164c4656c",
+          "optionA" : "Right turn and passing line ahead.",
+          "optionB" : "Right lane exits.",
+          "optionC" : "The road turns to the right.",
+          "optionD" : "Keep to the right lane except when passing on two-lane sections.",
+          "orderNo" : 10,
+          "question" : "What does this road sign mean?"
+        },
+        "qe111" : {
+          "correctAnswer" : "You may park in the area between the arrows during the times posted for a max of 30 mins",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F11.png?alt=media&token=4bf46f35-dc97-4306-a913-8c6bba79bbd5",
+          "optionA" : "No parking between the arrows at any time.",
+          "optionB" : "You may park in the area between the arrows during the times posted for a max of 30 mins",
+          "optionC" : "You may park in the area between the signs for a max of 30 mins.",
+          "optionD" : "Parking reserved for permit holders only.",
+          "orderNo" : 11,
+          "question" : "What does this road sign mean?"
+        },
+        "qe112" : {
+          "correctAnswer" : "Stay to the right of the traffic island.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F12.png?alt=media&token=a75c473d-77d6-436d-af8e-269af8794da1",
+          "optionA" : "There is an intersection ahead on the right.",
+          "optionB" : "Stay to the left of the traffic island.",
+          "optionC" : "Stay to the right of the traffic island.",
+          "optionD" : "The road curves to the left soon.",
+          "orderNo" : 12,
+          "question" : "What does this road sign mean?"
+        },
+        "qe113" : {
+          "correctAnswer" : "No stopping at any time between the signs.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F13.png?alt=media&token=cb8cbe23-4565-42f6-bdd7-bbf83f681eb6",
+          "optionA" : "No stopping except to unload passengers.",
+          "optionB" : "Do not come to a complete stop.",
+          "optionC" : "No stopping at any time between the signs.",
+          "optionD" : "You may stand in the area between the signs.",
+          "orderNo" : 13,
+          "question" : "What does this road sign mean?"
+        },
+        "qe114" : {
+          "correctAnswer" : "The speed limit is 50 km/h ahead.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F14.png?alt=media&token=965fddd4-bae7-4291-9a00-76c03f6a1192",
+          "optionA" : "The speed limit is 50 km/h.",
+          "optionB" : "The speed limit is 50 km/h ahead.",
+          "optionC" : "It is 50 km/h till the next speed sign.",
+          "optionD" : "The speed limit is 50 km/h for a distance of 50km.",
+          "orderNo" : 14,
+          "question" : "What does this road sign mean?"
+        },
+        "qe115" : {
+          "correctAnswer" : "Traffic may travel in one direction only.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F15.png?alt=media&token=491d8551-6233-4a73-8ac3-79228a08fecc",
+          "optionA" : "Traffic may travel in one direction only.",
+          "optionB" : "Exit this way.",
+          "optionC" : "Railway crossing this way.",
+          "optionD" : "Stay to the right of the island.",
+          "orderNo" : 15,
+          "question" : "What does this road sign mean?"
+        },
+        "qe116" : {
+          "correctAnswer" : "Do not park in the area between the signs.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F16.png?alt=media&token=5ed5f00c-207c-4244-9060-26bd5203de0f",
+          "optionA" : "Do not park in the area between the signs.",
+          "optionB" : "No parking in this area.",
+          "optionC" : "The area between the signs is reserved for public transit.",
+          "optionD" : "Parking allowed in the area between the signs.",
+          "orderNo" : 16,
+          "question" : "What does this road sign mean?"
+        },
+        "qe117" : {
+          "correctAnswer" : "Do not drive through the intersection.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F17.png?alt=media&token=9ba0f0e6-a46a-4eb7-99ce-8f84937736aa",
+          "optionA" : "You are allowed to go straight through the intersection.",
+          "optionB" : "Do not drive through the intersection.",
+          "optionC" : "Do not turn right or left.",
+          "optionD" : "Do not stop at the intersection ahead.",
+          "orderNo" : 17,
+          "question" : "What does this road sign mean?"
+        },
+        "qe118" : {
+          "correctAnswer" : "Curb area reserved for vehicles with a valid Accessible Parking Permit picking up/dropping passengers with disabilities.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F18.png?alt=media&token=051a8f62-4568-4623-b7c3-b9e97e734536",
+          "optionA" : "Curb area reserved for ambulances.",
+          "optionB" : "Curb area reserved for vehicles with a valid Accessible Parking Permit picking up/dropping passengers with disabilities.",
+          "optionC" : "Curb area reserved for loading and unloading of passengers.",
+          "optionD" : "Curb area parking for all vehicles except accessibility permit holders.",
+          "orderNo" : 18,
+          "question" : "What does this road sign mean?"
+        },
+        "qe119" : {
+          "correctAnswer" : "No right turn allowed on a red light.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F19.png?alt=media&token=aa609237-16ea-4827-9959-443e2b9f01ad",
+          "optionA" : "Turn right only on a red light.",
+          "optionB" : "Do not enter on a red light.",
+          "optionC" : "Right turn not allowed.",
+          "optionD" : "No right turn allowed on a red light.",
+          "orderNo" : 19,
+          "question" : "What does this road sign mean?"
+        },
+        "qe12" : {
+          "correctAnswer" : "Do not enter this road",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F2.png?alt=media&token=f7da8eaf-0761-44a9-b67a-e1dd4c6138c0",
+          "optionA" : "Do not enter this road",
+          "optionB" : "Dead end up ahead",
+          "optionC" : "Come to a complete stop",
+          "optionD" : "Railway crossing ahead",
+          "orderNo" : 2,
+          "question" : "What does this road sign mean?"
+        },
+        "qe120" : {
+          "correctAnswer" : "No left turns allowed during the posted days/times.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F20.png?alt=media&token=187fd8f9-6f47-473d-a4b7-726da6649a6a",
+          "optionA" : "No lefts turn allowed at this intersection",
+          "optionB" : "Left turn not allowed during rush hours.",
+          "optionC" : "No left turns allowed during the posted days/times.",
+          "optionD" : "No U-turn allowed during the posted times.",
+          "orderNo" : 20,
+          "question" : "What does this road sign mean?"
+        },
+        "qe13" : {
+          "correctAnswer" : "All vehicles must stop for a school bus in all directions when lights are flashing.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F3.png?alt=media&token=cf158b17-3909-4cb8-90b9-0990d7fd0097",
+          "optionA" : "You are entering a school zone.",
+          "optionB" : "You are approaching a school zone crosswalk.",
+          "optionC" : "All vehicles must stop on the side of the road where the school bus is.",
+          "optionD" : "All vehicles must stop for a school bus in all directions when lights are flashing.",
+          "orderNo" : 3,
+          "question" : "What does this road sign mean?"
+        },
+        "qe14" : {
+          "correctAnswer" : "The driver in lanes 1, 2 or 3 must travel in the direction of lane's arrow.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F4.png?alt=media&token=54570e25-5b87-4c98-8ede-3390e9936531",
+          "optionA" : "Drivers in lane 3 must go straight and then turn right.",
+          "optionB" : "The driver in lanes 1, 2 or 3 must travel in the direction of lane's arrow.",
+          "optionC" : "Drivers in lane 1 must go straight and then left.",
+          "optionD" : "Drivers in lane 2 can go in any direction.",
+          "orderNo" : 4,
+          "question" : "What does this road sign mean?"
+        },
+        "qe15" : {
+          "correctAnswer" : "This is a pedestrian crossover. Be prepared to stop and yield the right-of-way to pedestrians.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F5.png?alt=media&token=1eb20e10-267c-4788-ad1e-91e2abf03354",
+          "optionA" : "This is a pedestrian crossover. Be prepared to stop and yield the right-of-way to pedestrians.",
+          "optionB" : "Railway crossing ahead.",
+          "optionC" : "Pedestrians may not enter here.",
+          "optionD" : "Pedestrians are not allowed to cross.",
+          "orderNo" : 5,
+          "question" : "What does this road sign mean?"
+        },
+        "qe16" : {
+          "correctAnswer" : "You must let traffic in the intersection or close to it go first.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F16.png?alt=media&token=5ed5f00c-207c-4244-9060-26bd5203de0f",
+          "optionA" : "You have the right-of-way.",
+          "optionB" : "Stop for pedestrians.",
+          "optionC" : "You must let traffic in the intersection or close to it go first.",
+          "optionD" : "Construction zone ahead.",
+          "orderNo" : 6,
+          "question" : "What does this road sign mean?"
+        },
+        "qe17" : {
+          "correctAnswer" : "Slow down, school zone ahead, watch for children and drive with extra caution.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F7.png?alt=media&token=b0ae5e04-e338-4520-8d94-8113795d2af8",
+          "optionA" : "School zone, reduce your speed to 50 km/h.",
+          "optionB" : "Slow down, school zone ahead, watch for children and drive with extra caution.",
+          "optionC" : "School bus loading zone up ahead.",
+          "optionD" : "City center up ahead.",
+          "orderNo" : 7,
+          "question" : "What does this road sign mean?"
+        },
+        "qe18" : {
+          "correctAnswer" : "No parking allowed except for vehicles with valid Accessible Parking Permits.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F8.png?alt=media&token=c873bcb5-b0e4-407b-94f0-7528d82c511f",
+          "optionA" : "Do not park here.",
+          "optionB" : "No parking allowed except for vehicles with valid Accessible Parking Permits.",
+          "optionC" : "Accessible parking is not available in this area.",
+          "optionD" : "Accessible Parking Permit holders must park their vehicles away from the area near the sign.",
+          "orderNo" : 8,
+          "question" : "What does this road sign mean?"
+        },
+        "qe19" : {
+          "correctAnswer" : "No bicycles allowed on this route.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F9.png?alt=media&token=76ee948a-18f4-43e4-a8cd-fb1fa4666827",
+          "optionA" : "No bicycles allowed on this route.",
+          "optionB" : "Lane is reserved for bicycles only.",
+          "optionC" : "Bicycles must not turn right.",
+          "optionD" : "School zone ahead.",
+          "orderNo" : 9,
+          "question" : "What does this road sign mean?"
+        }
+      },
+      "pa" : {
+        "qp11" : {
+          "correctAnswer" : "ਕਿਸੇ ਵੀ ਯੂ-ਟਰਨ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F1.png?alt=media&token=b42bb463-9752-4059-8851-cb71b43c6388",
+          "optionA" : "ਖੱਬੇ ਪਾਸੇ ਜਾਣ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ",
+          "optionB" : "ਤੁਸੀਂ ਉਲਟ ਦਿਸ਼ਾ ਵੱਲ ਜਾ ਸਕਦੇ ਹੋ.",
+          "optionC" : "ਕਿਸੇ ਵੀ ਯੂ-ਟਰਨ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ",
+          "optionD" : "ਚੌਰਾਹੇ ਤੇ ਖੱਬੇ ਪਾਸੇ ਨਾ ਮੁੜੋ.",
+          "orderNo" : 1,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp110" : {
+          "correctAnswer" : "ਦੋ ਲੇਨ ਵਾਲੇ ਭਾਗਾਂ 'ਤੇ ਲੰਘਦਿਆਂ ਸਿਵਾਏ ਸੱਜੇ ਲੇਨ' ਤੇ ਰਹੋ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F10.png?alt=media&token=ea6b7ab0-c7da-4629-aad9-469164c4656c",
+          "optionA" : "ਸੱਜੀ ਵਾਰੀ ਅਤੇ ਅੱਗੇ ਲੰਘ ਰਹੀ ਲਾਈਨ.",
+          "optionB" : "ਸੱਜੀ ਲੇਨ ਬਾਹਰ ਜਾਂਦੀ ਹੈ.",
+          "optionC" : "ਸੜਕ ਸੱਜੇ ਵੱਲ ਮੁੜਦੀ ਹੈ.",
+          "optionD" : "ਦੋ ਲੇਨ ਵਾਲੇ ਭਾਗਾਂ 'ਤੇ ਲੰਘਦਿਆਂ ਸਿਵਾਏ ਸੱਜੇ ਲੇਨ' ਤੇ ਰਹੋ.",
+          "orderNo" : 10,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp111" : {
+          "correctAnswer" : "ਤੁਸੀਂ ਵੱਧ ਤੋਂ ਵੱਧ 30 ਮਿੰਟ ਲਈ ਪੋਸਟ ਕੀਤੇ ਸਮੇਂ ਦੌਰਾਨ ਤੀਰ ਦੇ ਵਿਚਕਾਰ ਦੇ ਖੇਤਰ ਵਿੱਚ ਪਾਰਕ ਕਰ ਸਕਦੇ ਹੋ",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F11.png?alt=media&token=4bf46f35-dc97-4306-a913-8c6bba79bbd5",
+          "optionA" : "ਕਿਸੇ ਵੀ ਸਮੇਂ ਤੀਰ ਦੇ ਵਿਚਕਾਰ ਪਾਰਕਿੰਗ ਨਹੀਂ.",
+          "optionB" : "ਤੁਸੀਂ ਵੱਧ ਤੋਂ ਵੱਧ 30 ਮਿੰਟ ਲਈ ਪੋਸਟ ਕੀਤੇ ਸਮੇਂ ਦੌਰਾਨ ਤੀਰ ਦੇ ਵਿਚਕਾਰ ਦੇ ਖੇਤਰ ਵਿੱਚ ਪਾਰਕ ਕਰ ਸਕਦੇ ਹੋ",
+          "optionC" : "ਤੁਸੀਂ ਵੱਧ ਤੋਂ ਵੱਧ 30 ਮਿੰਟ ਲਈ ਸੰਕੇਤਾਂ ਦੇ ਵਿਚਕਾਰ ਖੇਤਰ ਵਿੱਚ ਪਾਰਕ ਕਰ ਸਕਦੇ ਹੋ.",
+          "optionD" : "ਪਾਰਕਿੰਗ ਸਿਰਫ ਪਰਮਿਟ ਧਾਰਕਾਂ ਲਈ ਰਾਖਵੀਂ ਹੈ.",
+          "orderNo" : 11,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp112" : {
+          "correctAnswer" : "ਟ੍ਰੈਫਿਕ ਆਈਲੈਂਡ ਦੇ ਸੱਜੇ ਪਾਸੇ ਰਹੋ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F12.png?alt=media&token=a75c473d-77d6-436d-af8e-269af8794da1",
+          "optionA" : "ਸੱਜੇ ਪਾਸੇ ਇਕ ਲਾਂਘਾ ਹੈ.",
+          "optionB" : "ਟ੍ਰੈਫਿਕ ਆਈਲੈਂਡ ਦੇ ਖੱਬੇ ਪਾਸੇ ਰਹੋ.",
+          "optionC" : "ਟ੍ਰੈਫਿਕ ਆਈਲੈਂਡ ਦੇ ਸੱਜੇ ਪਾਸੇ ਰਹੋ.",
+          "optionD" : "ਸੜਕ ਛੇਤੀ ਹੀ ਖੱਬੇ ਪਾਸੇ ਕਰਵ.",
+          "orderNo" : 12,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp113" : {
+          "correctAnswer" : "ਸੰਕੇਤਾਂ ਦੇ ਵਿਚਕਾਰ ਕਿਸੇ ਵੀ ਸਮੇਂ ਰੁਕਣਾ ਨਹੀਂ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F13.png?alt=media&token=cb8cbe23-4565-42f6-bdd7-bbf83f681eb6",
+          "optionA" : "ਯਾਤਰੀਆਂ ਨੂੰ ਅਨਲੋਡ ਕਰਨ ਤੋਂ ਇਲਾਵਾ ਕੋਈ ਰੁਕਾਵਟ ਨਹੀਂ.",
+          "optionB" : "ਪੂਰੀ ਤਰਾਂ ਰੁਕਣ ਤੇ ਨਾ ਆਓ.",
+          "optionC" : "ਸੰਕੇਤਾਂ ਦੇ ਵਿਚਕਾਰ ਕਿਸੇ ਵੀ ਸਮੇਂ ਰੁਕਣਾ ਨਹੀਂ.",
+          "optionD" : "ਤੁਸੀਂ ਸੰਕੇਤਾਂ ਦੇ ਵਿਚਕਾਰ ਉਸ ਖੇਤਰ ਵਿੱਚ ਖੜੇ ਹੋ ਸਕਦੇ ਹੋ.",
+          "orderNo" : 13,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp114" : {
+          "correctAnswer" : "ਗਤੀ ਸੀਮਾ 50 ਕਿ.ਮੀ. / ਘੰਟਾ ਅੱਗੇ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F14.png?alt=media&token=965fddd4-bae7-4291-9a00-76c03f6a1192",
+          "optionA" : "ਗਤੀ ਸੀਮਾ 50 ਕਿਮੀ / ਘੰਟਾ ਹੈ.",
+          "optionB" : "ਗਤੀ ਸੀਮਾ 50 ਕਿ.ਮੀ. / ਘੰਟਾ ਅੱਗੇ ਹੈ.",
+          "optionC" : "ਅਗਲੀ ਗਤੀ ਦੇ ਚਿੰਨ੍ਹ ਤਕ ਇਹ 50 ਕਿ.ਮੀ. / ਘੰਟਾ ਹੈ.",
+          "optionD" : "ਗਤੀ ਸੀਮਾ 50 ਕਿ.ਮੀ. ਦੀ ਦੂਰੀ ਲਈ 50 ਕਿ.ਮੀ. / ਘੰਟਾ ਹੈ.",
+          "orderNo" : 14,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp115" : {
+          "correctAnswer" : "ਟ੍ਰੈਫਿਕ ਸਿਰਫ ਇਕ ਦਿਸ਼ਾ ਵਿਚ ਯਾਤਰਾ ਕਰ ਸਕਦਾ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F15.png?alt=media&token=491d8551-6233-4a73-8ac3-79228a08fecc",
+          "optionA" : "ਟ੍ਰੈਫਿਕ ਸਿਰਫ ਇਕ ਦਿਸ਼ਾ ਵਿਚ ਯਾਤਰਾ ਕਰ ਸਕਦਾ ਹੈ.",
+          "optionB" : "ਇਸ ਤਰੀਕੇ ਨਾਲ ਬਾਹਰ ਜਾਓ.",
+          "optionC" : "ਰੇਲਵੇ ਇਸ ਰਸਤੇ ਨੂੰ ਪਾਰ ਕਰਦਾ ਹੈ.",
+          "optionD" : "ਟਾਪੂ ਦੇ ਸੱਜੇ ਪਾਸੇ ਰਹੋ.",
+          "orderNo" : 15,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp116" : {
+          "correctAnswer" : "ਸੰਕੇਤਾਂ ਦੇ ਵਿਚਕਾਰ ਖੇਤਰ ਵਿੱਚ ਪਾਰਕ ਨਾ ਕਰੋ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F16.png?alt=media&token=5ed5f00c-207c-4244-9060-26bd5203de0f",
+          "optionA" : "ਸੰਕੇਤਾਂ ਦੇ ਵਿਚਕਾਰ ਖੇਤਰ ਵਿੱਚ ਪਾਰਕ ਨਾ ਕਰੋ.",
+          "optionB" : "ਇਸ ਖੇਤਰ ਵਿੱਚ ਕੋਈ ਪਾਰਕਿੰਗ ਨਹੀਂ ਹੈ.",
+          "optionC" : "ਸੰਕੇਤਾਂ ਦੇ ਵਿਚਕਾਰ ਦਾ ਖੇਤਰ ਜਨਤਕ ਆਵਾਜਾਈ ਲਈ ਰਾਖਵਾਂ ਹੈ.",
+          "optionD" : "ਸੰਕੇਤਾਂ ਦੇ ਵਿਚਕਾਰ ਖੇਤਰ ਵਿੱਚ ਪਾਰਕਿੰਗ ਦੀ ਆਗਿਆ ਹੈ.",
+          "orderNo" : 16,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp117" : {
+          "correctAnswer" : "ਚੌਰਾਹੇ ਤੋਂ ਨਾ ਚਲਾਓ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F17.png?alt=media&token=9ba0f0e6-a46a-4eb7-99ce-8f84937736aa",
+          "optionA" : "ਤੁਹਾਨੂੰ ਸਿੱਧੇ ਚੌਰਾਹੇ ਰਾਹੀਂ ਜਾਣ ਦੀ ਆਗਿਆ ਹੈ.",
+          "optionB" : "ਚੌਰਾਹੇ ਤੋਂ ਨਾ ਚਲਾਓ.",
+          "optionC" : "ਸੱਜੇ ਜਾਂ ਖੱਬੇ ਨਾ ਮੁੜੋ.",
+          "optionD" : "ਅੱਗੇ ਚੌਰਾਹੇ ਤੇ ਨਾ ਰੁਕੋ.",
+          "orderNo" : 17,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp118" : {
+          "correctAnswer" : "ਅਪੰਗਤਾ ਵਾਲੇ ਯਾਤਰੀਆਂ ਨੂੰ ਚੁੱਕਣਾ / ਉਤਾਰਨਾ ਵੈਧ ਪਹੁੰਚਯੋਗ ਪਾਰਕਿੰਗ ਪਰਮਿਟ ਵਾਲੇ ਵਾਹਨਾਂ ਲਈ ਕਰਬ ਖੇਤਰ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F18.png?alt=media&token=051a8f62-4568-4623-b7c3-b9e97e734536",
+          "optionA" : "ਕਰਬ ਖੇਤਰ ਐਂਬੂਲੈਂਸਾਂ ਲਈ ਰਾਖਵਾਂ ਹੈ.",
+          "optionB" : "ਅਪੰਗਤਾ ਵਾਲੇ ਯਾਤਰੀਆਂ ਨੂੰ ਚੁੱਕਣਾ / ਉਤਾਰਨਾ ਵੈਧ ਪਹੁੰਚਯੋਗ ਪਾਰਕਿੰਗ ਪਰਮਿਟ ਵਾਲੇ ਵਾਹਨਾਂ ਲਈ ਕਰਬ ਖੇਤਰ ਹੈ.",
+          "optionC" : "ਯਾਤਰੀਆਂ ਦੇ ਲੋਡਿੰਗ ਅਤੇ ਅਨਲੋਡਿੰਗ ਲਈ ਕਰਬ ਖੇਤਰ ਰਾਖਵਾਂ ਹੈ.",
+          "optionD" : "ਅਸੈਸਬਿਲਟੀ ਪਰਮਿਟ ਧਾਰਕਾਂ ਨੂੰ ਛੱਡ ਕੇ ਸਾਰੇ ਵਾਹਨਾਂ ਲਈ ਕਰਬ ਏਰੀਆ ਪਾਰਕਿੰਗ.",
+          "orderNo" : 18,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp119" : {
+          "correctAnswer" : "ਲਾਲ ਬੱਤੀ 'ਤੇ ਕਿਸੇ ਵੀ ਸੱਜੇ ਵਾਰੀ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F19.png?alt=media&token=aa609237-16ea-4827-9959-443e2b9f01ad",
+          "optionA" : "ਸਿਰਫ ਇੱਕ ਲਾਲ ਬੱਤੀ ਤੇ ਸੱਜੇ ਮੁੜੋ.",
+          "optionB" : "ਲਾਲ ਬੱਤੀ ਤੇ ਪ੍ਰਵੇਸ਼ ਨਾ ਕਰੋ.",
+          "optionC" : "ਸੱਜੇ ਮੋੜ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "optionD" : "ਲਾਲ ਬੱਤੀ 'ਤੇ ਕਿਸੇ ਵੀ ਸੱਜੇ ਵਾਰੀ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "orderNo" : 19,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp12" : {
+          "correctAnswer" : "ਇਸ ਸੜਕ ਵਿੱਚ ਦਾਖਲ ਨਾ ਹੋਵੋ",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F2.png?alt=media&token=f7da8eaf-0761-44a9-b67a-e1dd4c6138c0",
+          "optionA" : "ਇਸ ਸੜਕ ਵਿੱਚ ਦਾਖਲ ਨਾ ਹੋਵੋ",
+          "optionB" : "ਮਰੇ ਹੋਏ ਅੱਗੇ",
+          "optionC" : "ਪੂਰੀ ਤਰ੍ਹਾਂ ਰੁਕੋ",
+          "optionD" : "ਅੱਗੇ ਰੇਲਵੇ ਕਰਾਸਿੰਗ",
+          "orderNo" : 2,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp120" : {
+          "correctAnswer" : "ਤਾਇਨਾਤ ਦਿਨਾਂ / ਸਮੇਂ ਦੌਰਾਨ ਖੱਬੇ ਪਾਸੇ ਜਾਣ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F20.png?alt=media&token=187fd8f9-6f47-473d-a4b7-726da6649a6a",
+          "optionA" : "ਇਸ ਲਾਂਘੇ ਤੇ ਕਿਸੇ ਵੀ ਬਾਂਹ ਨੂੰ ਮੁੜਨ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ",
+          "optionB" : "ਕਾਹਲੀ ਦੇ ਸਮੇਂ ਖੱਬੇ ਪਾਸੇ ਜਾਣ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "optionC" : "ਤਾਇਨਾਤ ਦਿਨਾਂ / ਸਮੇਂ ਦੌਰਾਨ ਖੱਬੇ ਪਾਸੇ ਜਾਣ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "optionD" : "ਪੋਸਟ ਕੀਤੇ ਸਮੇਂ ਦੌਰਾਨ ਕਿਸੇ ਵੀ ਯੂ-ਟਰਨ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "orderNo" : 20,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp13" : {
+          "correctAnswer" : "ਜਦੋਂ ਸਾਰੀਆਂ ਲਾਈਟਾਂ ਚਮਕਦੀਆਂ ਹੋਣ ਤਾਂ ਸਾਰੇ ਵਾਹਨ ਇਕ ਸਕੂਲ ਬੱਸ ਲਈ ਹਰ ਦਿਸ਼ਾ ਵਿਚ ਰੁਕਣ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F3.png?alt=media&token=cf158b17-3909-4cb8-90b9-0990d7fd0097",
+          "optionA" : "ਤੁਸੀਂ ਇੱਕ ਸਕੂਲ ਜ਼ੋਨ ਵਿੱਚ ਦਾਖਲ ਹੋ ਰਹੇ ਹੋ.",
+          "optionB" : "ਤੁਸੀਂ ਇੱਕ ਸਕੂਲ ਜ਼ੋਨ ਕਰਾਸਵਾਕ 'ਤੇ ਪਹੁੰਚ ਰਹੇ ਹੋ.",
+          "optionC" : "ਸਾਰੇ ਵਾਹਨ ਉਸ ਸੜਕ ਦੇ ਸਾਈਡ ਤੇ ਰੁਕਣੇ ਚਾਹੀਦੇ ਹਨ ਜਿਥੇ ਸਕੂਲ ਬੱਸ ਹੈ.",
+          "optionD" : "ਜਦੋਂ ਸਾਰੀਆਂ ਲਾਈਟਾਂ ਚਮਕਦੀਆਂ ਹੋਣ ਤਾਂ ਸਾਰੇ ਵਾਹਨ ਇਕ ਸਕੂਲ ਬੱਸ ਲਈ ਹਰ ਦਿਸ਼ਾ ਵਿਚ ਰੁਕਣ.",
+          "orderNo" : 3,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp14" : {
+          "correctAnswer" : "ਲੇਨ 1, 2 ਜਾਂ 3 ਵਿੱਚ ਡਰਾਈਵਰ ਨੂੰ ਲੇਨ ਦੇ ਤੀਰ ਦੀ ਦਿਸ਼ਾ ਵੱਲ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F4.png?alt=media&token=54570e25-5b87-4c98-8ede-3390e9936531",
+          "optionA" : "ਲੇਨ 3 ਵਿੱਚ ਡਰਾਈਵਰਾਂ ਨੂੰ ਸਿੱਧਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ ਅਤੇ ਫਿਰ ਸੱਜੇ ਮੁੜਨਾ ਚਾਹੀਦਾ ਹੈ.",
+          "optionB" : "ਲੇਨ 1, 2 ਜਾਂ 3 ਵਿੱਚ ਡਰਾਈਵਰ ਨੂੰ ਲੇਨ ਦੇ ਤੀਰ ਦੀ ਦਿਸ਼ਾ ਵੱਲ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ.",
+          "optionC" : "ਲੇਨ 1 ਵਿੱਚ ਡਰਾਈਵਰ ਸਿੱਧੇ ਅਤੇ ਫਿਰ ਖੱਬੇ ਚੱਲਣ ਚਾਹੀਦੇ ਹਨ.",
+          "optionD" : "ਲੇਨ 2 ਵਿੱਚ ਡਰਾਈਵਰ ਕਿਸੇ ਵੀ ਦਿਸ਼ਾ ਵਿੱਚ ਜਾ ਸਕਦੇ ਹਨ.",
+          "orderNo" : 4,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp15" : {
+          "correctAnswer" : "ਇਹ ਇਕ ਪੈਦਲ ਯਾਤਰੀ ਹੈ. ਪੈਦਲ ਚੱਲਣ ਵਾਲਿਆਂ ਨੂੰ ਰੋਕਣ ਅਤੇ ਸਹੀ ਰਾਹ ਦੇਣ ਲਈ ਤਿਆਰ ਰਹੋ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F5.png?alt=media&token=1eb20e10-267c-4788-ad1e-91e2abf03354",
+          "optionA" : "ਇਹ ਇਕ ਪੈਦਲ ਯਾਤਰੀ ਹੈ. ਪੈਦਲ ਚੱਲਣ ਵਾਲਿਆਂ ਨੂੰ ਰੋਕਣ ਅਤੇ ਸਹੀ ਰਾਹ ਦੇਣ ਲਈ ਤਿਆਰ ਰਹੋ.",
+          "optionB" : "ਅੱਗੇ ਰੇਲਵੇ ਕਰਾਸਿੰਗ.",
+          "optionC" : "ਪੈਦਲ ਯਾਤਰੀ ਇੱਥੇ ਦਾਖਲ ਨਹੀਂ ਹੋ ਸਕਦੇ.",
+          "optionD" : "ਪੈਦਲ ਯਾਤਰੀਆਂ ਨੂੰ ਪਾਰ ਜਾਣ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ.",
+          "orderNo" : 5,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp16" : {
+          "correctAnswer" : "ਤੁਹਾਨੂੰ ਪਹਿਲਾਂ ਲਾਂਘੇ ਤੇ ਜਾਂ ਇਸ ਦੇ ਨੇੜੇ ਆਵਾਜਾਈ ਨੂੰ ਜਾਣ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F6.png?alt=media&token=ae1ca320-1589-44b9-9ca2-fcd8fdb26b6b",
+          "optionA" : "ਤੁਹਾਡੇ ਕੋਲ ਰਸਤਾ ਸਹੀ ਹੈ.",
+          "optionB" : "ਪੈਦਲ ਚੱਲਣ ਵਾਲਿਆਂ ਲਈ ਰੁਕੋ.",
+          "optionC" : "ਤੁਹਾਨੂੰ ਪਹਿਲਾਂ ਲਾਂਘੇ ਤੇ ਜਾਂ ਇਸ ਦੇ ਨੇੜੇ ਆਵਾਜਾਈ ਨੂੰ ਜਾਣ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ.",
+          "optionD" : "ਅੱਗੇ ਨਿਰਮਾਣ ਜ਼ੋਨ.",
+          "orderNo" : 6,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp17" : {
+          "correctAnswer" : "ਹੌਲੀ ਹੌਲੀ, ਸਕੂਲ ਜ਼ੋਨ ਅੱਗੇ, ਬੱਚਿਆਂ ਦੀ ਨਿਗਰਾਨੀ ਕਰੋ ਅਤੇ ਵਧੇਰੇ ਸਾਵਧਾਨੀ ਨਾਲ ਡਰਾਈਵ ਕਰੋ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F7.png?alt=media&token=b0ae5e04-e338-4520-8d94-8113795d2af8",
+          "optionA" : "ਸਕੂਲ ਜ਼ੋਨ, ਆਪਣੀ ਗਤੀ ਨੂੰ 50 ਕਿਮੀ / ਘੰਟਾ ਤੱਕ ਘਟਾਓ.",
+          "optionB" : "ਹੌਲੀ ਹੌਲੀ, ਸਕੂਲ ਜ਼ੋਨ ਅੱਗੇ, ਬੱਚਿਆਂ ਦੀ ਨਿਗਰਾਨੀ ਕਰੋ ਅਤੇ ਵਧੇਰੇ ਸਾਵਧਾਨੀ ਨਾਲ ਡਰਾਈਵ ਕਰੋ.",
+          "optionC" : "ਸਕੂਲ ਬੱਸ ਲੋਡਿੰਗ ਜ਼ੋਨ ਅੱਗੇ",
+          "optionD" : "ਅੱਗੇ ਸ਼ਹਿਰ ਦਾ ਕੇਂਦਰ.",
+          "orderNo" : 7,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp18" : {
+          "correctAnswer" : "ਯੋਗ ਪਹੁੰਚਯੋਗ ਪਾਰਕਿੰਗ ਪਰਮਿਟ ਵਾਲੇ ਵਾਹਨਾਂ ਨੂੰ ਛੱਡ ਕੇ ਕਿਸੇ ਪਾਰਕਿੰਗ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F8.png?alt=media&token=c873bcb5-b0e4-407b-94f0-7528d82c511f",
+          "optionA" : "ਇਥੇ ਪਾਰਕ ਨਾ ਕਰੋ.",
+          "optionB" : "ਯੋਗ ਪਹੁੰਚਯੋਗ ਪਾਰਕਿੰਗ ਪਰਮਿਟ ਵਾਲੇ ਵਾਹਨਾਂ ਨੂੰ ਛੱਡ ਕੇ ਕਿਸੇ ਪਾਰਕਿੰਗ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "optionC" : "ਇਸ ਖੇਤਰ ਵਿੱਚ ਪਹੁੰਚਯੋਗ ਪਾਰਕਿੰਗ ਉਪਲਬਧ ਨਹੀਂ ਹੈ.",
+          "optionD" : "ਪਹੁੰਚਯੋਗ ਪਾਰਕਿੰਗ ਪਰਮਿਟ ਧਾਰਕਾਂ ਨੂੰ ਲਾਜ਼ਮੀ ਤੌਰ 'ਤੇ ਆਪਣੇ ਵਾਹਨ ਸਾਈਨ ਦੇ ਨੇੜੇ ਵਾਲੇ ਖੇਤਰ ਤੋਂ ਪਾਰਕ ਕਰਨ ਚਾਹੀਦੇ ਹਨ.",
+          "orderNo" : 8,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp19" : {
+          "correctAnswer" : "ਇਸ ਰਸਤੇ ਤੇ ਕੋਈ ਸਾਈਕਲਾਂ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F9.png?alt=media&token=76ee948a-18f4-43e4-a8cd-fb1fa4666827",
+          "optionA" : "ਇਸ ਰਸਤੇ ਤੇ ਕੋਈ ਸਾਈਕਲਾਂ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "optionB" : "ਲੇਨ ਸਿਰਫ ਸਾਈਕਲਾਂ ਲਈ ਰਾਖਵੀਂ ਹੈ.",
+          "optionC" : "ਸਾਈਕਲ ਨੂੰ ਸੱਜੇ ਨਹੀਂ ਮੁੜਨਾ ਚਾਹੀਦਾ.",
+          "optionD" : "ਅੱਗੇ ਸਕੂਲ ਜ਼ੋਨ.",
+          "orderNo" : 9,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        }
+      }
+    }
+  },
+  "Quiz2" : {
+    "questions" : {
+      "en" : {
+        "qe21" : {
+          "correctAnswer" : "not operate a motor vehicle under any circumstance",
+          "imageUrl" : "",
+          "optionA" : "operate a motor vehicle in the case of an extreme emergency",
+          "optionB" : "operate a motor vehicle when accompanied by a licensed driver",
+          "optionC" : "not operate a motor vehicle under any circumstance",
+          "optionD" : "operate a motor vehicle to and from work",
+          "orderNo" : 1,
+          "question" : "A person whose driver licence is under suspension, may"
+        },
+        "qe210" : {
+          "correctAnswer" : "The lane closest to the right side of the road",
+          "imageUrl" : "",
+          "optionA" : "The lane closest to the right side of the road",
+          "optionB" : "The lane closest to the center line of the road",
+          "optionC" : "The lane closest to the left side of the road",
+          "optionD" : "The lane approaching from the left",
+          "orderNo" : 10,
+          "question" : "What lane of traffic should drivers use when they intend to make a right-hand turn?"
+        },
+        "qe211" : {
+          "correctAnswer" : "At the edge of the intersection",
+          "imageUrl" : "",
+          "optionA" : "Right before the stop sign",
+          "optionB" : "At the edge of the intersection",
+          "optionC" : "A little into the intersection",
+          "optionD" : "Right beside the stop sign",
+          "orderNo" : 11,
+          "question" : "When arriving at an intersection which has no stop line, crosswalk or sidewalk, where must drivers stop?"
+        },
+        "qe212" : {
+          "correctAnswer" : "Is permitted when the street or highway has two or more lanes for traffic in the direction the vehicle is traveling.",
+          "imageUrl" : "",
+          "optionA" : "Is permitted providing it is possible to do so by driving on the shoulder of the road",
+          "optionB" : "Is permitted when the street or highway has two or more lanes for traffic in the direction the vehicle is traveling.",
+          "optionC" : "Is permitted at any time on any street or highway",
+          "optionD" : "Is not permitted under any circumstance",
+          "orderNo" : 12,
+          "question" : "When it is safe to do so, passing other vehicles on the right side"
+        },
+        "qe213" : {
+          "correctAnswer" : "Warns drivers to proceed with caution",
+          "imageUrl" : "",
+          "optionA" : "Requires drivers to stop if making a left turn",
+          "optionB" : "Warns drivers to proceed with caution",
+          "optionC" : "Permits drivers to continue at the same speed",
+          "optionD" : "Requires drivers to stop if making a right turn",
+          "orderNo" : 13,
+          "question" : "A flashing yellow beacon above an intersection:"
+        },
+        "qe214" : {
+          "correctAnswer" : "not operate a motor vehicle under any circumstance",
+          "imageUrl" : "",
+          "optionA" : "operate a motor vehicle when accompanied by a licensed driver",
+          "optionB" : "operate a motor vehicle in the case of an extreme emergency",
+          "optionC" : "not operate a motor vehicle under any circumstance",
+          "optionD" : "operate a motor vehicle to and from work",
+          "orderNo" : 14,
+          "question" : "A person whose driver licence is under suspension, may"
+        },
+        "qe215" : {
+          "correctAnswer" : "Signal, increase speed, and merge smoothly with traffic",
+          "imageUrl" : "",
+          "optionA" : "Drive slowly and be prepared to stop for freeway traffic",
+          "optionB" : "Signal, increase speed, and merge smoothly with traffic",
+          "optionC" : "Stop on the acceleration lane, wait for an opening, and then enter the freeway rapidly.",
+          "optionD" : "Slow down, then enter the freeway at a sharp angle",
+          "orderNo" : 15,
+          "question" : "When entering a highway, what must drivers do?"
+        },
+        "qe216" : {
+          "correctAnswer" : "Only when passing a vehicle turning left and only if the right shoulder is paved",
+          "imageUrl" : "",
+          "optionA" : "Only when passing a vehicle turning left and only if the right shoulder is paved",
+          "optionB" : "Never",
+          "optionC" : "At any time a vehicle is turning left, even if the right shoulder is unpaved",
+          "optionD" : "Whenever it can be done safely",
+          "orderNo" : 16,
+          "question" : "When may drivers pass on the right shoulder?"
+        },
+        "qe217" : {
+          "correctAnswer" : "Come to a complete stop, wait until the way is clear, and proceed when it is safe to do so",
+          "imageUrl" : "",
+          "optionA" : "Slow down and proceed with caution",
+          "optionB" : "Come to a complete stop, wait until the way is clear, and proceed when it is safe to do so",
+          "optionC" : "Stop, then edge into traffic",
+          "optionD" : "Slow down, signal and turn",
+          "orderNo" : 17,
+          "question" : "When a right turn against a red signal light is permitted, what does the law require drivers to do before entering the intersection and making the turn?"
+        },
+        "qe218" : {
+          "correctAnswer" : "The lane immediately to the right of the center line of the roadway",
+          "imageUrl" : "",
+          "optionA" : "The lane closest to the right-hand side of the roadway",
+          "optionB" : "The lane closest to the left-hand side of the roadway",
+          "optionC" : "The lane does not matter provided the driver signals",
+          "optionD" : "The lane immediately to the right of the center line of the roadway",
+          "orderNo" : 18,
+          "question" : "On a roadway where traffic is moving in both directions, in what lane must a driver be before making a left turn?"
+        },
+        "qe219" : {
+          "correctAnswer" : "All answers are correct",
+          "imageUrl" : "",
+          "optionA" : "To notify drivers behind them of their intention",
+          "optionB" : "To notify oncoming traffic of their intention",
+          "optionC" : "To notify pedestrians of their intention",
+          "optionD" : "All answers are correct",
+          "orderNo" : 19,
+          "question" : "Why must drivers use signals when turning?"
+        },
+        "qe22" : {
+          "correctAnswer" : "Stop, and when it is safe to do so, proceed",
+          "imageUrl" : "",
+          "optionA" : "Slow down, sound horn and proceed",
+          "optionB" : "Slow down and if the way is clear, proceed",
+          "optionC" : "Stop, sound horn, then proceed",
+          "optionD" : "Stop, and when it is safe to do so, proceed",
+          "orderNo" : 2,
+          "question" : "Upon approaching a stop sign, what does the law require drivers to do before entering the intersection?"
+        },
+        "qe220" : {
+          "correctAnswer" : "The vehicle approaching from the right",
+          "imageUrl" : "",
+          "optionA" : "The vehicle approaching from the left",
+          "optionB" : "The vehicle approaching from the right",
+          "optionC" : "The one moving faster",
+          "optionD" : "Neither one",
+          "orderNo" : 20,
+          "question" : "If two vehicles arrive at an uncontrolled intersection at approximately the same time, the right-of-way should be given to:"
+        },
+        "qe23" : {
+          "correctAnswer" : "Stop, wait until the light changes to green and the intersection is clear before moving through it",
+          "imageUrl" : "",
+          "optionA" : "Stop, give pedestrians the right-of-way, then proceed with caution",
+          "optionB" : "Slow down, proceed when the way is clear",
+          "optionC" : "Stop, proceed when the way is clear",
+          "optionD" : "Stop, wait until the light changes to green and the intersection is clear before moving through it",
+          "orderNo" : 3,
+          "question" : "When the traffic signal light facing a driver is red and the driver intends to go straight through the intersection, what must the driver do first?"
+        },
+        "qe24" : {
+          "correctAnswer" : "Between half an hour before sunset to half an hour after sunrise and at any other time visibility is not clear for a distance of 150m",
+          "imageUrl" : "",
+          "optionA" : "Between sunset and sunrise as well as any other time visibility is not clear for a distance of 150m",
+          "optionB" : "Between sunset and sunrise",
+          "optionC" : "Between half an hour before sunset to half an hour after sunrise and at any other time visibility is not clear for a distance of 150m",
+          "optionD" : "No specified time",
+          "orderNo" : 4,
+          "question" : "When does the law require lights on vehicles to be turned on?"
+        },
+        "qe25" : {
+          "correctAnswer" : "All answers are correct",
+          "imageUrl" : "",
+          "optionA" : "Let it go to voice mail",
+          "optionB" : "Pull over and park to use your cell phone",
+          "optionC" : "Have a passenger take the call",
+          "optionD" : "All answers are correct",
+          "orderNo" : 5,
+          "question" : "If your phone rings while driving:"
+        },
+        "qe26" : {
+          "correctAnswer" : "Slow down, stop if necessary, and proceed only when the way is clear",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2FSign_yield.png?alt=media&token=8b67aca3-e472-456e-b9ec-bdd1c397022c",
+          "optionA" : "Stop, then enter oncoming traffic quickly",
+          "optionB" : "Stop, then enter oncoming traffic slowly",
+          "optionC" : "Speed up and force their way into oncoming traffic",
+          "optionD" : "Slow down, stop if necessary, and proceed only when the way is clear",
+          "orderNo" : 6,
+          "question" : "Upon approaching a Yield sign, what does the law require drivers to do?"
+        },
+        "qe27" : {
+          "correctAnswer" : "Only if the passengers are under 16 years of age",
+          "imageUrl" : "",
+          "optionA" : "Only if the passengers are over 16 years of age",
+          "optionB" : "Only if the passengers are in the front seat",
+          "optionC" : "Only if the passengers are under 16 years of age",
+          "optionD" : "Only if the passengers are in the back seat",
+          "orderNo" : 7,
+          "question" : "Are drivers responsible for their passengers buckling up?"
+        },
+        "qe28" : {
+          "correctAnswer" : "All answers are correct",
+          "imageUrl" : "",
+          "optionA" : "Because the vehicle is past a certain age",
+          "optionB" : "Because the vehicle may be grossly polluting the environment",
+          "optionC" : "Because the vehicle registration needs to be renewed",
+          "optionD" : "All answers are correct",
+          "orderNo" : 8,
+          "question" : "Why must a vehicle undergo emission testing?"
+        },
+        "qe29" : {
+          "correctAnswer" : "Pull to the right as far as possible and stop",
+          "imageUrl" : "",
+          "optionA" : "Continue at the same speed",
+          "optionB" : "Pull to the right as far as possible and stop",
+          "optionC" : "Speed up and get out of the way",
+          "optionD" : "Signal the driver to pass",
+          "orderNo" : 9,
+          "question" : "If an emergency vehicle with lights on and sirens sounding is travelling on a street that allows for two-way traffic, what does the law require drivers to do?"
+        }
+      },
+      "pa" : {
+        "qp21" : {
+          "correctAnswer" : "ਕਿਸੇ ਵੀ ਸਥਿਤੀ ਵਿੱਚ ਇੱਕ ਮੋਟਰ ਵਾਹਨ ਨੂੰ ਸੰਚਲਿਤ ਨਾ ਕਰੋ",
+          "imageUrl" : "",
+          "optionA" : "ਅਤਿ ਸੰਕਟਕਾਲੀਨ ਸਥਿਤੀ ਵਿੱਚ ਇੱਕ ਮੋਟਰ ਵਾਹਨ ਚਲਾਓ",
+          "optionB" : "ਜਦੋਂ ਲਾਇਸੰਸਸ਼ੁਦਾ ਡਰਾਈਵਰ ਸਮੇਤ ਮੋਟਰ ਵਾਹਨ ਚਲਾਓ",
+          "optionC" : "ਕਿਸੇ ਵੀ ਸਥਿਤੀ ਵਿੱਚ ਇੱਕ ਮੋਟਰ ਵਾਹਨ ਨੂੰ ਸੰਚਲਿਤ ਨਾ ਕਰੋ",
+          "optionD" : "ਕੰਮ ਤੇ ਅਤੇ ਆਉਣ ਤੋਂ ਬਾਅਦ ਇਕ ਮੋਟਰ ਵਾਹਨ ਚਲਾਓ",
+          "orderNo" : 1,
+          "question" : "ਇੱਕ ਵਿਅਕਤੀ ਜਿਸਦਾ ਡਰਾਈਵਰ ਲਾਇਸੈਂਸ ਮੁਅੱਤਲ ਅਧੀਨ ਹੈ, ਹੋ ਸਕਦਾ ਹੈ"
+        },
+        "qp210" : {
+          "correctAnswer" : "ਸੜਕ ਦੇ ਸੱਜੇ ਪਾਸੇ ਸਭ ਤੋਂ ਨਜ਼ਦੀਕ ਲੇਨ",
+          "imageUrl" : "",
+          "optionA" : "ਸੜਕ ਦੇ ਸੱਜੇ ਪਾਸੇ ਸਭ ਤੋਂ ਨਜ਼ਦੀਕ ਲੇਨ",
+          "optionB" : "ਸੜਕ ਦੇ ਵਿਚਕਾਰਲੇ ਲਾਈਨ ਦੇ ਨਜ਼ਦੀਕ ਲੇਨ",
+          "optionC" : "ਸੜਕ ਦੇ ਖੱਬੇ ਪਾਸਿਓਂ ਨਜ਼ਦੀਕੀ ਲੇਨ",
+          "optionD" : "ਲੇਨ ਖੱਬੇ ਤੋਂ ਆ ਰਹੀ ਹੈ",
+          "orderNo" : 10,
+          "question" : "ਜਦੋਂ ਡਰਾਈਵਰ ਸੱਜੇ ਹੱਥ ਮੁੜਨ ਦਾ ਇਰਾਦਾ ਰੱਖਦੇ ਹਨ ਤਾਂ ਟ੍ਰੈਫਿਕ ਦੀ ਕਿਹੜੀ ਲੇਨ ਦੀ ਵਰਤੋਂ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ?"
+        },
+        "qp211" : {
+          "correctAnswer" : "ਚੌਰਾਹੇ ਦੇ ਕਿਨਾਰੇ ਤੇ",
+          "imageUrl" : "",
+          "optionA" : "ਸਟਾਪ ਸਾਈਨ ਤੋਂ ਠੀਕ ਪਹਿਲਾਂ",
+          "optionB" : "ਚੌਰਾਹੇ ਦੇ ਕਿਨਾਰੇ ਤੇ",
+          "optionC" : "ਚੌਰਾਹੇ ਵਿੱਚ ਇੱਕ ਛੋਟਾ ਜਿਹਾ",
+          "optionD" : "ਸਟਾਪ ਨਿਸ਼ਾਨ ਦੇ ਬਿਲਕੁਲ ਨੇੜੇ",
+          "orderNo" : 11,
+          "question" : "ਜਦੋਂ ਕਿਸੇ ਲਾਂਘੇ ਤੇ ਪਹੁੰਚਦੇ ਹੋ ਜਿਸ ਕੋਲ ਕੋਈ ਸਟਾਪ ਲਾਈਨ, ਕ੍ਰਾਸਵੌਕ ਜਾਂ ਫੁੱਟਪਾਥ ਨਹੀਂ ਹੁੰਦਾ, ਤਾਂ ਡਰਾਈਵਰ ਕਿੱਥੇ ਰੁਕਣੇ ਚਾਹੀਦੇ ਹਨ?"
+        },
+        "qp212" : {
+          "correctAnswer" : "ਇਜਾਜ਼ਤ ਹੁੰਦੀ ਹੈ ਜਦੋਂ ਗਲੀ ਜਾਂ ਹਾਈਵੇ 'ਤੇ ਟ੍ਰੈਫਿਕ ਲਈ ਦੋ ਜਾਂ ਦੋ ਵਧੇਰੇ ਮਾਰਗਾਂ ਹੁੰਦੀਆਂ ਹਨ.",
+          "imageUrl" : "",
+          "optionA" : "ਦੀ ਇਜਾਜ਼ਤ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ ਤਾਂਕਿ ਸੜਕ ਦੇ ਮੋ shoulderੇ 'ਤੇ ਚਲਾ ਕੇ ਅਜਿਹਾ ਕਰਨਾ ਸੰਭਵ ਹੋਵੇ",
+          "optionB" : "ਇਜਾਜ਼ਤ ਹੁੰਦੀ ਹੈ ਜਦੋਂ ਗਲੀ ਜਾਂ ਹਾਈਵੇ 'ਤੇ ਟ੍ਰੈਫਿਕ ਲਈ ਦੋ ਜਾਂ ਦੋ ਵਧੇਰੇ ਮਾਰਗਾਂ ਹੁੰਦੀਆਂ ਹਨ.",
+          "optionC" : "ਕਿਸੇ ਵੀ ਗਲੀ ਜਾਂ ਹਾਈਵੇ 'ਤੇ ਕਿਸੇ ਵੀ ਸਮੇਂ ਇਜਾਜ਼ਤ ਹੈ",
+          "optionD" : "ਕਿਸੇ ਵੀ ਸਥਿਤੀ ਵਿਚ ਆਗਿਆ ਨਹੀਂ ਹੈ",
+          "orderNo" : 12,
+          "question" : "ਜਦੋਂ ਇਹ ਕਰਨਾ ਸੁਰੱਖਿਅਤ ਹੈ, ਤਾਂ ਦੂਜੇ ਵਾਹਨਾਂ ਨੂੰ ਸੱਜੇ ਪਾਸੇ ਤੋਂ ਲੰਘਣਾ"
+        },
+        "qp213" : {
+          "correctAnswer" : "ਡਰਾਈਵਰਾਂ ਨੂੰ ਸਾਵਧਾਨੀ ਨਾਲ ਅੱਗੇ ਵਧਣ ਦੀ ਚੇਤਾਵਨੀ ਦਿੰਦਾ ਹੈ",
+          "imageUrl" : "",
+          "optionA" : "ਖੱਬੇ ਪਾਸੇ ਮੁੜਨ ਤੇ ਚਾਲਕਾਂ ਨੂੰ ਰੋਕਣ ਦੀ ਜ਼ਰੂਰਤ ਹੈ",
+          "optionB" : "ਡਰਾਈਵਰਾਂ ਨੂੰ ਸਾਵਧਾਨੀ ਨਾਲ ਅੱਗੇ ਵਧਣ ਦੀ ਚੇਤਾਵਨੀ ਦਿੰਦਾ ਹੈ",
+          "optionC" : "ਡਰਾਈਵਰਾਂ ਨੂੰ ਉਸੇ ਗਤੀ ਤੇ ਜਾਰੀ ਰੱਖਣ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ",
+          "optionD" : "ਜੇ ਚਾਲੂ ਕਰਨਾ ਸਹੀ ਹੈ ਤਾਂ ਡਰਾਈਵਰਾਂ ਨੂੰ ਰੋਕਣਾ ਚਾਹੀਦਾ ਹੈ",
+          "orderNo" : 13,
+          "question" : "ਇੱਕ ਲਾਂਘੇ ਦੇ ਉੱਪਰ ਇੱਕ ਚਮਕਦਾਰ ਪੀਲਾ ਬੱਤੀ:"
+        },
+        "qp214" : {
+          "correctAnswer" : "ਕਿਸੇ ਵੀ ਸਥਿਤੀ ਵਿੱਚ ਇੱਕ ਮੋਟਰ ਵਾਹਨ ਨੂੰ ਸੰਚਲਿਤ ਨਾ ਕਰੋ",
+          "imageUrl" : "",
+          "optionA" : "ਜਦੋਂ ਲਾਇਸੰਸਸ਼ੁਦਾ ਡਰਾਈਵਰ ਸਮੇਤ ਮੋਟਰ ਵਾਹਨ ਚਲਾਓ",
+          "optionB" : "ਅਤਿ ਸੰਕਟਕਾਲੀਨ ਸਥਿਤੀ ਵਿੱਚ ਇੱਕ ਮੋਟਰ ਵਾਹਨ ਚਲਾਓ",
+          "optionC" : "ਕਿਸੇ ਵੀ ਸਥਿਤੀ ਵਿੱਚ ਇੱਕ ਮੋਟਰ ਵਾਹਨ ਨੂੰ ਸੰਚਲਿਤ ਨਾ ਕਰੋ",
+          "optionD" : "ਕੰਮ ਤੇ ਅਤੇ ਆਉਣ ਤੋਂ ਬਾਅਦ ਇਕ ਮੋਟਰ ਵਾਹਨ ਚਲਾਓ",
+          "orderNo" : 14,
+          "question" : "ਇੱਕ ਵਿਅਕਤੀ ਜਿਸਦਾ ਡਰਾਈਵਰ ਲਾਇਸੈਂਸ ਮੁਅੱਤਲ ਅਧੀਨ ਹੈ, ਹੋ ਸਕਦਾ ਹੈ"
+        },
+        "qp215" : {
+          "correctAnswer" : "ਸਿਗਨਲ, ਰਫਤਾਰ ਵਧਾਓ, ਅਤੇ ਆਵਾਜਾਈ ਦੇ ਨਾਲ ਸੁਮੇਲ ਕਰੋ",
+          "imageUrl" : "",
+          "optionA" : "ਹੌਲੀ ਹੌਲੀ ਗੱਡੀ ਚਲਾਓ ਅਤੇ ਫ੍ਰੀਵੇਅ ਟ੍ਰੈਫਿਕ ਨੂੰ ਰੋਕਣ ਲਈ ਤਿਆਰ ਰਹੋ",
+          "optionB" : "ਸਿਗਨਲ, ਰਫਤਾਰ ਵਧਾਓ, ਅਤੇ ਆਵਾਜਾਈ ਦੇ ਨਾਲ ਸੁਮੇਲ ਕਰੋ",
+          "optionC" : "ਐਕਸਲੇਸ਼ਨ ਲੇਨ 'ਤੇ ਰੁਕੋ, ਇਕ ਖੁੱਲਣ ਦੀ ਉਡੀਕ ਕਰੋ, ਅਤੇ ਫਿਰ ਫ੍ਰੀਵੇਅ ਤੇਜ਼ੀ ਨਾਲ ਦਾਖਲ ਹੋਵੋ.",
+          "optionD" : "ਹੌਲੀ ਹੋਵੋ, ਫਿਰ ਤਿੱਖੇ ਕੋਣ ਤੇ ਫ੍ਰੀਵੇਅ ਤੇ ਦਾਖਲ ਹੋਵੋ",
+          "orderNo" : 15,
+          "question" : "ਰਾਜਮਾਰਗ ਵਿੱਚ ਦਾਖਲ ਹੁੰਦੇ ਸਮੇਂ, ਡਰਾਈਵਰਾਂ ਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?"
+        },
+        "qp216" : {
+          "correctAnswer" : "ਸਿਰਫ ਤਾਂ ਹੀ ਜਦੋਂ ਕੋਈ ਵਾਹਨ ਖੱਬੇ ਪਾਸੇ ਮੁੜ ਰਿਹਾ ਹੋਵੇ ਅਤੇ ਸਿਰਫ ਤਾਂ ਹੀ ਜੇ ਸੱਜਾ ਮੋ shoulderਾ ਪੱਕਾ ਹੋਵੇ",
+          "imageUrl" : "",
+          "optionA" : "ਸਿਰਫ ਤਾਂ ਹੀ ਜਦੋਂ ਕੋਈ ਵਾਹਨ ਖੱਬੇ ਪਾਸੇ ਮੁੜ ਰਿਹਾ ਹੋਵੇ ਅਤੇ ਸਿਰਫ ਤਾਂ ਹੀ ਜੇ ਸੱਜਾ ਮੋ shoulderਾ ਪੱਕਾ ਹੋਵੇ",
+          "optionB" : "ਕਦੇ ਨਹੀਂ",
+          "optionC" : "ਕਿਸੇ ਵੀ ਸਮੇਂ ਇਕ ਵਾਹਨ ਖੱਬੇ ਮੁੜ ਰਿਹਾ ਹੈ, ਭਾਵੇਂ ਕਿ ਸੱਜਾ ਮੋ shoulderਾ ਖਾਲੀ ਨਾ ਹੋਵੇ",
+          "optionD" : "ਜਦ ਵੀ ਇਸ ਨੂੰ ਸੁਰੱਖਿਅਤ .ੰਗ ਨਾਲ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ",
+          "orderNo" : 16,
+          "question" : "ਜਦੋਂ ਡਰਾਈਵਰ ਸੱਜੇ ਮੋ shoulderੇ ਤੇ ਲੰਘ ਸਕਦੇ ਹਨ?"
+        },
+        "qp217" : {
+          "correctAnswer" : "ਪੂਰੀ ਤਰ੍ਹਾਂ ਰੁਕਣ ਤੇ ਆਓ, ਰਸਤਾ ਸਾਫ ਹੋਣ ਤੱਕ ਉਡੀਕ ਕਰੋ, ਅਤੇ ਜਦੋਂ ਅਜਿਹਾ ਕਰਨਾ ਸੁਰੱਖਿਅਤ ਹੈ ਤਾਂ ਜਾਰੀ ਰੱਖੋ",
+          "imageUrl" : "",
+          "optionA" : "ਹੌਲੀ ਹੋਵੋ ਅਤੇ ਸਾਵਧਾਨੀ ਨਾਲ ਅੱਗੇ ਵਧੋ",
+          "optionB" : "ਪੂਰੀ ਤਰ੍ਹਾਂ ਰੁਕਣ ਤੇ ਆਓ, ਰਸਤਾ ਸਾਫ ਹੋਣ ਤੱਕ ਉਡੀਕ ਕਰੋ, ਅਤੇ ਜਦੋਂ ਅਜਿਹਾ ਕਰਨਾ ਸੁਰੱਖਿਅਤ ਹੈ ਤਾਂ ਜਾਰੀ ਰੱਖੋ",
+          "optionC" : "ਰੁਕੋ, ਫਿਰ ਟ੍ਰੈਫਿਕ ਵਿਚ ਜਾਓ",
+          "optionD" : "ਹੌਲੀ ਹੋਵੋ, ਸਿਗਨਲ ਕਰੋ ਅਤੇ ਮੁੜੋ",
+          "orderNo" : 17,
+          "question" : "ਜਦੋਂ ਲਾਲ ਸਿਗਨਲ ਲਾਈਟ ਦੇ ਵਿਰੁੱਧ ਸੱਜੇ ਮੋੜ ਦੀ ਆਗਿਆ ਹੁੰਦੀ ਹੈ, ਤਾਂ ਚੌਰਾਹੇ ਵਿਚ ਦਾਖਲ ਹੋਣ ਅਤੇ ਵਾਰੀ ਬਣਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਕਾਨੂੰਨ ਦੁਆਰਾ ਡਰਾਈਵਰਾਂ ਨੂੰ ਕੀ ਕਰਨ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ?"
+        },
+        "qp218" : {
+          "correctAnswer" : "ਸੜਕ ਦੇ ਵਿਚਕਾਰਲੇ ਲਾਈਨ ਦੇ ਸੱਜੇ ਪਾਸੇ ਤੁਰੰਤ ਲੇਨ",
+          "imageUrl" : "",
+          "optionA" : "ਰੋਡਵੇਅ ਦੇ ਸੱਜੇ ਹੱਥ ਦੇ ਨਜ਼ਦੀਕ ਲੇਨ",
+          "optionB" : "ਸੜਕ ਦੇ ਖੱਬੇ ਹੱਥ ਦੇ ਨਜ਼ਦੀਕ ਲੇਨ",
+          "optionC" : "ਲੇਨ ਨਾਲ ਕੋਈ ਫਰਕ ਨਹੀਂ ਪੈਂਦਾ ਡਰਾਈਵਰ ਸਿਗਨਲ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ",
+          "optionD" : "ਸੜਕ ਦੇ ਵਿਚਕਾਰਲੇ ਲਾਈਨ ਦੇ ਸੱਜੇ ਪਾਸੇ ਤੁਰੰਤ ਲੇਨ",
+          "orderNo" : 18,
+          "question" : "ਇੱਕ ਰੋਡਵੇਅ ਤੇ ਜਿੱਥੇ ਟ੍ਰੈਫਿਕ ਦੋਵਾਂ ਦਿਸ਼ਾਵਾਂ ਵਿੱਚ ਚਲ ਰਿਹਾ ਹੈ, ਖੱਬਾ ਮੋੜ ਬਣਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਡਰਾਈਵਰ ਨੂੰ ਕਿਸ ਲੇਨ ਵਿੱਚ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ?"
+        },
+        "qp219" : {
+          "correctAnswer" : "ਸਾਰੇ ਜਵਾਬ ਸਹੀ ਹਨ",
+          "imageUrl" : "",
+          "optionA" : "ਡਰਾਈਵਰਾਂ ਨੂੰ ਉਨ੍ਹਾਂ ਦੇ ਇਰਾਦੇ ਤੋਂ ਜਾਣੂ ਕਰਵਾਉਣ ਲਈ",
+          "optionB" : "ਉਨ੍ਹਾਂ ਦੇ ਇਰਾਦੇ ਦੇ ਆਉਣ ਵਾਲੇ ਟ੍ਰੈਫਿਕ ਨੂੰ ਸੂਚਿਤ ਕਰਨਾ",
+          "optionC" : "ਪੈਦਲ ਯਾਤਰੀਆਂ ਨੂੰ ਉਨ੍ਹਾਂ ਦੇ ਇਰਾਦੇ ਬਾਰੇ ਸੂਚਿਤ ਕਰਨਾ",
+          "optionD" : "ਸਾਰੇ ਜਵਾਬ ਸਹੀ ਹਨ",
+          "orderNo" : 19,
+          "question" : "ਜਦੋਂ ਚਾਲੂ ਹੁੰਦੇ ਹਨ ਤਾਂ ਚਾਲਕਾਂ ਨੂੰ ਸਿਗਨਲਾਂ ਦੀ ਵਰਤੋਂ ਕਿਉਂ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ?"
+        },
+        "qp22" : {
+          "correctAnswer" : "ਰੋਕੋ, ਉਦੋਂ ਤਕ ਇੰਤਜ਼ਾਰ ਕਰੋ ਜਦੋਂ ਤਕ ਰੌਸ਼ਨੀ ਹਰੇ ਰੰਗ ਵਿਚ ਨਹੀਂ ਬਦਲ ਜਾਂਦੀ ਅਤੇ ਇਸ ਤੋਂ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਲਾਂਘਾ ਸਾਫ ਹੈ",
+          "imageUrl" : "",
+          "optionA" : "ਰੋਕੋ, ਪੈਦਲ ਯਾਤਰੀਆਂ ਨੂੰ ਸਹੀ ਰਸਤੇ ਦਿਓ, ਫਿਰ ਸਾਵਧਾਨੀ ਨਾਲ ਅੱਗੇ ਵਧੋ",
+          "optionB" : "ਰੋਕੋ, ਉਦੋਂ ਤਕ ਇੰਤਜ਼ਾਰ ਕਰੋ ਜਦੋਂ ਤਕ ਰੌਸ਼ਨੀ ਹਰੇ ਰੰਗ ਵਿਚ ਨਹੀਂ ਬਦਲ ਜਾਂਦੀ ਅਤੇ ਇਸ ਤੋਂ ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਲਾਂਘਾ ਸਾਫ ਹੈ",
+          "optionC" : "ਹੌਲੀ ਹੋਵੋ, ਜਦੋਂ ਰਸਤਾ ਸਾਫ ਹੋਵੇ ਤਾਂ ਅੱਗੇ ਵਧੋ",
+          "optionD" : "ਰੋਕੋ, ਰਸਤਾ ਸਾਫ ਹੋਣ 'ਤੇ ਅੱਗੇ ਵਧੋ",
+          "orderNo" : 2,
+          "question" : "ਜਦੋਂ ਡਰਾਈਵਰ ਦਾ ਸਾਹਮਣਾ ਕਰ ਰਿਹਾ ਟ੍ਰੈਫਿਕ ਸਿਗਨਲ ਲਾਈਟ ਲਾਲ ਹੁੰਦਾ ਹੈ ਅਤੇ ਡਰਾਈਵਰ ਸਿੱਧਾ ਚੌਰਾਹੇ ਤੋਂ ਲੰਘਣਾ ਚਾਹੁੰਦਾ ਹੈ, ਤਾਂ ਡਰਾਈਵਰ ਨੂੰ ਪਹਿਲਾਂ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?"
+        },
+        "qp220" : {
+          "correctAnswer" : "ਗੱਡੀ ਸੱਜੇ ਤੋਂ ਆ ਰਹੀ ਹੈ",
+          "imageUrl" : "",
+          "optionA" : "ਖੱਬੇ ਪਾਸੇ ਤੋਂ ਆ ਰਹੀ ਗੱਡੀ",
+          "optionB" : "ਗੱਡੀ ਸੱਜੇ ਤੋਂ ਆ ਰਹੀ ਹੈ",
+          "optionC" : "ਇਕ ਤੇਜ਼ੀ ਨਾਲ ਚਲ ਰਿਹਾ ਹੈ",
+          "optionD" : "ਨਾ ਹੀ ਕੋਈ",
+          "orderNo" : 20,
+          "question" : "ਜੇ ਦੋ ਵਾਹਨ ਲਗਭਗ ਇਕੋ ਸਮੇਂ ਇਕ ਨਿਯੰਤਰਿਤ ਲਾਂਘੇ ਤੇ ਆਉਂਦੇ ਹਨ, ਤਾਂ ਸੱਜਾ-ਰਸਤਾ ਦਿੱਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ:"
+        },
+        "qp23" : {
+          "correctAnswer" : "ਰੋਕੋ, ਅਤੇ ਜਦੋਂ ਇਹ ਕਰਨਾ ਸੁਰੱਖਿਅਤ ਹੈ, ਤਾਂ ਜਾਰੀ ਰੱਖੋ",
+          "imageUrl" : "",
+          "optionA" : "ਹੌਲੀ ਹੋਵੋ, ਆਵਾਜ਼ ਦਾ ਸਿੰਗ ਅਤੇ ਅੱਗੇ ਵਧੋ",
+          "optionB" : "ਹੌਲੀ ਹੋਵੋ ਅਤੇ ਜੇ ਰਸਤਾ ਸਾਫ ਹੈ, ਤਾਂ ਅੱਗੇ ਵਧੋ",
+          "optionC" : "ਰੁਕੋ, ਆਵਾਜ਼ ਦਾ ਸਿੰਗ, ਫਿਰ ਅੱਗੇ ਵਧੋ",
+          "optionD" : "ਰੋਕੋ, ਅਤੇ ਜਦੋਂ ਇਹ ਕਰਨਾ ਸੁਰੱਖਿਅਤ ਹੈ, ਤਾਂ ਜਾਰੀ ਰੱਖੋ",
+          "orderNo" : 3,
+          "question" : "ਇੱਕ ਸਟਾਪ ਸੰਕੇਤ ਦੇ ਨੇੜੇ ਪਹੁੰਚਣ ਤੇ, ਕਾਨੂੰਨ ਲਾਂਘਾ ਵਿੱਚ ਦਾਖਲ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਡਰਾਈਵਰਾਂ ਨੂੰ ਕੀ ਕਰਨ ਦੀ ਮੰਗ ਕਰਦਾ ਹੈ?"
+        },
+        "qp24" : {
+          "correctAnswer" : "ਸੂਰਜ ਡੁੱਬਣ ਤੋਂ ਅੱਧੇ ਘੰਟੇ ਤੋਂ ਪਹਿਲਾਂ ਸੂਰਜ ਚੜ੍ਹਨ ਤੋਂ ਅੱਧੇ ਘੰਟੇ ਬਾਅਦ ਅਤੇ ਕਿਸੇ ਹੋਰ ਸਮੇਂ ਦ੍ਰਿਸ਼ਟੀ 150 ਮੀਟਰ ਦੀ ਦੂਰੀ ਲਈ ਸਪਸ਼ਟ ਨਹੀਂ ਹੈ",
+          "imageUrl" : "",
+          "optionA" : "ਸੂਰਜ ਡੁੱਬਣ ਤੋਂ ਅੱਧੇ ਘੰਟੇ ਤੋਂ ਪਹਿਲਾਂ ਸੂਰਜ ਚੜ੍ਹਨ ਤੋਂ ਅੱਧੇ ਘੰਟੇ ਬਾਅਦ ਅਤੇ ਕਿਸੇ ਹੋਰ ਸਮੇਂ ਦ੍ਰਿਸ਼ਟੀ 150 ਮੀਟਰ ਦੀ ਦੂਰੀ ਲਈ ਸਪਸ਼ਟ ਨਹੀਂ ਹੈ",
+          "optionB" : "ਸੂਰਜ ਡੁੱਬਣ ਅਤੇ ਸੂਰਜ ਚੜ੍ਹਨ ਦੇ ਵਿਚਕਾਰ",
+          "optionC" : "ਸੂਰਜ ਡੁੱਬਣ ਅਤੇ ਸੂਰਜ ਚੜ੍ਹਨ ਦੇ ਨਾਲ ਨਾਲ ਕਿਸੇ ਹੋਰ ਸਮੇਂ ਦੀ ਦ੍ਰਿਸ਼ਟੀ 150 ਮੀਟਰ ਦੀ ਦੂਰੀ ਲਈ ਸਪੱਸ਼ਟ ਨਹੀਂ ਹੈ",
+          "optionD" : "ਕੋਈ ਨਿਰਧਾਰਤ ਸਮਾਂ ਨਹੀਂ",
+          "orderNo" : 4,
+          "question" : "ਕਾਨੂੰਨ ਨੂੰ ਵਾਹਨਾਂ ਦੀਆਂ ਲਾਈਟਾਂ ਕਦੋਂ ਚਾਲੂ ਕਰਨ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ?"
+        },
+        "qp25" : {
+          "correctAnswer" : "ਸਾਰੇ ਜਵਾਬ ਸਹੀ ਹਨ",
+          "imageUrl" : "",
+          "optionA" : "ਇਸਨੂੰ ਵੌਇਸ ਮੇਲ ਤੇ ਜਾਣ ਦਿਓ",
+          "optionB" : "ਆਪਣੇ ਸੈੱਲ ਫੋਨ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਪਾਰਕ ਕਰੋ ਅਤੇ ਪਾਰਕ ਕਰੋ",
+          "optionC" : "ਕਿਸੇ ਯਾਤਰੀ ਨੂੰ ਫੋਨ ਕਰਨ ਲਈ ਆਖੋ",
+          "optionD" : "ਸਾਰੇ ਜਵਾਬ ਸਹੀ ਹਨ",
+          "orderNo" : 5,
+          "question" : "ਜੇ ਵਾਹਨ ਚਲਾਉਂਦੇ ਸਮੇਂ ਤੁਹਾਡਾ ਫੋਨ ਵੱਜਦਾ ਹੈ:"
+        },
+        "qp26" : {
+          "correctAnswer" : "ਹੌਲੀ ਹੋਵੋ, ਜੇ ਜਰੂਰੀ ਹੋਏ ਤਾਂ ਰੁਕੋ, ਅਤੇ ਉਦੋਂ ਹੀ ਜਾਰੀ ਰੱਖੋ ਜਦੋਂ ਰਸਤਾ ਸਪਸ਼ਟ ਹੁੰਦਾ ਹੈ",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2FSign_yield.png?alt=media&token=8b67aca3-e472-456e-b9ec-bdd1c397022c",
+          "optionA" : "ਰੋਕੋ, ਫਿਰ ਆ ਰਹੇ ਟ੍ਰੈਫਿਕ ਨੂੰ ਜਲਦੀ ਦਾਖਲ ਕਰੋ",
+          "optionB" : "ਰੁਕੋ, ਫਿਰ ਆ ਰਹੇ ਟ੍ਰੈਫਿਕ ਨੂੰ ਹੌਲੀ ਹੌਲੀ ਦਾਖਲ ਕਰੋ",
+          "optionC" : "ਹੌਲੀ ਹੋਵੋ, ਜੇ ਜਰੂਰੀ ਹੋਏ ਤਾਂ ਰੁਕੋ, ਅਤੇ ਉਦੋਂ ਹੀ ਜਾਰੀ ਰੱਖੋ ਜਦੋਂ ਰਸਤਾ ਸਪਸ਼ਟ ਹੁੰਦਾ ਹੈ",
+          "optionD" : "ਆਵਾਜਾਈ ਨੂੰ ਅੱਗੇ ਵਧਾਉਣ ਲਈ ਤੇਜ਼ੀ ਲਿਆਓ ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ ਰਾਹ ਨੂੰ ਮਜ਼ਬੂਰ ਕਰੋ",
+          "orderNo" : 6,
+          "question" : "ਉਪਜ ਦੇ ਨਿਸ਼ਾਨ ਦੇ ਨੇੜੇ ਆਉਣ ਤੇ, ਕਾਨੂੰਨ ਦੁਆਰਾ ਡਰਾਈਵਰਾਂ ਨੂੰ ਕੀ ਕਰਨ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ?"
+        },
+        "qp27" : {
+          "correctAnswer" : "ਸਿਰਫ ਤਾਂ ਹੀ ਜੇ ਯਾਤਰੀਆਂ ਦੀ ਉਮਰ 16 ਸਾਲ ਤੋਂ ਘੱਟ ਹੈ",
+          "imageUrl" : "",
+          "optionA" : "ਸਿਰਫ ਤਾਂ ਹੀ ਜੇ ਯਾਤਰੀਆਂ ਦੀ ਉਮਰ 16 ਸਾਲ ਤੋਂ ਵੱਧ ਹੈ",
+          "optionB" : "ਸਿਰਫ ਤਾਂ ਹੀ ਜੇ ਮੁਸਾਫਰ ਅਗਲੀ ਸੀਟ 'ਤੇ ਹੋਣ",
+          "optionC" : "ਸਿਰਫ ਤਾਂ ਹੀ ਜੇ ਯਾਤਰੀਆਂ ਦੀ ਉਮਰ 16 ਸਾਲ ਤੋਂ ਘੱਟ ਹੈ",
+          "optionD" : "ਸਿਰਫ ਤਾਂ ਹੀ ਜੇ ਯਾਤਰੀ ਪਿਛਲੀ ਸੀਟ 'ਤੇ ਹੋਣ",
+          "orderNo" : 7,
+          "question" : "ਕੀ ਡਰਾਈਵਰ ਆਪਣੇ ਮੁਸਾਫਰਾਂ ਲਈ ਜੁੰਮੇਵਾਰ ਹਨ?"
+        },
+        "qp28" : {
+          "correctAnswer" : "ਸਾਰੇ ਜਵਾਬ ਸਹੀ ਹਨ",
+          "imageUrl" : " ",
+          "optionA" : "ਕਿਉਂਕਿ ਵਾਹਨ ਇੱਕ ਨਿਸ਼ਚਤ ਉਮਰ ਤੋਂ ਲੰਘ ਗਿਆ ਹੈ",
+          "optionB" : "ਕਿਉਂਕਿ ਵਾਹਨ ਵਾਤਾਵਰਣ ਨੂੰ ਬੁਰੀ ਤਰ੍ਹਾਂ ਪ੍ਰਦੂਸ਼ਿਤ ਕਰ ਸਕਦਾ ਹੈ",
+          "optionC" : "ਕਿਉਂਕਿ ਵਾਹਨ ਦੀ ਰਜਿਸਟਰੀਕਰਣ ਨੂੰ ਨਵਿਆਉਣ ਦੀ ਜ਼ਰੂਰਤ ਹੈ",
+          "optionD" : "ਸਾਰੇ ਜਵਾਬ ਸਹੀ ਹਨ",
+          "orderNo" : 8,
+          "question" : "ਵਾਹਨ ਦੀ ਨਿਕਾਸ ਜਾਂਚ ਕਿਉਂ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ?"
+        },
+        "qp29" : {
+          "correctAnswer" : "ਜਿੱਥੋਂ ਤੱਕ ਸੰਭਵ ਹੋ ਸਕੇ ਸੱਜੇ ਪਾਸੇ ਜਾਓ ਅਤੇ ਰੁਕੋ",
+          "imageUrl" : "",
+          "optionA" : "ਉਸੇ ਗਤੀ ਤੇ ਜਾਰੀ ਰੱਖੋ",
+          "optionB" : "ਜਿੱਥੋਂ ਤੱਕ ਸੰਭਵ ਹੋ ਸਕੇ ਸੱਜੇ ਪਾਸੇ ਜਾਓ ਅਤੇ ਰੁਕੋ",
+          "optionC" : "ਤੇਜ਼ ਹੋਵੋ ਅਤੇ ਰਾਹ ਤੋਂ ਬਾਹਰ ਆ ਜਾਓ",
+          "optionD" : "ਡਰਾਈਵਰ ਨੂੰ ਲੰਘਣ ਲਈ ਸੰਕੇਤ ਦਿਓ",
+          "orderNo" : 9,
+          "question" : "ਜੇ ਇਕ ਐਮਰਜੈਂਸੀ ਵਾਹਨ ਲਾਈਟਾਂ ਤੇ ਅਤੇ ਸਾਇਰਨ ਆਵਾਜ਼ਾਂ ਵਾਲੀ ਗਲੀ ਤੇ ਯਾਤਰਾ ਕਰ ਰਿਹਾ ਹੈ ਜੋ ਦੋ-ਪਾਸੀ ਟ੍ਰੈਫਿਕ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ, ਤਾਂ ਕਾਨੂੰਨ ਡਰਾਈਵਰਾਂ ਨੂੰ ਕੀ ਕਰਨ ਦੀ ਜ਼ਰੂਰਤ ਕਰਦਾ ਹੈ?"
+        }
+      }
+    }
+  },
+  "Quiz3" : {
+    "questions" : {
+      "en" : {
+        "qe31" : {
+          "correctAnswer" : "Do not park in the area between the signs.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F21.png?alt=media&token=1a07ac42-3a3c-4c21-84ee-b821e4714ed7",
+          "optionA" : "Do not park in the area between the signs.",
+          "optionB" : "You may park in the area between the signs.",
+          "optionC" : "Parking available on either side of the signs.",
+          "optionD" : "Parking is allowed in front of the sign.",
+          "orderNo" : 1,
+          "question" : "What does this sign mean?"
+        },
+        "qe310" : {
+          "correctAnswer" : "Slow moving vehicle ahead is traveling at 40 km/h or less.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F30.png?alt=media&token=d6edc6b7-355a-452e-bb74-aa1bf2b55e8e",
+          "optionA" : "Slow moving vehicle ahead is traveling at 40 km/h or less.",
+          "optionB" : "Snow removing vehicle ahead.",
+          "optionC" : "Dead end ahead.",
+          "optionD" : "Yield right-of-way.",
+          "orderNo" : 10,
+          "question" : "What does this sign mean?"
+        },
+        "qe311" : {
+          "correctAnswer" : "Closed lane. Adjust speed to merge with traffic in lane indicated by the arrow.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F31.png?alt=media&token=6aba233b-4724-482c-83b4-abf6671efaee",
+          "optionA" : "Lane changes in the direction of the arrow.",
+          "optionB" : "Hidden intersection ahead.",
+          "optionC" : "This lane must turn left.",
+          "optionD" : "Closed lane. Adjust speed to merge with traffic in lane indicated by the arrow.",
+          "orderNo" : 11,
+          "question" : "What does this sign mean?"
+        },
+        "qe312" : {
+          "correctAnswer" : "Airplane landing area.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F32.png?alt=media&token=c4d6085a-39a2-409c-b62f-3839b5a36bed",
+          "optionA" : "Airplane landing area.",
+          "optionB" : "Shows route to the airport.",
+          "optionC" : "Airplane parking area.",
+          "optionD" : "Air show ahead.",
+          "orderNo" : 12,
+          "question" : "What does this sign mean?"
+        },
+        "qe313" : {
+          "correctAnswer" : "Shows what services and facilities are located nearby or off-road",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F33.png?alt=media&token=be1a9b8a-b02c-4917-a576-1294639dca6e",
+          "optionA" : "Indicates there are police, a hospital, an information desk and an airport in one building.",
+          "optionB" : "Indicates there is only an airport nearby.",
+          "optionC" : "Shows what services and facilities are not available nearby or off-road.",
+          "optionD" : "Shows what services and facilities are located nearby or off-road",
+          "orderNo" : 13,
+          "question" : "What does this sign mean?"
+        },
+        "qe314" : {
+          "correctAnswer" : "Shows facilities that are accessible by wheelchair.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F34.png?alt=media&token=7f202734-f958-4939-b79b-78e78b73f5d8",
+          "optionA" : "Only for vehicles displaying a valid Accessible Parking Permit.",
+          "optionB" : "Shows facilities that are accessible by wheelchair.",
+          "optionC" : "There is a hospital nearby.",
+          "optionD" : "Wheelchair crossing ahead.",
+          "orderNo" : 14,
+          "question" : "What does this sign mean?"
+        },
+        "qe315" : {
+          "correctAnswer" : "To get to the Q.E.W. highway go via the 403.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F35.png?alt=media&token=cbaf2685-72f2-4a1d-9c8a-e352e8ca7cea",
+          "optionA" : "Both Q.E.W. and 403 are coming up on the right.",
+          "optionB" : "To get to the Q.E.W. highway go via the 403.",
+          "optionC" : "The 401 exit is on the right.",
+          "optionD" : "Shows direction to the highway Q.E.W. and 403.",
+          "orderNo" : 15,
+          "question" : "What does this sign mean?"
+        },
+        "qe316" : {
+          "correctAnswer" : "Shows the distances in kilometers to towns and cities on the road.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F36.png?alt=media&token=751b21ee-b86b-4bd1-8ba2-09c518e02916",
+          "optionA" : "Shows directions to nearby towns and cities.",
+          "optionB" : "Shows the distances in kilometers to towns and cities on the road.",
+          "optionC" : "Shows distance to Kitchener before London.",
+          "optionD" : "Shows the distance to nearby campgrounds.",
+          "orderNo" : 16,
+          "question" : "What does this sign mean?"
+        },
+        "qe317" : {
+          "correctAnswer" : "Only public or passenger vehicles carrying two or more passengers may use this lane.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F37.png?alt=media&token=379aa46c-0391-4f4f-87ec-c40558675da1",
+          "optionA" : "Only buses or cars are allowed in this lane.",
+          "optionB" : "This lane is for loading and unloading of passengers only.",
+          "optionC" : "Buses or cars are not allowed in this lane.",
+          "optionD" : "Only public or passenger vehicles carrying two or more passengers may use this lane.",
+          "orderNo" : 17,
+          "question" : "What does this sign mean?"
+        },
+        "qe318" : {
+          "correctAnswer" : "Do not cross lanes into or out of HOV lanes at this location.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F38.png?alt=media&token=6dec1747-8ae5-40d3-8ce9-f06982b5d797",
+          "optionA" : "Do not cross lanes into or out of HOV lanes at this location.",
+          "optionB" : "You may not pass safely to the right.",
+          "optionC" : "No passing",
+          "optionD" : "You may pass safely to the left.",
+          "orderNo" : 18,
+          "question" : "What does this sign mean?"
+        },
+        "qe319" : {
+          "correctAnswer" : "Ferry service route.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F39.png?alt=media&token=20426190-9c92-48a4-9d07-1a26256acf08",
+          "optionA" : "Ferry service route.",
+          "optionB" : "Port route.",
+          "optionC" : "Bridge ahead.",
+          "optionD" : "No swimming, boats may pass.",
+          "orderNo" : 19,
+          "question" : "What does this sign mean?"
+        },
+        "qe32" : {
+          "correctAnswer" : "During the specified times and days, lanes are only for the specified type of vehicles.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F22.png?alt=media&token=061d28b5-d099-4833-b9d3-2940567ab6b9",
+          "optionA" : "Do not drive in this lane on the day/time posted",
+          "optionB" : "During the specified times and days, lanes are only for the specified type of vehicles.",
+          "optionC" : "Lane is for trucks only, shown vehicles are not allowed.",
+          "optionD" : "Vehicles shown are not allowed during specified times.",
+          "orderNo" : 2,
+          "question" : "What does this sign mean?"
+        },
+        "qe320" : {
+          "correctAnswer" : "Shows route to a passenger railway station.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F40.png?alt=media&token=1beba2c9-4624-4989-b657-2e0890fd1e30",
+          "optionA" : "Railway crossing ahead",
+          "optionB" : "Train parking ahead",
+          "optionC" : "Shows route to a passenger railway station.",
+          "optionD" : "Train workshop ahead.",
+          "orderNo" : 20,
+          "question" : "What does this sign mean?"
+        },
+        "qe33" : {
+          "correctAnswer" : "Observe the speed limit shown when the yellow lights are flashing.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F23.png?alt=media&token=5637163b-0cdd-4bd8-b8db-684545f37bf1",
+          "optionA" : "Reduce your speed to 40 km/h at all times.",
+          "optionB" : "You are approaching a school bus zone.",
+          "optionC" : "Observe the speed limit shown when the yellow lights are flashing.",
+          "optionD" : "Reduce your speed to 40 km/h if you see pedestrians.",
+          "orderNo" : 3,
+          "question" : "What does this sign mean?"
+        },
+        "qe34" : {
+          "correctAnswer" : "A railway crossing sign indicating railway tracks cross the road.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F24.png?alt=media&token=bb8eb041-1881-4307-b63e-841618084942",
+          "optionA" : "Pedestrian crosswalk up ahead",
+          "optionB" : "Restricted area - Do not enter this area.",
+          "optionC" : "Watch for wildlife crossing",
+          "optionD" : "A railway crossing sign indicating railway tracks cross the road.",
+          "orderNo" : 4,
+          "question" : "What does this sign mean?"
+        },
+        "qe35" : {
+          "correctAnswer" : "No pedestrians allowed on this road.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F25.png?alt=media&token=dde2fbe0-dd0f-47d3-9089-b05a29b131b0",
+          "optionA" : "No pedestrians allowed on this road.",
+          "optionB" : "Construction ahead, no pedestrian access.",
+          "optionC" : "There is no crosswalk in the area.",
+          "optionD" : "Do not enter.",
+          "orderNo" : 5,
+          "question" : "What does this sign mean?"
+        },
+        "qe36" : {
+          "correctAnswer" : "Lane is only for two-way left turns.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F26.png?alt=media&token=229dca29-f80f-4c35-9e35-11d9885b3073",
+          "optionA" : "Lane is only for two-way left turns.",
+          "optionB" : "Lane is not for left turns.",
+          "optionC" : "Turn left or turn right.",
+          "optionD" : "No U-turn.",
+          "orderNo" : 6,
+          "question" : "What does this sign mean?"
+        },
+        "qe37" : {
+          "correctAnswer" : "No passing on this road.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F27.png?alt=media&token=9a4398af-03f3-478b-aca3-012cbf38687c",
+          "optionA" : "You may pass on this road.",
+          "optionB" : "Two-way traffic ending soon.",
+          "optionC" : "Do not enter.",
+          "optionD" : "No passing on this road.",
+          "orderNo" : 7,
+          "question" : "What does this sign mean?"
+        },
+        "qe38" : {
+          "correctAnswer" : "Road work ahead.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F28.png?alt=media&token=5eaa319b-6ca0-4408-bb38-411d7767d793",
+          "optionA" : "Construction personnel with a road sign.",
+          "optionB" : "Road work ahead.",
+          "optionC" : "A person controlling traffic ahead.",
+          "optionD" : "Survey crew assessing road ahead.",
+          "orderNo" : 8,
+          "question" : "What does this sign mean?"
+        },
+        "qe39" : {
+          "correctAnswer" : "Reduce speed and be prepared to stop.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F29.png?alt=media&token=e7691515-9775-49ae-8192-6388c8b354a5",
+          "optionA" : "Reduce speed and be prepared to stop.",
+          "optionB" : "Stop at the intersection.",
+          "optionC" : "Slow down, stop and leave the construction zone.",
+          "optionD" : "Stop sign ahead.",
+          "orderNo" : 9,
+          "question" : "What does this sign mean?"
+        }
+      },
+      "pa" : {
+        "qp31" : {
+          "correctAnswer" : "ਸੰਕੇਤਾਂ ਦੇ ਵਿਚਕਾਰ ਖੇਤਰ ਵਿੱਚ ਪਾਰਕ ਨਾ ਕਰੋ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F21.png?alt=media&token=1a07ac42-3a3c-4c21-84ee-b821e4714ed7",
+          "optionA" : "ਸੰਕੇਤਾਂ ਦੇ ਵਿਚਕਾਰ ਖੇਤਰ ਵਿੱਚ ਪਾਰਕ ਨਾ ਕਰੋ.",
+          "optionB" : "ਤੁਸੀਂ ਸੰਕੇਤਾਂ ਦੇ ਵਿਚਕਾਰ ਖੇਤਰ ਵਿੱਚ ਪਾਰਕ ਕਰ ਸਕਦੇ ਹੋ.",
+          "optionC" : "ਸੰਕੇਤਾਂ ਦੇ ਦੋਵੇਂ ਪਾਸੇ ਪਾਰਕਿੰਗ ਉਪਲਬਧ ਹੈ.",
+          "optionD" : "ਨਿਸ਼ਾਨ ਦੇ ਸਾਮ੍ਹਣੇ ਪਾਰਕਿੰਗ ਦੀ ਆਗਿਆ ਹੈ.",
+          "orderNo" : 1,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp310" : {
+          "correctAnswer" : "ਹੌਲੀ ਚਲਦੀ ਵਾਹਨ ਅੱਗੇ 40 ਕਿਲੋਮੀਟਰ ਪ੍ਰਤੀ ਘੰਟਾ ਜਾਂ ਘੱਟ ਦੀ ਯਾਤਰਾ ਕਰ ਰਿਹਾ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F30.png?alt=media&token=d6edc6b7-355a-452e-bb74-aa1bf2b55e8e",
+          "optionA" : "ਹੌਲੀ ਚਲਦੀ ਵਾਹਨ ਅੱਗੇ 40 ਕਿਲੋਮੀਟਰ ਪ੍ਰਤੀ ਘੰਟਾ ਜਾਂ ਘੱਟ ਦੀ ਯਾਤਰਾ ਕਰ ਰਿਹਾ ਹੈ.",
+          "optionB" : "ਬਰਫ ਹਟਾਉਂਦੇ ਹੋਏ ਵਾਹਨ ਅੱਗੇ.",
+          "optionC" : "ਮਰੇ ਹੋਏ ਅੱਗੇ.",
+          "optionD" : "ਉਪਜ ਸਹੀ-ਤਰੀਕੇ ਨਾਲ.",
+          "orderNo" : 10,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp311" : {
+          "correctAnswer" : "ਬੰਦ ਹੋਈ ਲੇਨ ਤੀਰ ਦੁਆਰਾ ਦਰਸਾਏ ਲੇਨ ਵਿੱਚ ਟ੍ਰੈਫਿਕ ਨਾਲ ਅਭੇਦ ਹੋਣ ਲਈ ਗਤੀ ਨੂੰ ਵਿਵਸਥਿਤ ਕਰੋ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F31.png?alt=media&token=6aba233b-4724-482c-83b4-abf6671efaee",
+          "optionA" : "ਲੇਨ ਤੀਰ ਦੀ ਦਿਸ਼ਾ ਵਿੱਚ ਬਦਲਦੀ ਹੈ.",
+          "optionB" : "ਅੱਗੇ ਲੁਕਿਆ ਹੋਇਆ ਲਾਂਘਾ.",
+          "optionC" : "ਇਹ ਲੇਨ ਖੱਬੇ ਮੁੜਨੀ ਚਾਹੀਦੀ ਹੈ.",
+          "optionD" : "ਬੰਦ ਹੋਈ ਲੇਨ ਤੀਰ ਦੁਆਰਾ ਦਰਸਾਏ ਲੇਨ ਵਿੱਚ ਟ੍ਰੈਫਿਕ ਨਾਲ ਅਭੇਦ ਹੋਣ ਲਈ ਗਤੀ ਨੂੰ ਵਿਵਸਥਿਤ ਕਰੋ.",
+          "orderNo" : 11,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp312" : {
+          "correctAnswer" : "ਏਅਰਪਲੇਨ ਲੈਂਡਿੰਗ ਏਰੀਆ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F32.png?alt=media&token=c4d6085a-39a2-409c-b62f-3839b5a36bed",
+          "optionA" : "ਏਅਰਪਲੇਨ ਲੈਂਡਿੰਗ ਏਰੀਆ.",
+          "optionB" : "ਹਵਾਈ ਅੱਡੇ ਦਾ ਰਸਤਾ ਦਿਖਾਉਂਦਾ ਹੈ.",
+          "optionC" : "ਏਅਰਪਲੇਨ ਪਾਰਕਿੰਗ ਏਰੀਆ.",
+          "optionD" : "ਏਅਰ ਸ਼ੋਅ ਅੱਗੇ.",
+          "orderNo" : 12,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp313" : {
+          "correctAnswer" : "ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਕਿਹੜੀਆਂ ਸੇਵਾਵਾਂ ਅਤੇ ਸਹੂਲਤਾਂ ਨੇੜੇ ਜਾਂ ਸੜਕ ਦੇ ਬਾਹਰ ਸਥਿਤ ਹਨ",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F33.png?alt=media&token=be1a9b8a-b02c-4917-a576-1294639dca6e",
+          "optionA" : "ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਇਕ ਇਮਾਰਤ ਵਿਚ ਪੁਲਿਸ, ਇਕ ਹਸਪਤਾਲ, ਇਕ ਜਾਣਕਾਰੀ ਡੈਸਕ ਅਤੇ ਇਕ ਹਵਾਈ ਅੱਡਾ ਹੈ.",
+          "optionB" : "ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਇੱਥੇ ਸਿਰਫ ਇੱਕ ਹਵਾਈ ਅੱਡਾ ਹੈ.",
+          "optionC" : "ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਕਿਹੜੀਆਂ ਸੇਵਾਵਾਂ ਅਤੇ ਸਹੂਲਤਾਂ ਨੇੜੇ ਜਾਂ ਸੜਕ ਦੇ ਬਾਹਰ ਉਪਲਬਧ ਨਹੀਂ ਹਨ.",
+          "optionD" : "ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਕਿਹੜੀਆਂ ਸੇਵਾਵਾਂ ਅਤੇ ਸਹੂਲਤਾਂ ਨੇੜੇ ਜਾਂ ਸੜਕ ਦੇ ਬਾਹਰ ਸਥਿਤ ਹਨ",
+          "orderNo" : 13,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp314" : {
+          "correctAnswer" : "ਉਹ ਸਹੂਲਤਾਂ ਦਰਸਾਉਂਦੀਆਂ ਹਨ ਜੋ ਵ੍ਹੀਲਚੇਅਰ ਦੁਆਰਾ ਪਹੁੰਚਯੋਗ ਹਨ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F34.png?alt=media&token=7f202734-f958-4939-b79b-78e78b73f5d8",
+          "optionA" : "ਸਿਰਫ ਇਕ ਯੋਗ ਪਹੁੰਚਯੋਗ ਪਾਰਕਿੰਗ ਪਰਮਿਟ ਪ੍ਰਦਰਸ਼ਤ ਕਰਨ ਵਾਲੇ ਵਾਹਨਾਂ ਲਈ.",
+          "optionB" : "ਉਹ ਸਹੂਲਤਾਂ ਦਰਸਾਉਂਦੀਆਂ ਹਨ ਜੋ ਵ੍ਹੀਲਚੇਅਰ ਦੁਆਰਾ ਪਹੁੰਚਯੋਗ ਹਨ.",
+          "optionC" : "ਨੇੜੇ ਹੀ ਇਕ ਹਸਪਤਾਲ ਹੈ.",
+          "optionD" : "ਅੱਗੇ ਪਹੀਏਦਾਰ ਕੁਰਸੀ.",
+          "orderNo" : 14,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp315" : {
+          "correctAnswer" : "ਕਿEWਬਯੂ ਹਾਈਵੇ ਤੇ ਜਾਣ ਲਈ 403 ਦੁਆਰਾ ਜਾਓ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F35.png?alt=media&token=cbaf2685-72f2-4a1d-9c8a-e352e8ca7cea",
+          "optionA" : "ਕਿ Qਯੂ ਅਤੇ 403 ਦੋਵੇਂ ਸੱਜੇ ਪਾਸੇ ਆ ਰਹੇ ਹਨ.",
+          "optionB" : "ਕਿEWਬਯੂ ਹਾਈਵੇ ਤੇ ਜਾਣ ਲਈ 403 ਦੁਆਰਾ ਜਾਓ.",
+          "optionC" : "401 ਨਿਕਾਸ ਸੱਜੇ ਪਾਸੇ ਹੈ.",
+          "optionD" : "ਹਾਈਵੇ QW ਅਤੇ 403 ਲਈ ਦਿਸ਼ਾ ਦਿਖਾਉਂਦਾ ਹੈ.",
+          "orderNo" : 15,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp316" : {
+          "correctAnswer" : "ਸੜਕ ਤੇ ਕਸਬਿਆਂ ਅਤੇ ਸ਼ਹਿਰਾਂ ਤੋਂ ਕਈ ਕਿਲੋਮੀਟਰ ਦੀ ਦੂਰੀ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F36.png?alt=media&token=751b21ee-b86b-4bd1-8ba2-09c518e02916",
+          "optionA" : "ਨੇੜਲੇ ਕਸਬਿਆਂ ਅਤੇ ਸ਼ਹਿਰਾਂ ਨੂੰ ਦਿਸ਼ਾਵਾਂ ਦਿਖਾਉਂਦਾ ਹੈ.",
+          "optionB" : "ਸੜਕ ਤੇ ਕਸਬਿਆਂ ਅਤੇ ਸ਼ਹਿਰਾਂ ਤੋਂ ਕਈ ਕਿਲੋਮੀਟਰ ਦੀ ਦੂਰੀ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ.",
+          "optionC" : "ਲੰਡਨ ਤੋਂ ਪਹਿਲਾਂ ਕਿਚਨਰ ਲਈ ਦੂਰੀ ਦਿਖਾਉਂਦੀ ਹੈ.",
+          "optionD" : "ਨੇੜਲੇ ਕੈਂਪ ਦੇ ਮੈਦਾਨਾਂ ਵਿੱਚ ਦੂਰੀ ਦਿਖਾਉਂਦੀ ਹੈ.",
+          "orderNo" : 16,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp317" : {
+          "correctAnswer" : "ਸਿਰਫ ਦੋ ਜਾਂ ਵਧੇਰੇ ਯਾਤਰੀਆਂ ਨੂੰ ਲੈ ਕੇ ਜਾਣ ਵਾਲੀਆਂ ਜਨਤਕ ਜਾਂ ਯਾਤਰੀ ਵਾਹਨ ਹੀ ਇਸ ਲੇਨ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੀਆਂ ਹਨ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F37.png?alt=media&token=379aa46c-0391-4f4f-87ec-c40558675da1",
+          "optionA" : "ਇਸ ਲੇਨ ਵਿੱਚ ਸਿਰਫ ਬੱਸਾਂ ਜਾਂ ਕਾਰਾਂ ਦੀ ਆਗਿਆ ਹੈ.",
+          "optionB" : "ਇਹ ਲੇਨ ਸਿਰਫ ਯਾਤਰੀਆਂ ਨੂੰ ਲੋਡ ਕਰਨ ਅਤੇ ਅਨਲੋਡਿੰਗ ਲਈ ਹੈ.",
+          "optionC" : "ਇਸ ਲੇਨ ਵਿੱਚ ਬੱਸਾਂ ਜਾਂ ਕਾਰਾਂ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "optionD" : "ਸਿਰਫ ਦੋ ਜਾਂ ਵਧੇਰੇ ਯਾਤਰੀਆਂ ਨੂੰ ਲੈ ਕੇ ਜਾਣ ਵਾਲੀਆਂ ਜਨਤਕ ਜਾਂ ਯਾਤਰੀ ਵਾਹਨ ਹੀ ਇਸ ਲੇਨ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੀਆਂ ਹਨ.",
+          "orderNo" : 17,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp318" : {
+          "correctAnswer" : "ਇਸ ਸਥਾਨ 'ਤੇ ਐਚਓਵੀ ਲੇਨ ਦੇ ਅੰਦਰ ਜਾਂ ਬਾਹਰ ਲੇਨਾਂ ਨੂੰ ਪਾਰ ਨਾ ਕਰੋ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F38.png?alt=media&token=6dec1747-8ae5-40d3-8ce9-f06982b5d797",
+          "optionA" : "ਇਸ ਸਥਾਨ 'ਤੇ ਐਚਓਵੀ ਲੇਨ ਦੇ ਅੰਦਰ ਜਾਂ ਬਾਹਰ ਲੇਨਾਂ ਨੂੰ ਪਾਰ ਨਾ ਕਰੋ.",
+          "optionB" : "ਤੁਸੀਂ ਸੁਰੱਖਿਅਤ safelyੰਗ ਨਾਲ ਸੱਜੇ ਪਾਸੇ ਨਹੀਂ ਜਾ ਸਕਦੇ ਹੋ.",
+          "optionC" : "ਲੰਘਣਾ ਮਨਾ ਹੈ",
+          "optionD" : "ਤੁਸੀਂ ਖੱਬੇ ਪਾਸੇ ਸੁਰੱਖਿਅਤ passੰਗ ਨਾਲ ਲੰਘ ਸਕਦੇ ਹੋ.",
+          "orderNo" : 18,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp319" : {
+          "correctAnswer" : "ਕਿਸ਼ਤੀ ਸੇਵਾ ਮਾਰਗ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F39.png?alt=media&token=20426190-9c92-48a4-9d07-1a26256acf08",
+          "optionA" : "ਕਿਸ਼ਤੀ ਸੇਵਾ ਮਾਰਗ.",
+          "optionB" : "ਪੋਰਟ ਰਸਤਾ.",
+          "optionC" : "ਅੱਗੇ ਬ੍ਰਿਜ.",
+          "optionD" : "ਤੈਰਾਕੀ ਨਹੀਂ, ਕਿਸ਼ਤੀਆਂ ਲੰਘ ਸਕਦੀਆਂ ਹਨ.",
+          "orderNo" : 19,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp32" : {
+          "correctAnswer" : "ਨਿਰਧਾਰਤ ਸਮੇਂ ਅਤੇ ਦਿਨਾਂ ਦੇ ਦੌਰਾਨ, ਲੇਨਾਂ ਸਿਰਫ ਨਿਰਧਾਰਤ ਕਿਸਮ ਦੇ ਵਾਹਨਾਂ ਲਈ ਹੁੰਦੀਆਂ ਹਨ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F22.png?alt=media&token=061d28b5-d099-4833-b9d3-2940567ab6b9",
+          "optionA" : "ਇਸ ਲੇਨ ਵਿੱਚ ਤਾਇਨਾਤ ਕੀਤੇ ਦਿਨ / ਸਮੇਂ ਤੇ ਗੱਡੀ ਨਾ ਚਲਾਓ",
+          "optionB" : "ਨਿਰਧਾਰਤ ਸਮੇਂ ਅਤੇ ਦਿਨਾਂ ਦੇ ਦੌਰਾਨ, ਲੇਨਾਂ ਸਿਰਫ ਨਿਰਧਾਰਤ ਕਿਸਮ ਦੇ ਵਾਹਨਾਂ ਲਈ ਹੁੰਦੀਆਂ ਹਨ.",
+          "optionC" : "ਲੇਨ ਸਿਰਫ ਟਰੱਕਾਂ ਲਈ ਹੈ, ਦਿਖਾਏ ਵਾਹਨਾਂ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "optionD" : "ਦਰਸਾਏ ਵਾਹਨਾਂ ਨੂੰ ਨਿਰਧਾਰਤ ਸਮੇਂ ਦੌਰਾਨ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "orderNo" : 2,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp320" : {
+          "correctAnswer" : "ਇੱਕ ਯਾਤਰੀ ਰੇਲਵੇ ਸਟੇਸ਼ਨ ਲਈ ਰਸਤਾ ਦਿਖਾਉਂਦਾ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F40.png?alt=media&token=1beba2c9-4624-4989-b657-2e0890fd1e30",
+          "optionA" : "ਅੱਗੇ ਰੇਲਵੇ ਕਰਾਸਿੰਗ",
+          "optionB" : "ਅੱਗੇ ਟ੍ਰੇਨ ਪਾਰਕਿੰਗ",
+          "optionC" : "ਇੱਕ ਯਾਤਰੀ ਰੇਲਵੇ ਸਟੇਸ਼ਨ ਲਈ ਰਸਤਾ ਦਿਖਾਉਂਦਾ ਹੈ.",
+          "optionD" : "ਅੱਗੇ ਟ੍ਰੇਨ ਵਰਕਸ਼ਾਪ.",
+          "orderNo" : 20,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp33" : {
+          "correctAnswer" : "ਜਦੋਂ ਪੀਲੀਆਂ ਲਾਈਟਾਂ ਚਮਕ ਰਹੀਆਂ ਹੋਣ ਤਾਂ ਦਿਖਾਈ ਗਈ ਗਤੀ ਸੀਮਾ ਨੂੰ ਵੇਖੋ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F23.png?alt=media&token=5637163b-0cdd-4bd8-b8db-684545f37bf1",
+          "optionA" : "ਆਪਣੀ ਗਤੀ ਨੂੰ ਹਰ ਸਮੇਂ 40 ਕਿਮੀ / ਘੰਟਾ ਤੱਕ ਘਟਾਓ.",
+          "optionB" : "ਤੁਸੀਂ ਇੱਕ ਸਕੂਲ ਬੱਸ ਜ਼ੋਨ ਤੇ ਪਹੁੰਚ ਰਹੇ ਹੋ.",
+          "optionC" : "ਜਦੋਂ ਪੀਲੀਆਂ ਲਾਈਟਾਂ ਚਮਕ ਰਹੀਆਂ ਹੋਣ ਤਾਂ ਦਿਖਾਈ ਗਈ ਗਤੀ ਸੀਮਾ ਨੂੰ ਵੇਖੋ.",
+          "optionD" : "ਜੇ ਤੁਸੀਂ ਪੈਦਲ ਯਾਤਰੀਆਂ ਨੂੰ ਵੇਖਦੇ ਹੋ ਤਾਂ ਆਪਣੀ ਗਤੀ ਨੂੰ 40 ਕਿਮੀ / ਘੰਟਾ ਤੱਕ ਘਟਾਓ.",
+          "orderNo" : 3,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp34" : {
+          "correctAnswer" : "ਇੱਕ ਰੇਲਵੇ ਪਾਰ ਦਾ ਸੰਕੇਤ ਜੋ ਰੇਲਵੇ ਟਰੈਕਾਂ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ ਸੜਕ ਨੂੰ ਪਾਰ ਕਰਦਾ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F24.png?alt=media&token=bb8eb041-1881-4307-b63e-841618084942",
+          "optionA" : "ਪੈਦਲ ਪੈਦਲ ਚੱਲਣ ਲਈ ਅੱਗੇ",
+          "optionB" : "ਪ੍ਰਤੀਬੰਧਿਤ ਖੇਤਰ - ਇਸ ਖੇਤਰ ਵਿੱਚ ਦਾਖਲ ਨਾ ਹੋਵੋ.",
+          "optionC" : "ਜੰਗਲੀ ਜੀਵਣ ਪਾਰ ਕਰਨ ਲਈ ਵੇਖੋ",
+          "optionD" : "ਇੱਕ ਰੇਲਵੇ ਪਾਰ ਦਾ ਸੰਕੇਤ ਜੋ ਰੇਲਵੇ ਟਰੈਕਾਂ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ ਸੜਕ ਨੂੰ ਪਾਰ ਕਰਦਾ ਹੈ.",
+          "orderNo" : 4,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp35" : {
+          "correctAnswer" : "ਇਸ ਸੜਕ ਤੇ ਕਿਸੇ ਪੈਦਲ ਯਾਤਰੀਆਂ ਨੂੰ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F25.png?alt=media&token=dde2fbe0-dd0f-47d3-9089-b05a29b131b0",
+          "optionA" : "ਇਸ ਸੜਕ ਤੇ ਕਿਸੇ ਪੈਦਲ ਯਾਤਰੀਆਂ ਨੂੰ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "optionB" : "ਅੱਗੇ ਨਿਰਮਾਣ, ਪੈਦਲ ਯਾਤਰੀਆਂ ਦੀ ਪਹੁੰਚ ਨਹੀਂ.",
+          "optionC" : "ਖੇਤਰ ਵਿੱਚ ਕੋਈ ਕਰਾਸਵਾਕ ਨਹੀਂ ਹੈ.",
+          "optionD" : "ਅੰਦਰ ਆਉਣਾ ਮਨਾ ਹੈ.",
+          "orderNo" : 5,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp36" : {
+          "correctAnswer" : "ਲੇਨ ਸਿਰਫ ਦੋ-ਪਾਸੀ ਖੱਬੇ ਮੋੜ ਲਈ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F26.png?alt=media&token=229dca29-f80f-4c35-9e35-11d9885b3073",
+          "optionA" : "ਲੇਨ ਸਿਰਫ ਦੋ-ਪਾਸੀ ਖੱਬੇ ਮੋੜ ਲਈ ਹੈ.",
+          "optionB" : "ਲੇਨ ਖੱਬੇ ਪਾਸਿਓਂ ਨਹੀਂ ਹੈ.",
+          "optionC" : "ਖੱਬੇ ਮੁੜੋ ਜਾਂ ਸੱਜੇ ਮੁੜੋ.",
+          "optionD" : "ਕੋਈ ਯੂ-ਟਰਨ ਨਹੀਂ.",
+          "orderNo" : 6,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp37" : {
+          "correctAnswer" : "ਇਸ ਸੜਕ ਤੇ ਕੋਈ ਲੰਘ ਨਹੀਂ ਰਿਹਾ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F27.png?alt=media&token=9a4398af-03f3-478b-aca3-012cbf38687c",
+          "optionA" : "ਤੁਸੀਂ ਇਸ ਸੜਕ ਤੋਂ ਲੰਘ ਸਕਦੇ ਹੋ.",
+          "optionB" : "ਦੋ-ਪਾਸੀ ਟ੍ਰੈਫਿਕ ਜਲਦੀ ਖ਼ਤਮ ਹੁੰਦਾ ਹੈ.",
+          "optionC" : "ਅੰਦਰ ਆਉਣਾ ਮਨਾ ਹੈ.",
+          "optionD" : "ਇਸ ਸੜਕ ਤੇ ਕੋਈ ਲੰਘ ਨਹੀਂ ਰਿਹਾ.",
+          "orderNo" : 7,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp38" : {
+          "correctAnswer" : "ਸੜਕ ਦਾ ਕੰਮ ਅੱਗੇ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F28.png?alt=media&token=5eaa319b-6ca0-4408-bb38-411d7767d793",
+          "optionA" : "ਸੜਕ ਦੇ ਨਿਸ਼ਾਨ ਦੇ ਨਾਲ ਨਿਰਮਾਣ ਕਰਮੀ.",
+          "optionB" : "ਸੜਕ ਦਾ ਕੰਮ ਅੱਗੇ.",
+          "optionC" : "ਇੱਕ ਵਿਅਕਤੀ ਅੱਗੇ ਟ੍ਰੈਫਿਕ ਨੂੰ ਨਿਯੰਤਰਿਤ ਕਰਦਾ ਹੈ.",
+          "optionD" : "ਸੜਕ ਦਾ ਜਾਇਜ਼ਾ ਲੈਂਦਾ ਹੋਇਆ ਸਰਵੇ ਕਰੂ.",
+          "orderNo" : 8,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp39" : {
+          "correctAnswer" : "ਗਤੀ ਨੂੰ ਘਟਾਓ ਅਤੇ ਰੁਕਣ ਲਈ ਤਿਆਰ ਰਹੋ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F29.png?alt=media&token=e7691515-9775-49ae-8192-6388c8b354a5",
+          "optionA" : "ਗਤੀ ਨੂੰ ਘਟਾਓ ਅਤੇ ਰੁਕਣ ਲਈ ਤਿਆਰ ਰਹੋ.",
+          "optionB" : "ਚੌਰਾਹੇ ਤੇ ਰੁਕੋ.",
+          "optionC" : "ਹੌਲੀ ਹੋਵੋ, ਰੁਕੋ ਅਤੇ ਉਸਾਰੀ ਦਾ ਖੇਤਰ ਛੱਡੋ.",
+          "optionD" : "ਅੱਗੇ ਸਾਈਨ ਰੋਕੋ.",
+          "orderNo" : 9,
+          "question" : "ਇਸ ਨਿਸ਼ਾਨੀ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        }
+      }
+    }
+  },
+  "Quiz4" : {
+    "questions" : {
+      "en" : {
+        "qe110" : {
+          "correctAnswer" : "Keep to the right lane except when passing on two-lane sections.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F10.png?alt=media&token=ea6b7ab0-c7da-4629-aad9-469164c4656c",
+          "optionA" : "Right turn and passing line ahead.",
+          "optionB" : "Right lane exits.",
+          "optionC" : "The road turns to the right.",
+          "optionD" : "Keep to the right lane except when passing on two-lane sections.",
+          "orderNo" : 25,
+          "question" : "What does this road sign mean?"
+        },
+        "qe114" : {
+          "correctAnswer" : "The speed limit is 50 km/h ahead.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F14.png?alt=media&token=965fddd4-bae7-4291-9a00-76c03f6a1192",
+          "optionA" : "The speed limit is 50 km/h.",
+          "optionB" : "The speed limit is 50 km/h ahead.",
+          "optionC" : "It is 50 km/h till the next speed sign.",
+          "optionD" : "The speed limit is 50 km/h for a distance of 50km.",
+          "orderNo" : 36,
+          "question" : "What does this road sign mean?"
+        },
+        "qe115" : {
+          "correctAnswer" : "Traffic may travel in one direction only.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F15.png?alt=media&token=491d8551-6233-4a73-8ac3-79228a08fecc",
+          "optionA" : "Traffic may travel in one direction only.",
+          "optionB" : "Exit this way.",
+          "optionC" : "Railway crossing this way.",
+          "optionD" : "Stay to the right of the island.",
+          "orderNo" : 37,
+          "question" : "What does this road sign mean?"
+        },
+        "qe116" : {
+          "correctAnswer" : "Do not park in the area between the signs.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F16.png?alt=media&token=5ed5f00c-207c-4244-9060-26bd5203de0f",
+          "optionA" : "Do not park in the area between the signs.",
+          "optionB" : "No parking in this area.",
+          "optionC" : "The area between the signs is reserved for public transit.",
+          "optionD" : "Parking allowed in the area between the signs.",
+          "orderNo" : 38,
+          "question" : "What does this road sign mean?"
+        },
+        "qe117" : {
+          "correctAnswer" : "Do not drive through the intersection.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F17.png?alt=media&token=9ba0f0e6-a46a-4eb7-99ce-8f84937736aa",
+          "optionA" : "You are allowed to go straight through the intersection.",
+          "optionB" : "Do not drive through the intersection.",
+          "optionC" : "Do not turn right or left.",
+          "optionD" : "Do not stop at the intersection ahead.",
+          "orderNo" : 39,
+          "question" : "What does this road sign mean?"
+        },
+        "qe118" : {
+          "correctAnswer" : "Curb area reserved for vehicles with a valid Accessible Parking Permit picking up/dropping passengers with disabilities.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F18.png?alt=media&token=051a8f62-4568-4623-b7c3-b9e97e734536",
+          "optionA" : "Curb area reserved for ambulances.",
+          "optionB" : "Curb area reserved for vehicles with a valid Accessible Parking Permit picking up/dropping passengers with disabilities.",
+          "optionC" : "Curb area reserved for loading and unloading of passengers.",
+          "optionD" : "Curb area parking for all vehicles except accessibility permit holders.",
+          "orderNo" : 40,
+          "question" : "What does this road sign mean?"
+        },
+        "qe16" : {
+          "correctAnswer" : "You must let traffic in the intersection or close to it go first.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F6.png?alt=media&token=ae1ca320-1589-44b9-9ca2-fcd8fdb26b6b",
+          "optionA" : "You have the right-of-way.",
+          "optionB" : "Stop for pedestrians.",
+          "optionC" : "You must let traffic in the intersection or close to it go first.",
+          "optionD" : "Construction zone ahead.",
+          "orderNo" : 21,
+          "question" : "What does this road sign mean?"
+        },
+        "qe17" : {
+          "correctAnswer" : "Slow down, school zone ahead, watch for children and drive with extra caution.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F7.png?alt=media&token=b0ae5e04-e338-4520-8d94-8113795d2af8",
+          "optionA" : "School zone, reduce your speed to 50 km/h.",
+          "optionB" : "Slow down, school zone ahead, watch for children and drive with extra caution.",
+          "optionC" : "School bus loading zone up ahead.",
+          "optionD" : "City center up ahead.",
+          "orderNo" : 22,
+          "question" : "What does this road sign mean?"
+        },
+        "qe18" : {
+          "correctAnswer" : "No parking allowed except for vehicles with valid Accessible Parking Permits.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F8.png?alt=media&token=c873bcb5-b0e4-407b-94f0-7528d82c511f",
+          "optionA" : "Do not park here.",
+          "optionB" : "No parking allowed except for vehicles with valid Accessible Parking Permits.",
+          "optionC" : "Accessible parking is not available in this area.",
+          "optionD" : "Accessible Parking Permit holders must park their vehicles away from the area near the sign.",
+          "orderNo" : 23,
+          "question" : "What does this road sign mean?"
+        },
+        "qe19" : {
+          "correctAnswer" : "No bicycles allowed on this route.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F9.png?alt=media&token=76ee948a-18f4-43e4-a8cd-fb1fa4666827",
+          "optionA" : "No bicycles allowed on this route.",
+          "optionB" : "Lane is reserved for bicycles only.",
+          "optionC" : "Bicycles must not turn right.",
+          "optionD" : "School zone ahead.",
+          "orderNo" : 24,
+          "question" : "What does this road sign mean?"
+        },
+        "qe211" : {
+          "correctAnswer" : "At the edge of the intersection",
+          "imageUrl" : "",
+          "optionA" : "Right before the stop sign",
+          "optionB" : "At the edge of the intersection",
+          "optionC" : "A little into the intersection",
+          "optionD" : "Right beside the stop sign",
+          "orderNo" : 26,
+          "question" : "When arriving at an intersection which has no stop line, crosswalk or sidewalk, where must drivers stop?"
+        },
+        "qe212" : {
+          "correctAnswer" : "Is permitted when the street or highway has two or more lanes for traffic in the direction the vehicle is traveling.",
+          "imageUrl" : "",
+          "optionA" : "Is permitted providing it is possible to do so by driving on the shoulder of the road",
+          "optionB" : "Is permitted when the street or highway has two or more lanes for traffic in the direction the vehicle is traveling.",
+          "optionC" : "Is permitted at any time on any street or highway",
+          "optionD" : "Is not permitted under any circumstance",
+          "orderNo" : 27,
+          "question" : "When it is safe to do so, passing other vehicles on the right side"
+        },
+        "qe213" : {
+          "correctAnswer" : "Warns drivers to proceed with caution",
+          "imageUrl" : "",
+          "optionA" : "Requires drivers to stop if making a left turn",
+          "optionB" : "Warns drivers to proceed with caution",
+          "optionC" : "Permits drivers to continue at the same speed",
+          "optionD" : "Requires drivers to stop if making a right turn",
+          "orderNo" : 28,
+          "question" : "A flashing yellow beacon above an intersection:"
+        },
+        "qe214" : {
+          "correctAnswer" : "not operate a motor vehicle under any circumstance",
+          "imageUrl" : "",
+          "optionA" : "operate a motor vehicle when accompanied by a licensed driver",
+          "optionB" : "operate a motor vehicle in the case of an extreme emergency",
+          "optionC" : "not operate a motor vehicle under any circumstance",
+          "optionD" : "operate a motor vehicle to and from work",
+          "orderNo" : 29,
+          "question" : "A person whose driver licence is under suspension, may"
+        },
+        "qe215" : {
+          "correctAnswer" : "Signal, increase speed, and merge smoothly with traffic",
+          "imageUrl" : "",
+          "optionA" : "Drive slowly and be prepared to stop for freeway traffic",
+          "optionB" : "Signal, increase speed, and merge smoothly with traffic",
+          "optionC" : "Stop on the acceleration lane, wait for an opening, and then enter the freeway rapidly.",
+          "optionD" : "Slow down, then enter the freeway at a sharp angle",
+          "orderNo" : 30,
+          "question" : "When entering a highway, what must drivers do?"
+        },
+        "qe311" : {
+          "correctAnswer" : "Closed lane. Adjust speed to merge with traffic in lane indicated by the arrow.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F31.png?alt=media&token=6aba233b-4724-482c-83b4-abf6671efaee",
+          "optionA" : "Lane changes in the direction of the arrow.",
+          "optionB" : "Hidden intersection ahead.",
+          "optionC" : "This lane must turn left.",
+          "optionD" : "Closed lane. Adjust speed to merge with traffic in lane indicated by the arrow.",
+          "orderNo" : 31,
+          "question" : "What does this sign mean?"
+        },
+        "qe312" : {
+          "correctAnswer" : "Airplane landing area.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F32.png?alt=media&token=c4d6085a-39a2-409c-b62f-3839b5a36bed",
+          "optionA" : "Airplane landing area.",
+          "optionB" : "Shows route to the airport.",
+          "optionC" : "Airplane parking area.",
+          "optionD" : "Air show ahead.",
+          "orderNo" : 32,
+          "question" : "What does this sign mean?"
+        },
+        "qe313" : {
+          "correctAnswer" : "Shows what services and facilities are located nearby or off-road",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F33.png?alt=media&token=be1a9b8a-b02c-4917-a576-1294639dca6e",
+          "optionA" : "Indicates there are police, a hospital, an information desk and an airport in one building.",
+          "optionB" : "Indicates there is only an airport nearby.",
+          "optionC" : "Shows what services and facilities are not available nearby or off-road.",
+          "optionD" : "Shows what services and facilities are located nearby or off-road",
+          "orderNo" : 33,
+          "question" : "What does this sign mean?"
+        },
+        "qe314" : {
+          "correctAnswer" : "Shows facilities that are accessible by wheelchair.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F34.png?alt=media&token=7f202734-f958-4939-b79b-78e78b73f5d8",
+          "optionA" : "Only for vehicles displaying a valid Accessible Parking Permit.",
+          "optionB" : "Shows facilities that are accessible by wheelchair.",
+          "optionC" : "There is a hospital nearby.",
+          "optionD" : "Wheelchair crossing ahead.",
+          "orderNo" : 34,
+          "question" : "What does this sign mean?"
+        },
+        "qe315" : {
+          "correctAnswer" : "To get to the Q.E.W. highway go via the 403.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F35.png?alt=media&token=cbaf2685-72f2-4a1d-9c8a-e352e8ca7cea",
+          "optionA" : "Both Q.E.W. and 403 are coming up on the right.",
+          "optionB" : "To get to the Q.E.W. highway go via the 403.",
+          "optionC" : "The 401 exit is on the right.",
+          "optionD" : "Shows direction to the highway Q.E.W. and 403.",
+          "orderNo" : 35,
+          "question" : "What does this sign mean?"
+        },
+        "qe41" : {
+          "correctAnswer" : "The vehicles in the left hand turning lane may turn left.",
+          "imageUrl" : "  ",
+          "optionA" : "Only pedestrians may cross. Vehicles are not allowed to make a turn.",
+          "optionB" : "The vehicles in the left hand turning lane may turn left.",
+          "optionC" : "The vehicles in the left hand turning lane may turn right.",
+          "optionD" : "A green arrow indicates that there is a one-way street. The direction of the green arrow indicates the direction of the one-way street.",
+          "orderNo" : 1,
+          "question" : "What does it mean when you are at a red light but there is a green arrow pointing left?"
+        },
+        "qe410" : {
+          "correctAnswer" : "Turn from the closest lane to the centre dividing line, making a smooth arc into the lane to the right of the centre dividing line.",
+          "imageUrl" : "  ",
+          "optionA" : "Turn from the right lane making a smooth arc into the right curb lane.",
+          "optionB" : "Turn from the right lane making a smooth arc into the lane right of the centre line.",
+          "optionC" : "Turn from the closest lane to the centre dividing line into the right curb lane.",
+          "optionD" : "Turn from the closest lane to the centre dividing line, making a smooth arc into the lane to the right of the centre dividing line.",
+          "orderNo" : 10,
+          "question" : "What is the correct way to make a LEFT turn from a two-way road onto another two-way road?"
+        },
+        "qe411" : {
+          "correctAnswer" : "Climbing or passing lanes allow slower vehicles to move into the right lane so that faster vehicles can pass on the left.",
+          "imageUrl" : "  ",
+          "optionA" : "They help drivers and passengers enjoy the scenery.",
+          "optionB" : "Climbing or passing lanes allow slower vehicles to move into the right lane so that faster vehicles can pass on the left.",
+          "optionC" : "They are an opportunity for vehicle drivers to stop and rest.",
+          "optionD" : "Climbing or passing lanes are for vehicles that want to test their braking ability.",
+          "orderNo" : 11,
+          "question" : "What is the purpose of climbing or passing lanes?"
+        },
+        "qe412" : {
+          "correctAnswer" : "Only if a vehicle is turning left and you have a paved shoulder on the right.",
+          "imageUrl" : "  ",
+          "optionA" : "If you can pass safely.",
+          "optionB" : "Only if a vehicle is turning left and you have a paved shoulder on the right.",
+          "optionC" : "Only if a vehicle is turning left and you have a unpaved shoulder on the right.",
+          "optionD" : "If the vehicle in front of you is moving too slowly.",
+          "orderNo" : 12,
+          "question" : "When is it acceptable to pass on a shoulder?"
+        },
+        "qe413" : {
+          "correctAnswer" : "Turn from the far left lane into the left curb lane.",
+          "imageUrl" : "  ",
+          "optionA" : "Turn from the far left lane into the left curb lane.",
+          "optionB" : "Turn from the far left lane into the right curb lane.",
+          "optionC" : "Turn from the far right lane into the left curb lane.",
+          "optionD" : "Turn from the right lane into the right curb lane.",
+          "orderNo" : 13,
+          "question" : "What is the correct way to make a left turn from a two way road onto a one way road with two lanes?"
+        },
+        "qe414" : {
+          "correctAnswer" : "Turn your head to do an over the shoulder check on each side",
+          "imageUrl" : "  ",
+          "optionA" : "Use your side view mirrors.",
+          "optionB" : "Use your rear view mirrors.",
+          "optionC" : "Use a combination of your rear view mirrors and side view mirrors.",
+          "optionD" : "Turn your head to do an over the shoulder check on each side",
+          "orderNo" : 14,
+          "question" : "What is the right way to check your vehicle's blind spots?"
+        },
+        "qe415" : {
+          "correctAnswer" : "The vehicle on the right.",
+          "imageUrl" : "  ",
+          "optionA" : "The vehicle on the right.",
+          "optionB" : "The vehicle on the left.",
+          "optionC" : "The vehicle that is turning right.",
+          "optionD" : "The vehicle that is turning left.",
+          "orderNo" : 15,
+          "question" : "Who has the right-of-way if two vehicles come to an uncontrolled intersection at the same time?"
+        },
+        "qe416" : {
+          "correctAnswer" : "2 - the driver plus 1 passenger.",
+          "imageUrl" : "  ",
+          "optionA" : "3 - the driver plus 2 passengers.",
+          "optionB" : "2 - the driver plus 1 passenger.",
+          "optionC" : "4 - the driver plus 3 passengers.",
+          "optionD" : "5 - the driver plus 4 passengers.",
+          "orderNo" : 16,
+          "question" : "What is the min number of passengers that the HOV or High Occupancy Vehicle lanes are reserved?"
+        },
+        "qe417" : {
+          "correctAnswer" : "Signal and then accelerate to merge into traffic as smoothly as possible.",
+          "imageUrl" : "  ",
+          "optionA" : "Slow down or stop while waiting for an opening in traffic.",
+          "optionB" : "Accelerate to enter the freeway as quickly as possible.",
+          "optionC" : "Signal and then accelerate to merge into traffic as smoothly as possible.",
+          "optionD" : "Follow what the other vehicles are doing.",
+          "orderNo" : 17,
+          "question" : "When you enter a freeway, what should you do?"
+        },
+        "qe418" : {
+          "correctAnswer" : "Exchange information with the other driver(s) after moving vehicles which are driveable off the road.",
+          "imageUrl" : "  ",
+          "optionA" : "Even if damages are less than $1,000, you must immediately call 911.",
+          "optionB" : "To enable police to determine who is at fault, leave the vehicles where they are.",
+          "optionC" : "Call your lawyer.",
+          "optionD" : "Exchange information with the other driver(s) after moving vehicles which are driveable off the road.",
+          "orderNo" : 18,
+          "question" : "You are involved in an accident where the damages are less than $1,000 and no one is injured, what should you do?"
+        },
+        "qe419" : {
+          "correctAnswer" : "Signal your intentions and carefully move into the exit lane while gradually reducing speed - obey the posted road signs.",
+          "imageUrl" : "  ",
+          "optionA" : "Maintain the same speed as the vehicle ahead of you.",
+          "optionB" : "Slow down and wait for an opportunity to exit.",
+          "optionC" : "Signal your intentions and carefully move into the exit lane while gradually reducing speed - obey the posted road signs.",
+          "optionD" : "Signal and quickly accelerate toward the exit ramp.",
+          "orderNo" : 19,
+          "question" : "When exiting a freeway, what should you do?"
+        },
+        "qe42" : {
+          "correctAnswer" : "150m.",
+          "imageUrl" : "  ",
+          "optionA" : "250m.",
+          "optionB" : "150m.",
+          "optionC" : "75m.",
+          "optionD" : "50m.",
+          "orderNo" : 2,
+          "question" : "How far must you be able to see in both directions if you want to make a U-turn?"
+        },
+        "qe420" : {
+          "correctAnswer" : "50 km/h.",
+          "imageUrl" : "  ",
+          "optionA" : "50 km/h.",
+          "optionB" : "80 km/h.",
+          "optionC" : "40 km/h.",
+          "optionD" : "30 km/h.",
+          "orderNo" : 20,
+          "question" : "Unless otherwise posted in villages, towns, cities and other built up areas, the maximum speed limit is?"
+        },
+        "qe43" : {
+          "correctAnswer" : "Never park within 3 m of a fire hydrant.",
+          "imageUrl" : "  ",
+          "optionA" : "Park with your wheels no more than 12 inches from the curb.",
+          "optionB" : "Never park within 150 m of a controlled intersection.",
+          "optionC" : "Never park within 3 m of a fire hydrant.",
+          "optionD" : "Never park within 15 m of a fire hydrant.",
+          "orderNo" : 3,
+          "question" : "What one of the following is an essential parking rule?"
+        },
+        "qe44" : {
+          "correctAnswer" : "Another vehicle could bump or collide with yours and push you into oncoming traffic.",
+          "imageUrl" : "  ",
+          "optionA" : "It is not a bad idea, it helps you turn faster.",
+          "optionB" : "Another vehicle could bump or collide with yours and push you into oncoming traffic.",
+          "optionC" : "It just unnecessarily adds to the wear and tear of your vehicle.",
+          "optionD" : "In case you change your mind and decide to turn right, it will be that much harder to do so.",
+          "orderNo" : 4,
+          "question" : "Why is it a bad idea to turn your steering wheel to the left prior to turning when waiting to make a left turn at an intersection?"
+        },
+        "qe45" : {
+          "correctAnswer" : "Approaching traffic and/or crossing pedestrians have the right of way. You must yield the right-of-way to them.",
+          "imageUrl" : "  ",
+          "optionA" : "Whoever is in more of a hurry can go first.",
+          "optionB" : "You have the right-of-way. Make your turn after coming to a complete stop.",
+          "optionC" : "Approaching traffic and/or crossing pedestrians have the right of way. You must yield the right-of-way to them.",
+          "optionD" : "Any other vehicle that is turning right.",
+          "orderNo" : 5,
+          "question" : "You are at an uncontrolled intersection, turning left and a pedestrian is crossing, who has the right-of-way?"
+        },
+        "qe46" : {
+          "correctAnswer" : "It allows for someone with a disability who has qualified for the permit, to park in a designated space even if they are being driven by someone else.",
+          "imageUrl" : "  ",
+          "optionA" : "Anyone in your family may stand, park or stop in any area.",
+          "optionB" : "It allows for standing, parking or stopping in any area during specified times.",
+          "optionC" : "It allows for parking in designated spaces even if the person with the disability is not a passenger in the vehicle.",
+          "optionD" : "It allows for someone with a disability who has qualified for the permit, to park in a designated space even if they are being driven by someone else.",
+          "orderNo" : 6,
+          "question" : "What does an Accessible Parking Permit allow?"
+        },
+        "qe47" : {
+          "correctAnswer" : "Stop and wait for the traffic ahead to begin moving before entering the intersection.",
+          "imageUrl" : "  ",
+          "optionA" : "Stop and wait for the traffic ahead to begin moving before entering the intersection.",
+          "optionB" : "Move up to the vehicle in front of you so that cars behind you can also move forward.",
+          "optionC" : "Proceed through the intersection along with the other vehicles.",
+          "optionD" : "Turn right or left so as to avoid the blocked traffic.",
+          "orderNo" : 7,
+          "question" : "What should you do when approaching an intersection on a main road which is blocked with traffic?"
+        },
+        "qe48" : {
+          "correctAnswer" : "Check your mirrors and blind spots to see if you have space to make a lane change and then signal your intention to other drivers. Check mirrors and blind spots again and if it is safe to do so, steer into the new lane.",
+          "imageUrl" : "  ",
+          "optionA" : "Signal, honk the horn and quickly move into the new lane.",
+          "optionB" : "Check your mirrors and blind spots to see if you have space to make a lane change and then signal your intention to other drivers. Check mirrors and blind spots again and if it is safe to do so, steer into the new lane.",
+          "optionC" : "Signal and slowly steer into the new lane.",
+          "optionD" : "Check if it is safe and if it is, quickly steer into the new lane.",
+          "orderNo" : 8,
+          "question" : "What are you required to do when changing lanes?"
+        },
+        "qe49" : {
+          "correctAnswer" : "Turn your tires to the left, so that if your vehicle rolls backward, the tires will catch the curb and stop the vehicle from moving.",
+          "imageUrl" : "  ",
+          "optionA" : "Leave enough room for other vehicles in front or behind you to exit.",
+          "optionB" : "Turn your tires to the right, so that if your vehicle rolls backward, the tires will catch the curb and stop the vehicle from moving.",
+          "optionC" : "Turn your tires to the left, so that if your vehicle rolls backward, the tires will catch the curb and stop the vehicle from moving.",
+          "optionD" : "Make sure you are parked parallel to the curb.",
+          "orderNo" : 9,
+          "question" : "What should you do if you are parking uphill next to a curb?"
+        }
+      },
+      "pa" : {
+        "qe311" : {
+          "correctAnswer" : "Closed lane. Adjust speed to merge with traffic in lane indicated by the arrow.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F31.png?alt=media&token=6aba233b-4724-482c-83b4-abf6671efaee",
+          "optionA" : "Lane changes in the direction of the arrow.",
+          "optionB" : "Hidden intersection ahead.",
+          "optionC" : "This lane must turn left.",
+          "optionD" : "Closed lane. Adjust speed to merge with traffic in lane indicated by the arrow.",
+          "orderNo" : 31,
+          "question" : "What does this sign mean?"
+        },
+        "qe312" : {
+          "correctAnswer" : "Airplane landing area.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F32.png?alt=media&token=c4d6085a-39a2-409c-b62f-3839b5a36bed",
+          "optionA" : "Airplane landing area.",
+          "optionB" : "Shows route to the airport.",
+          "optionC" : "Airplane parking area.",
+          "optionD" : "Air show ahead.",
+          "orderNo" : 32,
+          "question" : "What does this sign mean?"
+        },
+        "qe313" : {
+          "correctAnswer" : "Shows what services and facilities are located nearby or off-road",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F33.png?alt=media&token=be1a9b8a-b02c-4917-a576-1294639dca6e",
+          "optionA" : "Indicates there are police, a hospital, an information desk and an airport in one building.",
+          "optionB" : "Indicates there is only an airport nearby.",
+          "optionC" : "Shows what services and facilities are not available nearby or off-road.",
+          "optionD" : "Shows what services and facilities are located nearby or off-road",
+          "orderNo" : 33,
+          "question" : "What does this sign mean?"
+        },
+        "qe314" : {
+          "correctAnswer" : "Shows facilities that are accessible by wheelchair.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F34.png?alt=media&token=7f202734-f958-4939-b79b-78e78b73f5d8",
+          "optionA" : "Only for vehicles displaying a valid Accessible Parking Permit.",
+          "optionB" : "Shows facilities that are accessible by wheelchair.",
+          "optionC" : "There is a hospital nearby.",
+          "optionD" : "Wheelchair crossing ahead.",
+          "orderNo" : 34,
+          "question" : "What does this sign mean?"
+        },
+        "qe315" : {
+          "correctAnswer" : "To get to the Q.E.W. highway go via the 403.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F35.png?alt=media&token=cbaf2685-72f2-4a1d-9c8a-e352e8ca7cea",
+          "optionA" : "Both Q.E.W. and 403 are coming up on the right.",
+          "optionB" : "To get to the Q.E.W. highway go via the 403.",
+          "optionC" : "The 401 exit is on the right.",
+          "optionD" : "Shows direction to the highway Q.E.W. and 403.",
+          "orderNo" : 35,
+          "question" : "What does this sign mean?"
+        },
+        "qp110" : {
+          "correctAnswer" : "ਦੋ ਲੇਨ ਵਾਲੇ ਭਾਗਾਂ 'ਤੇ ਲੰਘਦਿਆਂ ਸਿਵਾਏ ਸੱਜੇ ਲੇਨ' ਤੇ ਰਹੋ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F10.png?alt=media&token=ea6b7ab0-c7da-4629-aad9-469164c4656c",
+          "optionA" : "ਸੱਜੀ ਵਾਰੀ ਅਤੇ ਅੱਗੇ ਲੰਘ ਰਹੀ ਲਾਈਨ.",
+          "optionB" : "ਸੱਜੀ ਲੇਨ ਬਾਹਰ ਜਾਂਦੀ ਹੈ.",
+          "optionC" : "ਸੜਕ ਸੱਜੇ ਵੱਲ ਮੁੜਦੀ ਹੈ.",
+          "optionD" : "ਦੋ ਲੇਨ ਵਾਲੇ ਭਾਗਾਂ 'ਤੇ ਲੰਘਦਿਆਂ ਸਿਵਾਏ ਸੱਜੇ ਲੇਨ' ਤੇ ਰਹੋ.",
+          "orderNo" : 25,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp114" : {
+          "correctAnswer" : "ਗਤੀ ਸੀਮਾ 50 ਕਿ.ਮੀ. / ਘੰਟਾ ਅੱਗੇ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F14.png?alt=media&token=965fddd4-bae7-4291-9a00-76c03f6a1192",
+          "optionA" : "ਗਤੀ ਸੀਮਾ 50 ਕਿਮੀ / ਘੰਟਾ ਹੈ.",
+          "optionB" : "ਗਤੀ ਸੀਮਾ 50 ਕਿ.ਮੀ. / ਘੰਟਾ ਅੱਗੇ ਹੈ.",
+          "optionC" : "ਅਗਲੀ ਗਤੀ ਦੇ ਚਿੰਨ੍ਹ ਤਕ ਇਹ 50 ਕਿ.ਮੀ. / ਘੰਟਾ ਹੈ.",
+          "optionD" : "ਗਤੀ ਸੀਮਾ 50 ਕਿ.ਮੀ. ਦੀ ਦੂਰੀ ਲਈ 50 ਕਿ.ਮੀ. / ਘੰਟਾ ਹੈ.",
+          "orderNo" : 36,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp115" : {
+          "correctAnswer" : "ਟ੍ਰੈਫਿਕ ਸਿਰਫ ਇਕ ਦਿਸ਼ਾ ਵਿਚ ਯਾਤਰਾ ਕਰ ਸਕਦਾ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F15.png?alt=media&token=491d8551-6233-4a73-8ac3-79228a08fecc",
+          "optionA" : "ਟ੍ਰੈਫਿਕ ਸਿਰਫ ਇਕ ਦਿਸ਼ਾ ਵਿਚ ਯਾਤਰਾ ਕਰ ਸਕਦਾ ਹੈ.",
+          "optionB" : "ਇਸ ਤਰੀਕੇ ਨਾਲ ਬਾਹਰ ਜਾਓ.",
+          "optionC" : "ਰੇਲਵੇ ਇਸ ਰਸਤੇ ਨੂੰ ਪਾਰ ਕਰਦਾ ਹੈ.",
+          "optionD" : "ਟਾਪੂ ਦੇ ਸੱਜੇ ਪਾਸੇ ਰਹੋ.",
+          "orderNo" : 37,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp116" : {
+          "correctAnswer" : "ਸੰਕੇਤਾਂ ਦੇ ਵਿਚਕਾਰ ਖੇਤਰ ਵਿੱਚ ਪਾਰਕ ਨਾ ਕਰੋ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F16.png?alt=media&token=5ed5f00c-207c-4244-9060-26bd5203de0f",
+          "optionA" : "ਸੰਕੇਤਾਂ ਦੇ ਵਿਚਕਾਰ ਖੇਤਰ ਵਿੱਚ ਪਾਰਕ ਨਾ ਕਰੋ.",
+          "optionB" : "ਇਸ ਖੇਤਰ ਵਿੱਚ ਕੋਈ ਪਾਰਕਿੰਗ ਨਹੀਂ ਹੈ.",
+          "optionC" : "ਸੰਕੇਤਾਂ ਦੇ ਵਿਚਕਾਰ ਦਾ ਖੇਤਰ ਜਨਤਕ ਆਵਾਜਾਈ ਲਈ ਰਾਖਵਾਂ ਹੈ.",
+          "optionD" : "ਸੰਕੇਤਾਂ ਦੇ ਵਿਚਕਾਰ ਖੇਤਰ ਵਿੱਚ ਪਾਰਕਿੰਗ ਦੀ ਆਗਿਆ ਹੈ.",
+          "orderNo" : 38,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp117" : {
+          "correctAnswer" : "ਚੌਰਾਹੇ ਤੋਂ ਨਾ ਚਲਾਓ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F17.png?alt=media&token=9ba0f0e6-a46a-4eb7-99ce-8f84937736aa",
+          "optionA" : "ਤੁਹਾਨੂੰ ਸਿੱਧੇ ਚੌਰਾਹੇ ਰਾਹੀਂ ਜਾਣ ਦੀ ਆਗਿਆ ਹੈ.",
+          "optionB" : "ਚੌਰਾਹੇ ਤੋਂ ਨਾ ਚਲਾਓ.",
+          "optionC" : "ਸੱਜੇ ਜਾਂ ਖੱਬੇ ਨਾ ਮੁੜੋ.",
+          "optionD" : "ਅੱਗੇ ਚੌਰਾਹੇ ਤੇ ਨਾ ਰੁਕੋ.",
+          "orderNo" : 39,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp118" : {
+          "correctAnswer" : "ਅਪੰਗਤਾ ਵਾਲੇ ਯਾਤਰੀਆਂ ਨੂੰ ਚੁੱਕਣਾ / ਉਤਾਰਨਾ ਵੈਧ ਪਹੁੰਚਯੋਗ ਪਾਰਕਿੰਗ ਪਰਮਿਟ ਵਾਲੇ ਵਾਹਨਾਂ ਲਈ ਕਰਬ ਖੇਤਰ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F18.png?alt=media&token=051a8f62-4568-4623-b7c3-b9e97e734536",
+          "optionA" : "ਕਰਬ ਖੇਤਰ ਐਂਬੂਲੈਂਸਾਂ ਲਈ ਰਾਖਵਾਂ ਹੈ.",
+          "optionB" : "ਅਪੰਗਤਾ ਵਾਲੇ ਯਾਤਰੀਆਂ ਨੂੰ ਚੁੱਕਣਾ / ਉਤਾਰਨਾ ਵੈਧ ਪਹੁੰਚਯੋਗ ਪਾਰਕਿੰਗ ਪਰਮਿਟ ਵਾਲੇ ਵਾਹਨਾਂ ਲਈ ਕਰਬ ਖੇਤਰ ਹੈ.",
+          "optionC" : "ਯਾਤਰੀਆਂ ਦੇ ਲੋਡਿੰਗ ਅਤੇ ਅਨਲੋਡਿੰਗ ਲਈ ਕਰਬ ਖੇਤਰ ਰਾਖਵਾਂ ਹੈ.",
+          "optionD" : "ਅਸੈਸਬਿਲਟੀ ਪਰਮਿਟ ਧਾਰਕਾਂ ਨੂੰ ਛੱਡ ਕੇ ਸਾਰੇ ਵਾਹਨਾਂ ਲਈ ਕਰਬ ਏਰੀਆ ਪਾਰਕਿੰਗ.",
+          "orderNo" : 40,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp16" : {
+          "correctAnswer" : "ਤੁਹਾਨੂੰ ਪਹਿਲਾਂ ਲਾਂਘੇ ਤੇ ਜਾਂ ਇਸ ਦੇ ਨੇੜੇ ਆਵਾਜਾਈ ਨੂੰ ਜਾਣ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F6.png?alt=media&token=ae1ca320-1589-44b9-9ca2-fcd8fdb26b6b",
+          "optionA" : "ਤੁਹਾਡੇ ਕੋਲ ਰਸਤਾ ਸਹੀ ਹੈ.",
+          "optionB" : "ਪੈਦਲ ਚੱਲਣ ਵਾਲਿਆਂ ਲਈ ਰੁਕੋ.",
+          "optionC" : "ਤੁਹਾਨੂੰ ਪਹਿਲਾਂ ਲਾਂਘੇ ਤੇ ਜਾਂ ਇਸ ਦੇ ਨੇੜੇ ਆਵਾਜਾਈ ਨੂੰ ਜਾਣ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ.",
+          "optionD" : "ਅੱਗੇ ਨਿਰਮਾਣ ਜ਼ੋਨ.",
+          "orderNo" : 21,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp17" : {
+          "correctAnswer" : "ਹੌਲੀ ਹੌਲੀ, ਸਕੂਲ ਜ਼ੋਨ ਅੱਗੇ, ਬੱਚਿਆਂ ਦੀ ਨਿਗਰਾਨੀ ਕਰੋ ਅਤੇ ਵਧੇਰੇ ਸਾਵਧਾਨੀ ਨਾਲ ਡਰਾਈਵ ਕਰੋ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F7.png?alt=media&token=b0ae5e04-e338-4520-8d94-8113795d2af8",
+          "optionA" : "ਸਕੂਲ ਜ਼ੋਨ, ਆਪਣੀ ਗਤੀ ਨੂੰ 50 ਕਿਮੀ / ਘੰਟਾ ਤੱਕ ਘਟਾਓ.",
+          "optionB" : "ਹੌਲੀ ਹੌਲੀ, ਸਕੂਲ ਜ਼ੋਨ ਅੱਗੇ, ਬੱਚਿਆਂ ਦੀ ਨਿਗਰਾਨੀ ਕਰੋ ਅਤੇ ਵਧੇਰੇ ਸਾਵਧਾਨੀ ਨਾਲ ਡਰਾਈਵ ਕਰੋ.",
+          "optionC" : "ਸਕੂਲ ਬੱਸ ਲੋਡਿੰਗ ਜ਼ੋਨ ਅੱਗੇ",
+          "optionD" : "ਅੱਗੇ ਸ਼ਹਿਰ ਦਾ ਕੇਂਦਰ.",
+          "orderNo" : 22,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp18" : {
+          "correctAnswer" : "ਯੋਗ ਪਹੁੰਚਯੋਗ ਪਾਰਕਿੰਗ ਪਰਮਿਟ ਵਾਲੇ ਵਾਹਨਾਂ ਨੂੰ ਛੱਡ ਕੇ ਕਿਸੇ ਪਾਰਕਿੰਗ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F8.png?alt=media&token=c873bcb5-b0e4-407b-94f0-7528d82c511f",
+          "optionA" : "ਇਥੇ ਪਾਰਕ ਨਾ ਕਰੋ.",
+          "optionB" : "ਯੋਗ ਪਹੁੰਚਯੋਗ ਪਾਰਕਿੰਗ ਪਰਮਿਟ ਵਾਲੇ ਵਾਹਨਾਂ ਨੂੰ ਛੱਡ ਕੇ ਕਿਸੇ ਪਾਰਕਿੰਗ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "optionC" : "ਇਸ ਖੇਤਰ ਵਿੱਚ ਪਹੁੰਚਯੋਗ ਪਾਰਕਿੰਗ ਉਪਲਬਧ ਨਹੀਂ ਹੈ.",
+          "optionD" : "ਪਹੁੰਚਯੋਗ ਪਾਰਕਿੰਗ ਪਰਮਿਟ ਧਾਰਕਾਂ ਨੂੰ ਲਾਜ਼ਮੀ ਤੌਰ 'ਤੇ ਆਪਣੇ ਵਾਹਨ ਸਾਈਨ ਦੇ ਨੇੜੇ ਵਾਲੇ ਖੇਤਰ ਤੋਂ ਪਾਰਕ ਕਰਨ ਚਾਹੀਦੇ ਹਨ.",
+          "orderNo" : 23,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp19" : {
+          "correctAnswer" : "ਇਸ ਰਸਤੇ ਤੇ ਕੋਈ ਸਾਈਕਲਾਂ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "imageUrl" : "https://firebasestorage.googleapis.com/v0/b/new-quiz-app-1cc80.appspot.com/o/roadSigns%2F9.png?alt=media&token=76ee948a-18f4-43e4-a8cd-fb1fa4666827",
+          "optionA" : "ਇਸ ਰਸਤੇ ਤੇ ਕੋਈ ਸਾਈਕਲਾਂ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "optionB" : "ਲੇਨ ਸਿਰਫ ਸਾਈਕਲਾਂ ਲਈ ਰਾਖਵੀਂ ਹੈ.",
+          "optionC" : "ਸਾਈਕਲ ਨੂੰ ਸੱਜੇ ਨਹੀਂ ਮੁੜਨਾ ਚਾਹੀਦਾ.",
+          "optionD" : "ਅੱਗੇ ਸਕੂਲ ਜ਼ੋਨ.",
+          "orderNo" : 24,
+          "question" : "ਇਸ ਸੜਕ ਚਿੰਨ੍ਹ ਦਾ ਕੀ ਅਰਥ ਹੈ?"
+        },
+        "qp211" : {
+          "correctAnswer" : "ਚੌਰਾਹੇ ਦੇ ਕਿਨਾਰੇ ਤੇ",
+          "imageUrl" : "",
+          "optionA" : "ਸਟਾਪ ਸਾਈਨ ਤੋਂ ਠੀਕ ਪਹਿਲਾਂ",
+          "optionB" : "ਚੌਰਾਹੇ ਦੇ ਕਿਨਾਰੇ ਤੇ",
+          "optionC" : "ਚੌਰਾਹੇ ਵਿੱਚ ਇੱਕ ਛੋਟਾ ਜਿਹਾ",
+          "optionD" : "ਸਟਾਪ ਨਿਸ਼ਾਨ ਦੇ ਬਿਲਕੁਲ ਨੇੜੇ",
+          "orderNo" : 26,
+          "question" : "ਜਦੋਂ ਕਿਸੇ ਲਾਂਘੇ ਤੇ ਪਹੁੰਚਦੇ ਹੋ ਜਿਸ ਕੋਲ ਕੋਈ ਸਟਾਪ ਲਾਈਨ, ਕ੍ਰਾਸਵੌਕ ਜਾਂ ਫੁੱਟਪਾਥ ਨਹੀਂ ਹੁੰਦਾ, ਤਾਂ ਡਰਾਈਵਰ ਕਿੱਥੇ ਰੁਕਣੇ ਚਾਹੀਦੇ ਹਨ?"
+        },
+        "qp212" : {
+          "correctAnswer" : "ਇਜਾਜ਼ਤ ਹੁੰਦੀ ਹੈ ਜਦੋਂ ਗਲੀ ਜਾਂ ਹਾਈਵੇ 'ਤੇ ਟ੍ਰੈਫਿਕ ਲਈ ਦੋ ਜਾਂ ਦੋ ਵਧੇਰੇ ਮਾਰਗਾਂ ਹੁੰਦੀਆਂ ਹਨ.",
+          "imageUrl" : "",
+          "optionA" : "ਦੀ ਇਜਾਜ਼ਤ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ ਤਾਂਕਿ ਸੜਕ ਦੇ ਮੋ shoulderੇ 'ਤੇ ਚਲਾ ਕੇ ਅਜਿਹਾ ਕਰਨਾ ਸੰਭਵ ਹੋਵੇ",
+          "optionB" : "ਇਜਾਜ਼ਤ ਹੁੰਦੀ ਹੈ ਜਦੋਂ ਗਲੀ ਜਾਂ ਹਾਈਵੇ 'ਤੇ ਟ੍ਰੈਫਿਕ ਲਈ ਦੋ ਜਾਂ ਦੋ ਵਧੇਰੇ ਮਾਰਗਾਂ ਹੁੰਦੀਆਂ ਹਨ.",
+          "optionC" : "ਕਿਸੇ ਵੀ ਗਲੀ ਜਾਂ ਹਾਈਵੇ 'ਤੇ ਕਿਸੇ ਵੀ ਸਮੇਂ ਇਜਾਜ਼ਤ ਹੈ",
+          "optionD" : "ਕਿਸੇ ਵੀ ਸਥਿਤੀ ਵਿਚ ਆਗਿਆ ਨਹੀਂ ਹੈ",
+          "orderNo" : 27,
+          "question" : "ਜਦੋਂ ਇਹ ਕਰਨਾ ਸੁਰੱਖਿਅਤ ਹੈ, ਤਾਂ ਦੂਜੇ ਵਾਹਨਾਂ ਨੂੰ ਸੱਜੇ ਪਾਸੇ ਤੋਂ ਲੰਘਣਾ"
+        },
+        "qp213" : {
+          "correctAnswer" : "ਡਰਾਈਵਰਾਂ ਨੂੰ ਸਾਵਧਾਨੀ ਨਾਲ ਅੱਗੇ ਵਧਣ ਦੀ ਚੇਤਾਵਨੀ ਦਿੰਦਾ ਹੈ",
+          "imageUrl" : "",
+          "optionA" : "ਖੱਬੇ ਪਾਸੇ ਮੁੜਨ ਤੇ ਚਾਲਕਾਂ ਨੂੰ ਰੋਕਣ ਦੀ ਜ਼ਰੂਰਤ ਹੈ",
+          "optionB" : "ਡਰਾਈਵਰਾਂ ਨੂੰ ਸਾਵਧਾਨੀ ਨਾਲ ਅੱਗੇ ਵਧਣ ਦੀ ਚੇਤਾਵਨੀ ਦਿੰਦਾ ਹੈ",
+          "optionC" : "ਡਰਾਈਵਰਾਂ ਨੂੰ ਉਸੇ ਗਤੀ ਤੇ ਜਾਰੀ ਰੱਖਣ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ",
+          "optionD" : "ਜੇ ਚਾਲੂ ਕਰਨਾ ਸਹੀ ਹੈ ਤਾਂ ਡਰਾਈਵਰਾਂ ਨੂੰ ਰੋਕਣਾ ਚਾਹੀਦਾ ਹੈ",
+          "orderNo" : 28,
+          "question" : "ਇੱਕ ਲਾਂਘੇ ਦੇ ਉੱਪਰ ਇੱਕ ਚਮਕਦਾਰ ਪੀਲਾ ਬੱਤੀ:"
+        },
+        "qp214" : {
+          "correctAnswer" : "ਕਿਸੇ ਵੀ ਸਥਿਤੀ ਵਿੱਚ ਇੱਕ ਮੋਟਰ ਵਾਹਨ ਨੂੰ ਸੰਚਲਿਤ ਨਾ ਕਰੋ",
+          "imageUrl" : "",
+          "optionA" : "ਜਦੋਂ ਲਾਇਸੰਸਸ਼ੁਦਾ ਡਰਾਈਵਰ ਸਮੇਤ ਮੋਟਰ ਵਾਹਨ ਚਲਾਓ",
+          "optionB" : "ਅਤਿ ਸੰਕਟਕਾਲੀਨ ਸਥਿਤੀ ਵਿੱਚ ਇੱਕ ਮੋਟਰ ਵਾਹਨ ਚਲਾਓ",
+          "optionC" : "ਕਿਸੇ ਵੀ ਸਥਿਤੀ ਵਿੱਚ ਇੱਕ ਮੋਟਰ ਵਾਹਨ ਨੂੰ ਸੰਚਲਿਤ ਨਾ ਕਰੋ",
+          "optionD" : "ਕੰਮ ਤੇ ਅਤੇ ਆਉਣ ਤੋਂ ਬਾਅਦ ਇਕ ਮੋਟਰ ਵਾਹਨ ਚਲਾਓ",
+          "orderNo" : 29,
+          "question" : "ਇੱਕ ਵਿਅਕਤੀ ਜਿਸਦਾ ਡਰਾਈਵਰ ਲਾਇਸੈਂਸ ਮੁਅੱਤਲ ਅਧੀਨ ਹੈ, ਹੋ ਸਕਦਾ ਹੈ"
+        },
+        "qp215" : {
+          "correctAnswer" : "ਸਿਗਨਲ, ਰਫਤਾਰ ਵਧਾਓ, ਅਤੇ ਆਵਾਜਾਈ ਦੇ ਨਾਲ ਸੁਮੇਲ ਕਰੋ",
+          "imageUrl" : "",
+          "optionA" : "ਹੌਲੀ ਹੌਲੀ ਗੱਡੀ ਚਲਾਓ ਅਤੇ ਫ੍ਰੀਵੇਅ ਟ੍ਰੈਫਿਕ ਨੂੰ ਰੋਕਣ ਲਈ ਤਿਆਰ ਰਹੋ",
+          "optionB" : "ਸਿਗਨਲ, ਰਫਤਾਰ ਵਧਾਓ, ਅਤੇ ਆਵਾਜਾਈ ਦੇ ਨਾਲ ਸੁਮੇਲ ਕਰੋ",
+          "optionC" : "ਐਕਸਲੇਸ਼ਨ ਲੇਨ 'ਤੇ ਰੁਕੋ, ਇਕ ਖੁੱਲਣ ਦੀ ਉਡੀਕ ਕਰੋ, ਅਤੇ ਫਿਰ ਫ੍ਰੀਵੇਅ ਤੇਜ਼ੀ ਨਾਲ ਦਾਖਲ ਹੋਵੋ.",
+          "optionD" : "ਹੌਲੀ ਹੋਵੋ, ਫਿਰ ਤਿੱਖੇ ਕੋਣ ਤੇ ਫ੍ਰੀਵੇਅ ਤੇ ਦਾਖਲ ਹੋਵੋ",
+          "orderNo" : 30,
+          "question" : "ਰਾਜਮਾਰਗ ਵਿੱਚ ਦਾਖਲ ਹੁੰਦੇ ਸਮੇਂ, ਡਰਾਈਵਰਾਂ ਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?"
+        },
+        "qp41" : {
+          "correctAnswer" : "ਖੱਬੇ ਹੱਥ ਮੋੜਨ ਵਾਲੀ ਸੜਕ ਦੇ ਵਾਹਨ ਖੱਬੇ ਪਾਸੇ ਹੋ ਸਕਦੇ ਹਨ.",
+          "imageUrl" : "  ",
+          "optionA" : "ਸਿਰਫ ਪੈਦਲ ਯਾਤਰੀ ਪਾਰ ਕਰ ਸਕਦੇ ਹਨ. ਵਾਹਨਾਂ ਨੂੰ ਮੁੜਨ ਦੀ ਆਗਿਆ ਨਹੀਂ ਹੈ.",
+          "optionB" : "ਖੱਬੇ ਹੱਥ ਮੋੜਨ ਵਾਲੀ ਸੜਕ ਦੇ ਵਾਹਨ ਖੱਬੇ ਪਾਸੇ ਹੋ ਸਕਦੇ ਹਨ.",
+          "optionC" : "ਖੱਬੇ ਹੱਥ ਮੋੜਨ ਵਾਲੀ ਸੜਕ ਦੇ ਵਾਹਨ ਸੱਜੇ ਮੁੜ ਸਕਦੇ ਹਨ.",
+          "optionD" : "ਹਰੇ ਰੰਗ ਦਾ ਤੀਰ ਸੰਕੇਤ ਦਿੰਦਾ ਹੈ ਕਿ ਇਕ ਤਰਫਾ ਗਲੀ ਹੈ. ਹਰੇ ਤੀਰ ਦੀ ਦਿਸ਼ਾ ਵਨ-ਵੇਅ ਗਲੀ ਦੀ ਦਿਸ਼ਾ ਦਰਸਾਉਂਦੀ ਹੈ.",
+          "orderNo" : 1,
+          "question" : "ਇਸਦਾ ਕੀ ਅਰਥ ਹੈ ਜਦੋਂ ਤੁਸੀਂ ਲਾਲ ਬੱਤੀ ਤੇ ਹੁੰਦੇ ਹੋ ਪਰ ਇੱਕ ਹਰੇ ਤੀਰ ਦਾ ਸੰਕੇਤ ਛੱਡ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ?"
+        },
+        "qp410" : {
+          "correctAnswer" : "ਸੈਂਟਰ ਦੀ ਵੰਡ ਵਾਲੀ ਲਾਈਨ ਦੇ ਨਜ਼ਦੀਕੀ ਲੇਨ ਤੋਂ ਮੁੜੋ ਅਤੇ ਇਕ ਭਾਗ ਬਣਾਉਂਦੇ ਲਾਈਨ ਦੇ ਸੱਜੇ ਪਾਸੇ ਲੇਨ ਵਿਚ ਸੁਵਿਧਾ ਚਾਪ ਬਣਾਉ.",
+          "imageUrl" : "  ",
+          "optionA" : "ਇੱਕ ਨਿਰਵਿਘਨ ਚਾਪ ਬਣਾਉਂਦਿਆਂ ਸੱਜੇ ਲੇਨ ਤੋਂ ਮੁੜੋ.",
+          "optionB" : "ਵਿਚਕਾਰਲੀ ਲਾਈਨ ਦੇ ਸੱਜੇ ਪਾਸੇ ਨੂੰ ਇੱਕ ਨਿਰਵਿਘਨ ਚਾਪ ਬਣਾਉਂਦਿਆਂ ਸੱਜੇ ਪਾਸੇ ਤੋਂ ਮੁੜੋ.",
+          "optionC" : "ਸੱਜੇ ਕਰਬ ਲੇਨ ਵਿੱਚ ਵੰਡਣ ਵਾਲੀ ਲਾਈਨ ਦੇ ਨਜ਼ਦੀਕੀ ਲੇਨ ਤੋਂ ਮੁੜੋ.",
+          "optionD" : "ਸੈਂਟਰ ਦੀ ਵੰਡ ਵਾਲੀ ਲਾਈਨ ਦੇ ਨਜ਼ਦੀਕੀ ਲੇਨ ਤੋਂ ਮੁੜੋ ਅਤੇ ਇਕ ਭਾਗ ਬਣਾਉਂਦੇ ਲਾਈਨ ਦੇ ਸੱਜੇ ਪਾਸੇ ਲੇਨ ਵਿਚ ਸੁਵਿਧਾ ਚਾਪ ਬਣਾਉ.",
+          "orderNo" : 10,
+          "question" : "ਇੱਕ ਦੋ ਪਾਸੀ ਸੜਕ ਤੋਂ ਦੂਜੀ ਦੋ-ਮਾਰਗ ਸੜਕ ਤੇ ਜਾਣ ਲਈ ਖੱਬੇ ਪਾਸੇ ਜਾਣ ਦਾ ਸਹੀ ਤਰੀਕਾ ਕੀ ਹੈ?"
+        },
+        "qp411" : {
+          "correctAnswer" : "ਚੜ੍ਹਨਾ ਜਾਂ ਲੰਘਦੀਆਂ ਲੇਨਾਂ ਹੌਲੀ ਵਾਹਨ ਨੂੰ ਸੱਜੇ ਪਾਸੇ ਜਾਣ ਦੀ ਆਗਿਆ ਦਿੰਦੀਆਂ ਹਨ ਤਾਂ ਜੋ ਤੇਜ਼ ਵਾਹਨ ਖੱਬੇ ਪਾਸੇ ਤੋਂ ਲੰਘ ਸਕਣ.",
+          "imageUrl" : "  ",
+          "optionA" : "ਉਹ ਡਰਾਈਵਰਾਂ ਅਤੇ ਯਾਤਰੀਆਂ ਨੂੰ ਦ੍ਰਿਸ਼ਾਂ ਦਾ ਅਨੰਦ ਲੈਣ ਵਿੱਚ ਸਹਾਇਤਾ ਕਰਦੇ ਹਨ.",
+          "optionB" : "ਚੜ੍ਹਨਾ ਜਾਂ ਲੰਘਦੀਆਂ ਲੇਨਾਂ ਹੌਲੀ ਵਾਹਨ ਨੂੰ ਸੱਜੇ ਪਾਸੇ ਜਾਣ ਦੀ ਆਗਿਆ ਦਿੰਦੀਆਂ ਹਨ ਤਾਂ ਜੋ ਤੇਜ਼ ਵਾਹਨ ਖੱਬੇ ਪਾਸੇ ਤੋਂ ਲੰਘ ਸਕਣ.",
+          "optionC" : "ਉਹ ਵਾਹਨ ਚਾਲਕਾਂ ਲਈ ਰੁਕਣ ਅਤੇ ਆਰਾਮ ਕਰਨ ਦਾ ਇੱਕ ਮੌਕਾ ਹਨ.",
+          "optionD" : "ਚੜ੍ਹਨਾ ਜਾਂ ਲੰਘਣਾ ਲੇਨਾਂ ਉਨ੍ਹਾਂ ਵਾਹਨਾਂ ਲਈ ਹਨ ਜੋ ਆਪਣੀ ਬ੍ਰੇਕਿੰਗ ਯੋਗਤਾ ਦੀ ਜਾਂਚ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹਨ.",
+          "orderNo" : 11,
+          "question" : "ਲੇਨ ਚੜ੍ਹਨ ਜਾਂ ਲੰਘਣ ਦਾ ਕੀ ਮਕਸਦ ਹੈ?"
+        },
+        "qp412" : {
+          "correctAnswer" : "ਸਿਰਫ ਤਾਂ ਹੀ ਜੇ ਕੋਈ ਵਾਹਨ ਖੱਬੇ ਮੁੜ ਰਿਹਾ ਹੈ ਅਤੇ ਤੁਹਾਡੇ ਸੱਜੇ ਪਾਸੇ ਇਕ ਮੋ shoulderਾ ਮੋ shoulderਾ ਹੈ.",
+          "imageUrl" : "  ",
+          "optionA" : "ਜੇ ਤੁਸੀਂ ਸੁਰੱਖਿਅਤ passੰਗ ਨਾਲ ਲੰਘ ਸਕਦੇ ਹੋ.",
+          "optionB" : "ਸਿਰਫ ਤਾਂ ਹੀ ਜੇ ਕੋਈ ਵਾਹਨ ਖੱਬੇ ਮੁੜ ਰਿਹਾ ਹੈ ਅਤੇ ਤੁਹਾਡੇ ਸੱਜੇ ਪਾਸੇ ਇਕ ਮੋ shoulderਾ ਮੋ shoulderਾ ਹੈ.",
+          "optionC" : "ਸਿਰਫ ਤਾਂ ਹੀ ਜੇ ਕੋਈ ਵਾਹਨ ਖੱਬੇ ਮੁੜ ਰਿਹਾ ਹੈ ਅਤੇ ਤੁਹਾਡੇ ਸੱਜੇ ਪਾਸੇ ਇੱਕ ਮੋpaੇ ਦਾ ਮੋ shoulderਾ ਹੈ.",
+          "optionD" : "ਜੇ ਤੁਹਾਡੇ ਸਾਹਮਣੇ ਵਾਲੀ ਗੱਡੀ ਬਹੁਤ ਹੌਲੀ ਚੱਲ ਰਹੀ ਹੈ.",
+          "orderNo" : 12,
+          "question" : "ਮੋ aੇ 'ਤੇ ਲੰਘਣਾ ਕਦੋਂ ਮਨਜ਼ੂਰ ਹੈ?"
+        },
+        "qp413" : {
+          "correctAnswer" : "ਬਹੁਤ ਖੱਬੇ ਪਾਸੇ ਤੋਂ ਖੱਬੇ ਕਰਬ ਲੇਨ ਵਿੱਚ ਜਾਓ.",
+          "imageUrl" : "  ",
+          "optionA" : "ਬਹੁਤ ਖੱਬੇ ਪਾਸੇ ਤੋਂ ਖੱਬੇ ਕਰਬ ਲੇਨ ਵਿੱਚ ਜਾਓ.",
+          "optionB" : "ਖੱਬੇ ਪਾਸੇ ਤੋਂ ਖੱਬੇ ਪਾਸੇ ਤੋਂ ਸੱਜੇ ਕਰਬ ਲੇਨ ਵਿਚ ਜਾਓ.",
+          "optionC" : "ਖੱਬੇ ਕਰਬ ਲੇਨ ਵਿੱਚ ਸੱਜੇ ਪਾਸੇ ਤੋਂ ਸੱਜੇ ਪਾਸੇ ਨੂੰ ਮੁੜੋ.",
+          "optionD" : "ਸੱਜੇ ਲੇਨ ਤੋਂ ਸੱਜੇ ਕਰਬ ਲੇਨ ਵਿੱਚ ਜਾਓ.",
+          "orderNo" : 13,
+          "question" : "ਦੋ ਮਾਰਗੀ ਮਾਰਗਾਂ ਵਾਲੇ ਇੱਕ ਰਸਤੇ ਤੋਂ ਦੋ ਮਾਰਗੀ ਸੜਕ ਤੋਂ ਖੱਬੇ ਪਾਸਾ ਬਣਾਉਣ ਦਾ ਸਹੀ ਤਰੀਕਾ ਕੀ ਹੈ?"
+        },
+        "qp414" : {
+          "correctAnswer" : "ਹਰ ਪਾਸੇ ਮੋ shoulderੇ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਆਪਣੇ ਸਿਰ ਨੂੰ ਮੋੜੋ",
+          "imageUrl" : "  ",
+          "optionA" : "ਆਪਣੇ ਸਾਈਡ ਵਿ view ਮਿਰਰ ਦੀ ਵਰਤੋਂ ਕਰੋ.",
+          "optionB" : "ਆਪਣੇ ਰੀਅਰ ਵਿ. ਮਿਰਰ ਦੀ ਵਰਤੋਂ ਕਰੋ.",
+          "optionC" : "ਆਪਣੇ ਰੀਅਰ ਵਿ view ਮਿਰਰ ਅਤੇ ਸਾਈਡ ਵਿ view ਮਿਰਰ ਦਾ ਸੁਮੇਲ ਵਰਤੋ.",
+          "optionD" : "ਹਰ ਪਾਸੇ ਮੋ shoulderੇ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਆਪਣੇ ਸਿਰ ਨੂੰ ਮੋੜੋ",
+          "orderNo" : 14,
+          "question" : "ਆਪਣੇ ਵਾਹਨ ਦੇ ਅੰਨ੍ਹੇ ਸਥਾਨਾਂ ਦੀ ਜਾਂਚ ਕਰਨ ਦਾ ਸਹੀ ਤਰੀਕਾ ਕੀ ਹੈ?"
+        },
+        "qp415" : {
+          "correctAnswer" : "ਸੱਜੇ ਪਾਸੇ ਵਾਹਨ.",
+          "imageUrl" : "  ",
+          "optionA" : "ਸੱਜੇ ਪਾਸੇ ਵਾਹਨ.",
+          "optionB" : "ਖੱਬੇ ਪਾਸੇ ਵਾਹਨ.",
+          "optionC" : "ਵਾਹਨ ਜੋ ਸੱਜੇ ਮੁੜ ਰਿਹਾ ਹੈ.",
+          "optionD" : "ਵਾਹਨ ਜੋ ਖੱਬੇ ਮੁੜ ਰਿਹਾ ਹੈ.",
+          "orderNo" : 15,
+          "question" : "ਕੌਣ ਸਹੀ-ਰਾਹ ਹੈ ਜੇ ਦੋ ਵਾਹਨ ਇਕੋ ਸਮੇਂ ਇਕ ਨਿਯੰਤਰਿਤ ਲਾਂਘੇ ਤੇ ਆਉਂਦੇ ਹਨ?"
+        },
+        "qp416" : {
+          "correctAnswer" : "2 - ਡਰਾਈਵਰ ਪਲੱਸ 1 ਯਾਤਰੀ.",
+          "imageUrl" : "  ",
+          "optionA" : "3 - ਡਰਾਈਵਰ ਤੋਂ ਇਲਾਵਾ 2 ਯਾਤਰੀ.",
+          "optionB" : "2 - ਡਰਾਈਵਰ ਪਲੱਸ 1 ਯਾਤਰੀ.",
+          "optionC" : "4 - ਡਰਾਈਵਰ ਤੋਂ ਇਲਾਵਾ 3 ਯਾਤਰੀ.",
+          "optionD" : "5 - ਡਰਾਈਵਰ ਤੋਂ ਇਲਾਵਾ 4 ਯਾਤਰੀ.",
+          "orderNo" : 16,
+          "question" : "ਯਾਤਰੀਆਂ ਦੀ ਘੱਟੋ ਘੱਟ ਗਿਣਤੀ ਕੀ ਹੈ ਕਿ ਐਚਓਵੀ ਜਾਂ ਉੱਚ ਆਕੂਪੈਂਸੀ ਵਾਹਨ ਲੇਨਾਂ ਰਾਖਵੇਂ ਹਨ?"
+        },
+        "qp417" : {
+          "correctAnswer" : "ਜਿੰਨਾ ਸੰਭਵ ਹੋ ਸਕੇ ਆਵਾਜਾਈ ਵਿੱਚ ਅਭੇਦ ਹੋਣ ਲਈ ਸੰਕੇਤ ਦਿਓ ਅਤੇ ਫਿਰ ਤੇਜ਼ ਕਰੋ.",
+          "imageUrl" : "  ",
+          "optionA" : "ਟ੍ਰੈਫਿਕ ਵਿਚ ਖੁੱਲ੍ਹਣ ਦੀ ਉਡੀਕ ਕਰਦਿਆਂ ਹੌਲੀ ਹੋਵੋ ਜਾਂ ਰੁਕੋ.",
+          "optionB" : "ਜਿੰਨੀ ਜਲਦੀ ਹੋ ਸਕੇ ਫ੍ਰੀਵੇਅ ਵਿੱਚ ਦਾਖਲ ਹੋਣ ਲਈ ਤੇਜ਼ ਕਰੋ.",
+          "optionC" : "ਜਿੰਨਾ ਸੰਭਵ ਹੋ ਸਕੇ ਆਵਾਜਾਈ ਵਿੱਚ ਅਭੇਦ ਹੋਣ ਲਈ ਸੰਕੇਤ ਦਿਓ ਅਤੇ ਫਿਰ ਤੇਜ਼ ਕਰੋ.",
+          "optionD" : "ਦੂਸਰੇ ਵਾਹਨ ਕੀ ਕਰ ਰਹੇ ਹਨ ਦੀ ਪਾਲਣਾ ਕਰੋ.",
+          "orderNo" : 17,
+          "question" : "ਜਦੋਂ ਤੁਸੀਂ ਫ੍ਰੀਵੇਅ ਵਿਚ ਦਾਖਲ ਹੁੰਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?"
+        },
+        "qp418" : {
+          "correctAnswer" : "ਵਾਹਨ ਚਲਾਉਣ ਤੋਂ ਬਾਅਦ ਦੂਜੇ ਡਰਾਈਵਰਾਂ ਨਾਲ ਜਾਣਕਾਰੀ ਦਾ ਆਦਾਨ-ਪ੍ਰਦਾਨ ਕਰੋ ਜੋ ਸੜਕ ਤੋਂ ਬਾਹਰ ਚਲਣ ਯੋਗ ਹਨ.",
+          "imageUrl" : "  ",
+          "optionA" : "ਭਾਵੇਂ ਕਿ ਨੁਕਸਾਨ $ 1000 ਤੋਂ ਘੱਟ ਹਨ, ਤੁਹਾਨੂੰ ਤੁਰੰਤ 911 'ਤੇ ਫ਼ੋਨ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ.",
+          "optionB" : "ਪੁਲਿਸ ਨੂੰ ਇਹ ਨਿਰਧਾਰਤ ਕਰਨ ਦੇ ਯੋਗ ਕਰਨ ਲਈ ਕਿ ਕੌਣ ਕਸੂਰਵਾਰ ਹੈ, ਵਾਹਨ ਜਿੱਥੇ ਉਹ ਹੋਣ ਨੂੰ ਛੱਡ ਦਿਓ.",
+          "optionC" : "ਆਪਣੇ ਵਕੀਲ ਨੂੰ ਕਾਲ ਕਰੋ.",
+          "optionD" : "ਵਾਹਨ ਚਲਾਉਣ ਤੋਂ ਬਾਅਦ ਦੂਜੇ ਡਰਾਈਵਰਾਂ ਨਾਲ ਜਾਣਕਾਰੀ ਦਾ ਆਦਾਨ-ਪ੍ਰਦਾਨ ਕਰੋ ਜੋ ਸੜਕ ਤੋਂ ਬਾਹਰ ਚਲਣ ਯੋਗ ਹਨ.",
+          "orderNo" : 18,
+          "question" : "ਤੁਸੀਂ ਇੱਕ ਦੁਰਘਟਨਾ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋ ਜਿੱਥੇ ਹਰਜਾਨਾ $ 1000 ਤੋਂ ਘੱਟ ਹੈ ਅਤੇ ਕੋਈ ਜ਼ਖਮੀ ਨਹੀਂ ਹੋਇਆ ਹੈ, ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?"
+        },
+        "qp419" : {
+          "correctAnswer" : "ਆਪਣੇ ਇਰਾਦਿਆਂ ਨੂੰ ਸਿਗਨਲ ਕਰੋ ਅਤੇ ਹੌਲੀ ਹੌਲੀ ਗਤੀ ਨੂੰ ਘਟਾਉਂਦੇ ਹੋਏ ਐਗਜ਼ਿਟ ਲੇਨ ਵਿੱਚ ਧਿਆਨ ਨਾਲ ਜਾਓ - ਪੋਸਟ ਕੀਤੇ ਸੜਕ ਸੰਕੇਤਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ.",
+          "imageUrl" : "  ",
+          "optionA" : "ਉਹੀ ਗਤੀ ਬਣਾਈ ਰੱਖੋ ਜਿੰਨੀ ਤੁਹਾਡੇ ਅੱਗੇ ਵਾਹਨ ਹੈ.",
+          "optionB" : "ਹੌਲੀ ਹੋਵੋ ਅਤੇ ਬਾਹਰ ਨਿਕਲਣ ਦੇ ਮੌਕੇ ਦੀ ਉਡੀਕ ਕਰੋ.",
+          "optionC" : "ਆਪਣੇ ਇਰਾਦਿਆਂ ਨੂੰ ਸਿਗਨਲ ਕਰੋ ਅਤੇ ਹੌਲੀ ਹੌਲੀ ਗਤੀ ਨੂੰ ਘਟਾਉਂਦੇ ਹੋਏ ਐਗਜ਼ਿਟ ਲੇਨ ਵਿੱਚ ਧਿਆਨ ਨਾਲ ਜਾਓ - ਪੋਸਟ ਕੀਤੇ ਸੜਕ ਸੰਕੇਤਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ.",
+          "optionD" : "ਬਾਹਰ ਜਾਣ ਦੇ ਰੈਂਪ ਵੱਲ ਸਿਗਨਲ ਅਤੇ ਤੇਜ਼ੀ ਨਾਲ ਵਧਾਓ.",
+          "orderNo" : 19,
+          "question" : "ਫ੍ਰੀਵੇਅ ਤੋਂ ਬਾਹਰ ਜਾਣ ਵੇਲੇ, ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ?"
+        },
+        "qp42" : {
+          "correctAnswer" : "150 ਮੀ.",
+          "imageUrl" : "  ",
+          "optionA" : "250 ਮੀ.",
+          "optionB" : "150 ਮੀ.",
+          "optionC" : "75 ਮੀ.",
+          "optionD" : "50 ਮੀ.",
+          "orderNo" : 2,
+          "question" : "ਜੇ ਤੁਸੀਂ ਯੂ-ਟਰਨ ਬਣਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਤੁਹਾਨੂੰ ਦੋਨਾਂ ਦਿਸ਼ਾਵਾਂ ਵਿਚ ਕਿੰਨੀ ਕੁ ਦੂਰ ਵੇਖਣਾ ਪਏਗਾ?"
+        },
+        "qp420" : {
+          "correctAnswer" : "50 ਕਿਮੀ / ਘੰਟਾ.",
+          "imageUrl" : "  ",
+          "optionA" : "50 ਕਿਮੀ / ਘੰਟਾ.",
+          "optionB" : "80 ਕਿਮੀ / ਘੰਟਾ.",
+          "optionC" : "40 ਕਿਮੀ / ਘੰਟਾ.",
+          "optionD" : "30 ਕਿਮੀ / ਘੰਟਾ.",
+          "orderNo" : 20,
+          "question" : "ਜਦੋਂ ਤੱਕ ਕਿ ਪਿੰਡਾਂ, ਕਸਬਿਆਂ, ਸ਼ਹਿਰਾਂ ਅਤੇ ਹੋਰ ਨਿਰਮਿਤ ਖੇਤਰਾਂ ਵਿੱਚ ਤਾਇਨਾਤ ਨਹੀਂ ਕੀਤਾ ਜਾਂਦਾ, ਗਤੀ ਦੀ ਅਧਿਕਤਮ ਸੀਮਾ ਕਿੰਨੀ ਹੈ?"
+        },
+        "qp43" : {
+          "correctAnswer" : "ਫਾਇਰ ਹਾਈਡ੍ਰੈਂਟ ਦੇ 3 ਮੀਟਰ ਦੇ ਅੰਦਰ ਕਦੇ ਪਾਰਕ ਨਾ ਕਰੋ.",
+          "imageUrl" : "  ",
+          "optionA" : "ਆਪਣੇ ਪਹੀਏ ਨਾਲ ਕਰਬ ਤੋਂ 12 ਇੰਚ ਤੋਂ ਵੱਧ ਪਾਰਕ ਕਰੋ.",
+          "optionB" : "ਨਿਯੰਤਰਿਤ ਲਾਂਘਾ ਦੇ 150 ਮੀਟਰ ਦੇ ਅੰਦਰ ਕਦੇ ਪਾਰਕ ਨਾ ਕਰੋ.",
+          "optionC" : "ਫਾਇਰ ਹਾਈਡ੍ਰੈਂਟ ਦੇ 3 ਮੀਟਰ ਦੇ ਅੰਦਰ ਕਦੇ ਪਾਰਕ ਨਾ ਕਰੋ.",
+          "optionD" : "ਫਾਇਰ ਹਾਈਡ੍ਰੈਂਟ ਦੇ 15 ਮੀਟਰ ਦੇ ਅੰਦਰ ਕਦੇ ਪਾਰਕ ਨਾ ਕਰੋ.",
+          "orderNo" : 3,
+          "question" : "ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਹੜਾ ਪਾਰਕਿੰਗ ਜ਼ਰੂਰੀ ਹੈ?"
+        },
+        "qp44" : {
+          "correctAnswer" : "ਕੋਈ ਹੋਰ ਵਾਹਨ ਤੁਹਾਡੇ ਨਾਲ ਟਕਰਾ ਸਕਦਾ ਹੈ ਜਾਂ ਟਕਰਾ ਸਕਦਾ ਹੈ ਅਤੇ ਤੁਹਾਨੂੰ ਆਉਣ ਵਾਲੇ ਟ੍ਰੈਫਿਕ ਵਿਚ ਧੱਕ ਸਕਦਾ ਹੈ.",
+          "imageUrl" : "  ",
+          "optionA" : "ਇਹ ਕੋਈ ਮਾੜਾ ਵਿਚਾਰ ਨਹੀਂ ਹੈ, ਇਹ ਤੁਹਾਨੂੰ ਤੇਜ਼ੀ ਨਾਲ ਬਦਲਣ ਵਿਚ ਸਹਾਇਤਾ ਕਰਦਾ ਹੈ.",
+          "optionB" : "ਕੋਈ ਹੋਰ ਵਾਹਨ ਤੁਹਾਡੇ ਨਾਲ ਟਕਰਾ ਸਕਦਾ ਹੈ ਜਾਂ ਟਕਰਾ ਸਕਦਾ ਹੈ ਅਤੇ ਤੁਹਾਨੂੰ ਆਉਣ ਵਾਲੇ ਟ੍ਰੈਫਿਕ ਵਿਚ ਧੱਕ ਸਕਦਾ ਹੈ.",
+          "optionC" : "ਇਹ ਸਿਰਫ ਬੇਲੋੜਾ ਤੁਹਾਡੇ ਵਾਹਨ ਦੇ ਪਹਿਨਣ ਅਤੇ ਅੱਥਰੂ ਜੋੜਦਾ ਹੈ.",
+          "optionD" : "ਜੇ ਤੁਸੀਂ ਆਪਣਾ ਮਨ ਬਦਲਦੇ ਹੋ ਅਤੇ ਸਹੀ ਬਦਲਣ ਦਾ ਫੈਸਲਾ ਲੈਂਦੇ ਹੋ, ਅਜਿਹਾ ਕਰਨਾ ਇੰਨਾ hardਖਾ ਹੋਵੇਗਾ.",
+          "orderNo" : 4,
+          "question" : "ਜਦੋਂ ਕਿਸੇ ਚੌਰਾਹੇ ਤੇ ਖੱਬਾ ਮੋੜ ਬਣਾਉਣ ਦੀ ਉਡੀਕ ਕਰ ਰਿਹਾ ਹੋਵੇ ਤਾਂ ਆਪਣੇ ਸਟਿਅਰਿੰਗ ਚੱਕਰ ਨੂੰ ਖੱਬੇ ਪਾਸੇ ਮੋੜਨਾ ਇੱਕ ਮਾੜਾ ਵਿਚਾਰ ਕਿਉਂ ਹੈ?"
+        },
+        "qp45" : {
+          "correctAnswer" : "ਆਵਾਜਾਈ ਅਤੇ / ਜਾਂ ਪਾਰ ਲੰਘਣ ਵਾਲੇ ਰਾਹਗੀਰਾਂ ਦਾ ਰਸਤਾ ਪ੍ਰਾਪਤ ਕਰਨ ਦਾ ਅਧਿਕਾਰ ਹੈ. ਤੁਹਾਨੂੰ ਉਨ੍ਹਾਂ ਨੂੰ ਸਹੀ-ਰਾਹ ਦਾ ਫਲ ਜ਼ਰੂਰ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ.",
+          "imageUrl" : "  ",
+          "optionA" : "ਜਿਹੜਾ ਵੀ ਕਾਹਲੀ ਵਿੱਚ ਹੈ ਉਹ ਪਹਿਲਾਂ ਜਾ ਸਕਦਾ ਹੈ.",
+          "optionB" : "ਤੁਹਾਡੇ ਕੋਲ ਰਸਤਾ ਸਹੀ ਹੈ. ਪੂਰੀ ਤਰ੍ਹਾਂ ਰੁਕਣ 'ਤੇ ਆਉਣ ਤੋਂ ਬਾਅਦ ਆਪਣੀ ਵਾਰੀ ਬਣਾਓ.",
+          "optionC" : "ਆਵਾਜਾਈ ਅਤੇ / ਜਾਂ ਪਾਰ ਲੰਘਣ ਵਾਲੇ ਰਾਹਗੀਰਾਂ ਦਾ ਰਸਤਾ ਪ੍ਰਾਪਤ ਕਰਨ ਦਾ ਅਧਿਕਾਰ ਹੈ. ਤੁਹਾਨੂੰ ਉਨ੍ਹਾਂ ਨੂੰ ਸਹੀ-ਰਾਹ ਦਾ ਫਲ ਜ਼ਰੂਰ ਦੇਣਾ ਚਾਹੀਦਾ ਹੈ.",
+          "optionD" : "ਕੋਈ ਹੋਰ ਵਾਹਨ ਜੋ ਸਹੀ ਹੈ.",
+          "orderNo" : 5,
+          "question" : "ਤੁਸੀਂ ਇਕ ਬੇਕਾਬੂ ਚੌਂਕ 'ਤੇ ਹੋ, ਖੱਬੇ ਮੁੜਦੇ ਹੋਏ ਅਤੇ ਇਕ ਪੈਦਲ ਯਾਤਰੀ ਪਾਰ ਕਰ ਰਿਹਾ ਹੈ, ਜਿਸ ਦਾ ਸੱਜਾ ਰਸਤਾ ਹੈ?"
+        },
+        "qp46" : {
+          "correctAnswer" : "ਇਹ ਕਿਸੇ ਅਪਾਹਜ ਵਿਅਕਤੀ ਲਈ ਆਗਿਆ ਦਿੰਦਾ ਹੈ ਜਿਸ ਨੇ ਪਰਮਿਟ ਲਈ ਯੋਗਤਾ ਪੂਰੀ ਕੀਤੀ ਹੋਵੇ, ਨਿਰਧਾਰਤ ਜਗ੍ਹਾ ਤੇ ਪਾਰਕ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿੱਤੀ ਭਾਵੇਂ ਉਹ ਕਿਸੇ ਹੋਰ ਦੁਆਰਾ ਚਲਾਇਆ ਜਾ ਰਿਹਾ ਹੋਵੇ.",
+          "imageUrl" : "  ",
+          "optionA" : "ਤੁਹਾਡੇ ਪਰਿਵਾਰ ਦਾ ਕੋਈ ਵੀ ਵਿਅਕਤੀ ਕਿਸੇ ਵੀ ਖੇਤਰ ਵਿੱਚ ਖੜ੍ਹਾ ਹੋ ਸਕਦਾ ਹੈ, ਪਾਰਕ ਕਰ ਸਕਦਾ ਹੈ ਜਾਂ ਰੁਕ ਸਕਦਾ ਹੈ.",
+          "optionB" : "ਇਹ ਨਿਰਧਾਰਤ ਸਮੇਂ ਦੌਰਾਨ ਕਿਸੇ ਵੀ ਖੇਤਰ ਵਿੱਚ ਖੜ੍ਹੇ, ਪਾਰਕਿੰਗ ਜਾਂ ਰੁਕਣ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ.",
+          "optionC" : "ਇਹ ਨਿਰਧਾਰਤ ਸਥਾਨਾਂ ਵਿਚ ਪਾਰਕਿੰਗ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ ਭਾਵੇਂ ਅਸਮਰਥਤਾ ਵਾਲਾ ਵਿਅਕਤੀ ਵਾਹਨ ਵਿਚ ਯਾਤਰੀ ਨਾ ਹੋਵੇ.",
+          "optionD" : "ਇਹ ਕਿਸੇ ਅਪਾਹਜ ਵਿਅਕਤੀ ਲਈ ਆਗਿਆ ਦਿੰਦਾ ਹੈ ਜਿਸ ਨੇ ਪਰਮਿਟ ਲਈ ਯੋਗਤਾ ਪੂਰੀ ਕੀਤੀ ਹੋਵੇ, ਨਿਰਧਾਰਤ ਜਗ੍ਹਾ ਤੇ ਪਾਰਕ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿੱਤੀ ਭਾਵੇਂ ਉਹ ਕਿਸੇ ਹੋਰ ਦੁਆਰਾ ਚਲਾਇਆ ਜਾ ਰਿਹਾ ਹੋਵੇ.",
+          "orderNo" : 6,
+          "question" : "ਇੱਕ ਪਹੁੰਚਯੋਗ ਪਾਰਕਿੰਗ ਪਰਮਿਟ ਕੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ?"
+        },
+        "qp47" : {
+          "correctAnswer" : "ਚੌਰਾਹੇ ਨੂੰ ਦਾਖਲ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਆਵਾਜਾਈ ਨੂੰ ਰੋਕਣ ਲਈ ਅੱਗੇ ਰੁਕੋ ਅਤੇ ਉਡੀਕ ਕਰੋ.",
+          "imageUrl" : "  ",
+          "optionA" : "ਚੌਰਾਹੇ ਨੂੰ ਦਾਖਲ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਆਵਾਜਾਈ ਨੂੰ ਰੋਕਣ ਲਈ ਅੱਗੇ ਰੁਕੋ ਅਤੇ ਉਡੀਕ ਕਰੋ.",
+          "optionB" : "ਆਪਣੇ ਸਾਮ੍ਹਣੇ ਵਾਹਨ ਤੇ ਚੜੋ ਤਾਂ ਜੋ ਤੁਹਾਡੇ ਪਿੱਛੇ ਵਾਲੀਆਂ ਕਾਰਾਂ ਵੀ ਅੱਗੇ ਵਧ ਸਕਦੀਆਂ ਹਨ.",
+          "optionC" : "ਹੋਰ ਵਾਹਨਾਂ ਦੇ ਨਾਲ-ਨਾਲ ਚੌਰਾਹੇ ਤੋਂ ਅੱਗੇ ਵਧੋ.",
+          "optionD" : "ਸੱਜੇ ਜਾਂ ਖੱਬੇ ਮੁੜੋ ਤਾਂ ਜੋ ਰੋਕਿਆ ਟ੍ਰੈਫਿਕ ਤੋਂ ਬਚਿਆ ਜਾ ਸਕੇ.",
+          "orderNo" : 7,
+          "question" : "ਜਦੋਂ ਮੁੱਖ ਸੜਕ ਤੇ ਲਾਂਘੇ ਦੇ ਨੇੜੇ ਜਾ ਰਹੇ ਹੋ ਤਾਂ ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ ਜਿਸ ਨਾਲ ਟ੍ਰੈਫਿਕ ਬੰਦ ਹੁੰਦਾ ਹੈ?"
+        },
+        "qp48" : {
+          "correctAnswer" : "ਆਪਣੇ ਸ਼ੀਸ਼ੇ ਅਤੇ ਅੰਨ੍ਹੇ ਚਟਾਕ ਨੂੰ ਵੇਖਣ ਲਈ ਇਹ ਵੇਖਣ ਲਈ ਕਿ ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਲੇਨ ਬਦਲਣ ਲਈ ਜਗ੍ਹਾ ਹੈ ਜਾਂ ਨਹੀਂ ਅਤੇ ਫਿਰ ਆਪਣੇ ਇਰਾਦੇ ਨੂੰ ਦੂਜੇ ਡਰਾਈਵਰਾਂ ਨਾਲ ਸੰਕੇਤ ਕਰੋ. ਦੁਬਾਰਾ ਸ਼ੀਸ਼ੇ ਅਤੇ ਅੰਨ੍ਹੇ ਚਟਾਕ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਜੇ ਅਜਿਹਾ ਕਰਨਾ ਸੁਰੱਖਿਅਤ ਹੈ, ਤਾਂ ਨਵੀਂ ਲਾਈਨ ਵਿੱਚ ਜਾਓ.",
+          "imageUrl" : "  ",
+          "optionA" : "ਸਿਗਨਲ, ਸਿੰਗ ਨੂੰ ਮਾਣੋ ਅਤੇ ਤੇਜ਼ੀ ਨਾਲ ਨਵੀਂ ਲੇਨ ਵਿੱਚ ਜਾਓ.",
+          "optionB" : "ਆਪਣੇ ਸ਼ੀਸ਼ੇ ਅਤੇ ਅੰਨ੍ਹੇ ਚਟਾਕ ਨੂੰ ਵੇਖਣ ਲਈ ਇਹ ਵੇਖਣ ਲਈ ਕਿ ਕੀ ਤੁਹਾਡੇ ਕੋਲ ਲੇਨ ਬਦਲਣ ਲਈ ਜਗ੍ਹਾ ਹੈ ਜਾਂ ਨਹੀਂ ਅਤੇ ਫਿਰ ਆਪਣੇ ਇਰਾਦੇ ਨੂੰ ਦੂਜੇ ਡਰਾਈਵਰਾਂ ਨਾਲ ਸੰਕੇਤ ਕਰੋ. ਦੁਬਾਰਾ ਸ਼ੀਸ਼ੇ ਅਤੇ ਅੰਨ੍ਹੇ ਚਟਾਕ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਜੇ ਅਜਿਹਾ ਕਰਨਾ ਸੁਰੱਖਿਅਤ ਹੈ, ਤਾਂ ਨਵੀਂ ਲਾਈਨ ਵਿੱਚ ਜਾਓ.",
+          "optionC" : "ਸਿਗਨਲ ਕਰੋ ਅਤੇ ਹੌਲੀ ਹੌਲੀ ਨਵੀਂ ਲੇਨ ਵਿਚ ਜਾਓ.",
+          "optionD" : "ਜਾਂਚ ਕਰੋ ਕਿ ਕੀ ਇਹ ਸੁਰੱਖਿਅਤ ਹੈ ਅਤੇ ਜੇ ਇਹ ਹੈ, ਤਾਂ ਤੁਰੰਤ ਨਵੀਂ ਲੇਨ ਵੱਲ ਜਾਓ.",
+          "orderNo" : 8,
+          "question" : "ਲੇਨਾਂ ਬਦਲਣ ਵੇਲੇ ਤੁਹਾਨੂੰ ਕੀ ਕਰਨ ਦੀ ਜ਼ਰੂਰਤ ਹੈ?"
+        },
+        "qp49" : {
+          "correctAnswer" : "ਆਪਣੇ ਟਾਇਰਾਂ ਨੂੰ ਖੱਬੇ ਪਾਸੇ ਮੋੜੋ, ਤਾਂ ਜੋ ਜੇ ਤੁਹਾਡਾ ਵਾਹਨ ਪਿੱਛੇ ਵੱਲ ਘੁੰਮ ਜਾਵੇ, ਤਾਂ ਟਾਇਰ ਕਰਬ ਨੂੰ ਫੜ ਲੈਣਗੇ ਅਤੇ ਵਾਹਨ ਨੂੰ ਚਲਣ ਤੋਂ ਰੋਕਣਗੇ.",
+          "imageUrl" : "  ",
+          "optionA" : "ਬਾਹਰ ਜਾਣ ਲਈ ਤੁਹਾਡੇ ਸਾਹਮਣੇ ਜਾਂ ਪਿਛਲੇ ਵਾਹਨਾਂ ਲਈ ਕਾਫ਼ੀ ਜਗ੍ਹਾ ਛੱਡੋ.",
+          "optionB" : "ਆਪਣੇ ਟਾਇਰਾਂ ਨੂੰ ਸੱਜੇ ਵੱਲ ਮੋੜੋ, ਤਾਂ ਜੋ ਜੇ ਤੁਹਾਡਾ ਵਾਹਨ ਪਿਛਲੇ ਪਾਸੇ ਘੁੰਮ ਜਾਵੇ, ਤਾਂ ਟਾਇਰ ਕਰਬ ਨੂੰ ਫੜ ਲੈਣਗੇ ਅਤੇ ਵਾਹਨ ਨੂੰ ਚਲਣ ਤੋਂ ਰੋਕਣਗੇ.",
+          "optionC" : "ਆਪਣੇ ਟਾਇਰਾਂ ਨੂੰ ਖੱਬੇ ਪਾਸੇ ਮੋੜੋ, ਤਾਂ ਜੋ ਜੇ ਤੁਹਾਡਾ ਵਾਹਨ ਪਿੱਛੇ ਵੱਲ ਘੁੰਮ ਜਾਵੇ, ਤਾਂ ਟਾਇਰ ਕਰਬ ਨੂੰ ਫੜ ਲੈਣਗੇ ਅਤੇ ਵਾਹਨ ਨੂੰ ਚਲਣ ਤੋਂ ਰੋਕਣਗੇ.",
+          "optionD" : "ਇਹ ਸੁਨਿਸ਼ਚਿਤ ਕਰੋ ਕਿ ਤੁਸੀਂ ਕਰਬ ਦੇ ਬਰਾਬਰ ਖੜੇ ਹੋ.",
+          "orderNo" : 9,
+          "question" : "ਤੁਹਾਨੂੰ ਕੀ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ ਜੇ ਤੁਸੀਂ ਕਿਸੇ ਕਰਬ ਦੇ ਅੱਗੇ ਪਾਰਕਿੰਗ ਕਰ ਰਹੇ ਹੋ?"
+        }
+      }
+    }
+  },
+  "Scores" : {
+    "+16474821203" : {
+      "-MEe4jgBezj0w--TuMbm" : {
+        "date" : "13/08/2020",
+        "finalScores" : "7",
+        "quizNumber" : "Quiz3",
+        "totalScores" : "20",
+        "userId" : "+16474821203"
+      },
+      "-MEeFHnjSDNR_9OjLRpz" : {
+        "date" : "13/08/2020",
+        "finalScores" : "8",
+        "quizNumber" : "Quiz4",
+        "totalScores" : "40",
+        "userId" : "+16474821203"
+      }
+    },
+    "+16478321595" : {
+      "-MEcBIfALuPSEbCiaLjs" : {
+        "date" : "13/08/2020",
+        "finalScores" : "2",
+        "quizNumber" : "Quiz1",
+        "totalScores" : "3",
+        "userId" : "+16478321595"
+      },
+      "-MEcB_APwFH7unfeJOvg" : {
+        "date" : "13/08/2020",
+        "finalScores" : "0",
+        "quizNumber" : "Quiz1",
+        "totalScores" : "3",
+        "userId" : "+16478321595"
+      },
+      "-MEcECVvzxBSyicAvKTT" : {
+        "date" : "13/08/2020",
+        "finalScores" : "2",
+        "quizNumber" : "Quiz1",
+        "totalScores" : "3",
+        "userId" : "+16478321595"
+      }
+    }
+  },
+  "Users" : {
+    "+16474821203" : {
+      "date" : "13/8/1992",
+      "email" : "testing@gmail.co",
+      "fullName" : "testing",
+      "gender" : "Female",
+      "password" : "Jessi@123",
+      "phoneNo" : "+16474821203"
+    },
+    "+16478321595" : {
+      "date" : "13/8/1981",
+      "email" : "genius@gmail.com",
+      "fullName" : "Genius",
+      "gender" : "Female",
+      "password" : "Genius@123",
+      "phoneNo" : "+16478321595"
+    }
+  }
+}
