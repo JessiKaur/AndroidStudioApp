@@ -23,7 +23,6 @@ import com.android.q1learningapp.Databases.SessionManager;
 import com.android.q1learningapp.R;
 import com.android.q1learningapp.Users.UserDashboard;
 import com.google.android.material.textfield.TextInputLayout;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
@@ -40,7 +39,6 @@ public class LoginActivity extends AppCompatActivity {
     TextInputLayout loginPhoneNumber, loginPassword;
     Button loginBtnSubmit;
     RelativeLayout progressbar;
-    private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

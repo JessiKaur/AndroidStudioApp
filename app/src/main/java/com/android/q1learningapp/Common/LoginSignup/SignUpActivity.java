@@ -3,8 +3,14 @@ package com.android.q1learningapp.Common.LoginSignup;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.util.Patterns;
 import android.view.View;
 import android.view.WindowManager;
@@ -94,6 +100,10 @@ public class SignUpActivity extends AppCompatActivity {
     private void submitForm() {
         //first validate the form then move ahead
         //if this becomes true that means validation is successful
+        if(!isConnected(this)){
+            showCustomDialog();
+        }
+
         if (awesomeValidation.validate()) {
             if(validateGender() && validateAge()){
 
@@ -132,13 +142,13 @@ public class SignUpActivity extends AppCompatActivity {
                             /*Toast.makeText(SignUpActivity.this, "No Such User Found", Toast.LENGTH_SHORT).show();*/
                             phone_number.setError(null);
                             phone_number.setErrorEnabled(false);
-                            Toast.makeText(getApplicationContext(), "Full Name -  " + _fullName + " \n"
+                            /*Toast.makeText(getApplicationContext(), "Full Name -  " + _fullName + " \n"
                                             + "E-Mail -  " + _email + " \n"
                                             + "Password -  " + _password + " \n"
                                             + "Gender -  " + _gender + " \n"
                                             + "DOB -  " + _date + " \n"
                                             + "Phone No. -  " + _phoneNo
-                                    , Toast.LENGTH_SHORT).show();
+                                    , Toast.LENGTH_SHORT).show();*/
 
                             Intent intent = new Intent(getApplicationContext(), VerifyOTP.class);
                             //Pass all fields to the next activity
@@ -212,4 +222,39 @@ public class SignUpActivity extends AppCompatActivity {
             return true;
     }
     /*** Validations ***/
+
+    private boolean isConnected(SignUpActivity signUpActivity) {
+        ConnectivityManager connectivityManager = (ConnectivityManager)signUpActivity.getSystemService(Context.CONNECTIVITY_SERVICE);
+
+        NetworkInfo wifiConn = connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
+        NetworkInfo mobileConn = connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
+
+        if((wifiConn != null && wifiConn.isConnected()) || (mobileConn != null && mobileConn.isConnected())){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    private void showCustomDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(SignUpActivity.this);
+        builder.setMessage("Please check you Internet Connection to continue further")
+                .setCancelable(false)
+                .setPositiveButton("Connect", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        startActivity(new Intent(Settings.ACTION_WIFI_SETTINGS));
+                    }
+                })
+                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        startActivity(new Intent(getApplicationContext(), FrontScreen.class));
+                        finish();
+                    }
+                });
+        AlertDialog alertDialog = builder.create();
+        alertDialog.show();
+    }
 }

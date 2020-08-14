@@ -30,23 +30,19 @@
             android:layout_gravity="center"
             android:fontFamily="@font/aclonica"
             android:includeFontPadding="false"
-            android:text="@string/phone_otp"
+            android:text="@string/successfully_registered"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="@color/black"
-            android:textSize="50sp" />
+            android:textSize="35sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:fontFamily="@font/aclonica"
-            android:includeFontPadding="false"
-            android:text="@string/verification"
-            android:textAlignment="center"
-            android:textAllCaps="true"
-            android:textColor="@color/black"
-            android:textSize="24sp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/tick"
+            android:contentDescription="@string/icon"
+            />
 
 
         <TextView
@@ -62,34 +58,13 @@
             android:textColor="@color/black"
             android:textSize="16sp" />
 
-
-        <com.chaos.view.PinView
-            android:id="@+id/pin_view"
-            style="@style/PinWidget.PinView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="60dp"
-            android:cursorVisible="true"
-            android:inputType="number"
-            android:itemBackground="#65EAEAEA"
-            app:cursorColor="@color/black"
-            app:hideLineWhenFilled="true"
-            app:itemCount="6"
-            app:itemHeight="50dp"
-            app:itemRadius="5dp"
-            app:itemWidth="50dp"
-            app:lineColor="@color/colorAccent"
-            app:lineWidth="1dp" />
-
-
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:onClick="callNextScreenFromOTP"
-            android:text="@string/verify_code"
+            android:text="@string/log_in"
             android:textColor="@color/white"
             android:fontFamily="@font/aclonica"
             android:textSize="18sp"/>
