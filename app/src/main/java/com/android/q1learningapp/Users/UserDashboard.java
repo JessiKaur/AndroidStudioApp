@@ -34,8 +34,6 @@ import com.android.q1learningapp.Databases.SessionManager;
 import com.android.q1learningapp.HelperClasses.LocaleHelper;
 import com.android.q1learningapp.R;
 import com.google.android.material.navigation.NavigationView;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 import java.util.HashMap;
 import java.util.Locale;

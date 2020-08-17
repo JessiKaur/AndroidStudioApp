@@ -216,7 +216,7 @@ public class SignUpActivity extends AppCompatActivity {
         int isAgeValid = currentYear - userAge;
 
         if (isAgeValid < 16) {
-            Toast.makeText(this, "You are not eligible to apply. You must be at least 16 years old", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, R.string.age_validation_error, Toast.LENGTH_SHORT).show();
             return false;
         } else
             return true;

@@ -111,6 +111,8 @@
     <string name="faq_ans_8">ਜਦੋਂ ਵੀ ਤੁਸੀਂ ਚਾਹੋ ਤੁਸੀਂ ਆਪਣੀ ਰੋਡ ਟੈਸਟ ਦੁਬਾਰਾ ਲੈ ਸਕਦੇ ਹੋ. ਇਸ ਨੂੰ ਦੁਬਾਰਾ ਲੈਣ ਲਈ ਤੁਹਾਨੂੰ ਘੱਟੋ ਘੱਟ 10 ਦਿਨ ਉਡੀਕ ਕਰਨੀ ਪਏਗੀ. ਇਹ ਸ਼ਾਇਦ ਤੁਹਾਨੂੰ ਵਧੇਰੇ ਅਭਿਆਸ ਕਰਨ ਲਈ ਬਹੁਤ ਲੋੜੀਂਦਾ ਸਮਾਂ ਦੇਵੇਗਾ|</string>
     <string name="current_score">ਮੌਜੂਦਾ ਸਕੋਰ:</string>
     <string name="random_4_questions">ਬੇਤਰਤੀਬੇ 4 ਪ੍ਰਸ਼ਨ</string>
-    <string name="about_us">About us</string>
+    <string name="updated_data">ਡੇਟਾ ਨੂੰ ਅਪਡੇਟ ਕੀਤਾ ਗਿਆ ਹੈ</string>
+    <string name="some_error_found">ਕੁਝ ਗਲਤੀ ਮਿਲੀ</string>
+    <string name="age_validation_error">ਤੁਸੀਂ ਅਰਜ਼ੀ ਦੇਣ ਦੇ ਯੋਗ ਨਹੀਂ ਹੋ. ਤੁਹਾਡੀ ਉਮਰ ਘੱਟੋ ਘੱਟ 16 ਸਾਲ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ</string>
 
 </resources>
